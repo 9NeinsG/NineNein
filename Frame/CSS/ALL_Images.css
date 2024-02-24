@@ -1909,10 +1909,10 @@
             .shopm, .shopm-sm {height: 300px; width: 300px;}
         /*Shop Images*/
             .sm-Pete {
-                background: url('./../../../Images/Blog/zNatSoc/Shop/Pete.png');
+                background: url('./../../Images/Blog/zNatSoc/Shop/Pete.png');
             }
             .sm-Shopd {
-                background: url('./../../../Images/Blog/zNatSoc/Shop/Shopd.png');
+                background: url('./../../Images/Blog/zNatSoc/Shop/Shopd.png');
             }
         /*Feat Deal*/
             .weeklyS, .freshS, .holiS{height: 110px; width: 250px;}
