@@ -1871,7 +1871,7 @@
    /*Contact*/
         .cont-Gab, .cont-Minds, .cont-Teleg, .cont-SessI, .cont-Sess {border: 0; height: 88px; width: 88px;}
         .cont-Gab {
-            background: url('Images/Blog/zNatSoc/Contact/gabicon.png');
+            background: url('./Images/Blog/zNatSoc/Contact/gabicon.png');
         }
         .cont-Minds {
             background: url('./../../../Images/Blog/zNatSoc/Contact/mindsicon.png');
