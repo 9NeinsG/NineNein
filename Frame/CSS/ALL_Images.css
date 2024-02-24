@@ -1,0 +1,1931 @@
+/**************/
+/*Greying Blog*/
+    /*Covers
+.InspireB, .TechSW, .TechMainSW, .TechSecSW, .TechTripSW, .TechAloneSW, .book, .bookm, .saint, .saintm, .musicm, .videom, .arcadem, .moviez, .FashBlogSW, .CodeSW, .CodeBadge, .AudioSW, .FashASW, .PhotoSW, .AdobeB, .PhotoGuideSW, .LNSTSYPB, .LNSTRACB, .LNSTShild, .LNSTTime, .LNSTTimeH, .CharacterCTL, .CharacterTL, .LNSTrif, .LNSTRelig, .shopm {background-position: 50% 50%;background-size: cover;}
+        */
+
+.InspireB,
+.TechSW,
+.TechMainSW,
+.TechSecSW,
+.TechTripSW,
+.TechAloneSW,
+.TechMainHW,
+.book,
+.bookm,
+.saint,
+.saintm,
+.musicm,
+.videom,
+.arcadem,
+.arcadenes,
+.moviez,
+.FashBlogSW,
+.CodeSW,
+.CodeBadge,
+.AudioSW,
+.FashASW,
+.PhotoSW,
+.AdobeB,
+.PhotoGuideSW,
+.LNSTSYPB,
+.LNSTRACB,
+.LNSTShild,
+.LNSTTime,
+.LNSTTimeH,
+.CharacterCTL,
+.CharacterTL,
+.LNSTrif,
+.LNSTRelig,
+.shopm {
+    background-position: 50% 50%;
+    background-size: cover;
+}
+    /*Reference CSS Images
+
+        LNST BLOG - ls(Sypnosis) - lr(Race) - ll(Shield) - tl(Timeline) - lf(Triforce) - lc(Religion)
+
+        Books BLOG - bm(mobile) - bd(desktop)
+
+        Saints BLOG - sm(mobile) - sd(desktop)
+
+        Moviez BLOG - md(mobile) - md(desktop)
+
+        Mobile Only Blogs - mm(music) - am(Arcade) - vm(Video) - sm(Shop)*/
+    /**************/
+    /* Greying Headers*/
+        .InspireB, .InspireB-IB {height: 110px; width: 250px;}
+        /*Grey Blog*/
+            .IB-SoftH {
+                background: url('./../../Images/Blog/Headers/Blog-Soft.png');
+            }
+            .IB-HardH {
+                background: url('./../../Images/Blog/Headers/Blog-HardWare.png');
+            }
+            .IB-CryptoH {
+                background: url('./../../Images/Blog/Headers/Blog-Crypto.png');
+            }
+            .IB-BookH {
+                background: url('./../../Images/Blog/Headers/Blog-Book.png');
+            }
+            .IB-SaintH {
+                background: url('./../../Images/Blog/Headers/Blog-Saint.png');
+            }
+            .IB-VidH {
+                background: url('./../../Images/Blog/Headers/Blog-Vid.png');
+            }
+            .IB-MusicH {
+                background: url('./../../Images/Blog/Headers/Blog-Music.png');
+            }
+            .IB-GameH {
+                background: url('./../../Images/Blog/Headers/Blog-Game.png');
+            }
+            .IB-MovieH {
+                background: url('./../../Images/Blog/Headers/Blog-Movie.png');
+            }
+            .IB-CodeH {
+                background: url('./../../Images/Blog/Headers/Blog-Code.png');
+            }
+            .IB-PhotoH {
+                background: url('./../../Images/Blog/Headers/Blog-Photo.png');
+            }
+            .IB-AudioH {
+                background: url('./../../Images/Blog/Headers/Blog-Audio.png');
+            }
+            .IB-GaboH {
+                background: url('./../../Images/Blog/Headers/Blog-Gab.png');
+            }
+            .IB-SermantH {
+                background: url('./../../Images/Blog/Headers/Blog-Sermantics.png');
+            }
+            .IB-WhiteWorldH {
+                background: url('./../../Images/Blog/Headers/Blog-WWorld.png');
+            }
+            .ls-LNSTBthum {
+                background: url('./../../Images/Blog/Headers/NST-SypBlog.png');
+            }
+            .lr-LNSTBthum {
+                background: url('./../../Images/Blog/Headers/NST-RaceBlog.png');
+            }
+            .ll-LNSTBthum {
+                background: url('./../../Images/Blog/Headers/NST-ShieldBlog.png');
+            }
+            .tl-LNSTBthum {
+                background: url('./../../Images/Blog/Headers/NST-TimeBlog.png');
+            }
+            .lf-LNSTBthum {
+                background: url('./../../Images/Blog/Headers/NST-TriFBlog.png');
+            }
+            .lc-LNSTBthum {
+                background: url('./../../Images/Blog/Headers/NST-ReligionBlog.png');
+            }
+    /**************/
+    /*Tech*/
+        /*Tech Images*/
+            .TechSW, .TechSW-swt,
+            /*Tech Entry*/
+                .swt-TechSWUpHold {
+                    background: url('./../../Images/Blog/SoftWare/Uphold.png');
+                    height: 125px;
+                    width: 300px;
+                }
+                .swt-TechSWSublime {
+                    background: url('./../../Images/Blog/SoftWare/SublimeText3.png');
+                    height: 200px;
+                    width: 200px;
+                }
+                .swt-TechSWSubPack {
+                    background: url('./../../Images/Blog/SoftWare/SubPack.png');
+                    height: 169px;
+                    width: 282px;
+                }
+                .swt-TechSWBlender {
+                    background: url('./../../Images/Blog/SoftWare/Blender.png');
+                    height: 92px;
+                    width: 300px;
+                }
+                .swt-TechSW1stBoard {
+                    background: url('./../../Images/Blog/SoftWare/Tech/MotherBoard1stGenSame.png');
+                    height: 410px;
+                    width: 600px;
+                }
+                .swt-TechSWPS2Board {
+                    background: url('./../../Images/Blog/SoftWare/Tech/NewPS2.png');
+                    height: 410px;
+                    width: 600px;
+                }
+        /*Main*/
+            .TechMainSW, .TechMainSW-swt {height: 169px; width: 300px;}
+            /*Images*/
+                .swt-TechSWBrave {
+                    background: url('./../../Images/Blog/SoftWare/Brave.png');
+                }
+                .swt-TechSWBraveSearch {
+                    background: url('./../../Images/Blog/SoftWare/Brave-Search.png');
+                }
+                .swt-TechSWProMail {
+                    background: url('./../../Images/Blog/SoftWare/proton-mail.png');
+                }
+                .swt-TechSWProVPN {
+                    background: url('./../../Images/Blog/SoftWare/proton-vpn.png');
+                }
+                .swt-TechSWThunderB {
+                    background: url('./../../Images/Blog/SoftWare/ThunderBird.png');
+                }
+                .swt-TechSWWin7 {
+                    background: url('./../../Images/Blog/SoftWare/Windows7.png');
+                }
+                .swt-TechSWPhotoShop {
+                    background: url('./../../Images/Blog/SoftWare/PhotoShop.png');
+                }
+                .swt-TechSWProTool {
+                    background: url('./../../Images/Blog/SoftWare/ProTools.png');
+                }
+                .swt-TechSWAfterEffect {
+                    background: url('./../../Images/Blog/SoftWare/AfterEffect.png');
+                }
+                .swt-TechSWAtom {
+                    background: url('./../../Images/Blog/SoftWare/Atom.png');
+                }
+                .swt-TechSWNotePad {
+                    background: url('./../../Images/Blog/SoftWare/NotePad++.png');
+                }
+                .swt-TechSWLegacy {
+                    background: url('./../../Images/Blog/SoftWare/Legacy.png');
+                }
+        /*Secondary*/
+            .TechSecSW, .TechSecSW-swt {height: 120px; width: 200px;}
+            /*Images*/
+                .swt-TechSWProCal {
+                    background: url('./../../Images/Blog/SoftWare/proton-calender.png');
+                }
+                .swt-TechSWProDrive {
+                    background: url('./../../Images/Blog/SoftWare/proton-drive.png');
+                }
+                .swt-TechSWProBridge {
+                    background: url('./../../Images/Blog/SoftWare/proton-bridge.png');
+                }
+                .swt-TechSWGithubco {
+                    background: url('./../../Images/Blog/SoftWare/Githubsm.png');
+                }
+                .swt-TechSWFreenom {
+                    background: url('./../../Images/Blog/SoftWare/Freenom.png');
+                }
+                .swt-TechSWCloudF {
+                    background: url('./../../Images/Blog/SoftWare/CloudFare.png');
+                }
+                .swt-TechSWJSD {
+                    background: url('./../../Images/Blog/SoftWare/JsDelivr.png');
+                }
+                .swt-TechSWCDNJS {
+                    background: url('./../../Images/Blog/SoftWare/CdnJs.png');
+                }
+        /*Trips Size*/
+            .TechTripSW, .TechTripSW-swt{height: 169px; width: 250px;}
+            /*Images*/
+                .swt-TechNode {
+                    background: url('./../../Images/Blog/SoftWare/NodeJs.png');
+                }
+                .swt-TechSWNPM {
+                    background: url('./../../Images/Blog/SoftWare/NpmNode.png');
+                }
+                .swt-TechSWPYpi {
+                    background: url('./../../Images/Blog/SoftWare/PypiNode.png');
+                }
+                .swt-TechSWCClean {
+                    background: url('./../../Images/Blog/SoftWare/Cleaner.png');
+                }
+                .swt-TechSWWampServe {
+                    background: url('./../../Images/Blog/SoftWare/WampServe.png');
+                }
+                .swt-TechSWFileServer {
+                    background: url('./../../Images/Blog/SoftWare/FileZilla.png');
+                }
+                .swt-TechSWFileC {
+                    background: url('./../../Images/Blog/SoftWare/FileConvert.png');
+                }
+                .swt-TechSWWonders {
+                    background: url('./../../Images/Blog/SoftWare/Wondershare.png');
+                }
+                .swt-TechSWHandBrake {
+                    background: url('./../../Images/Blog/SoftWare/Handbrake.png');
+                }
+                .swt-TechSWNativeI {
+                    background: url('./../../Images/Blog/SoftWare/NIK.png');
+                }
+                .swt-TechSWWaves {
+                    background: url('./../../Images/Blog/SoftWare/Waves.png');
+                }
+                .swt-TechSWFabFilter {
+                    background: url('./../../Images/Blog/SoftWare/FabFilter.png');
+                }
+        /*Stand Alone*/
+            .TechAloneSW, .TechAlone-swt{height: 169px; width: 169px;}
+            /*Images*/
+                .swt-TechSWBraveMeta {
+                    background: url('./../../Images/Blog/SoftWare/Bravemeta.png');
+                }
+                .swt-TechSWGithub {
+                    background: url('./../../Images/Blog/SoftWare/Github.png');
+                }
+                .swt-TechSWTinypng {
+                    background: url('./../../Images/Blog/SoftWare/TinyPng.png');
+                }
+                .swt-TechSWGimp {
+                    background: url('./../../Images/Blog/SoftWare/Gimp.png');
+                }
+                .swt-TechSWRenpy {
+                    background: url('./../../Images/Blog/SoftWare/Renpy.png');
+                }
+                .swt-TechSWGoDot {
+                    background: url('./../../Images/Blog/SoftWare/GoDot.png');
+                }
+                .swt-TechSWUnity {
+                    background: url('./../../Images/Blog/SoftWare/Unity.png');
+                }
+        /*Folders*/
+            .TechFolder, .TechFolder-swt{height: 100px; width: 100px;}
+            /*Images*/
+            .swt-TechSWCCleanFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/CCleanerInstall.png');
+                }
+            .swt-TechSWBCleanFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/BleachBitInstall.png');
+                }
+            .swt-TechSWRCleanFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/RevoInstall.png');
+                }
+            .swt-TechSWDCleanFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/DuplicateCleanerInstall.png');
+                }
+            .swt-TechSWWampFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/WampInstall.png');
+                }
+            .swt-TechSWAquaSFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/AquaSnapInstall.png');
+                }
+            .swt-TechSWCPUFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/CPUz.png');
+                }
+            .swt-TechSWTreeSFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/TreeSheetsInstall.png');
+                }
+            .swt-TechSWUnicFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/UniConvertInstall.png');
+                }
+            .swt-TechSWHBFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/Handbrake.png');
+                }
+            .swt-TechSWDRFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/DrFolder.png');
+                }
+            .swt-TechSWPDFFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/PDFInstall.png');
+                }
+            .swt-TechSWTMMFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/TinyMMFloder.png');
+                }
+            .swt-TechDivHavFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/DihavIcon.png');
+                }
+            .swt-TechWeBpFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/WebPInstall.png');
+                }
+            .swt-TechFFFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/FontForge.png');
+                }
+
+        /*HardWare Main*/
+            .TechMainHW, .TechMainHW-swt {height: 169px; width: 300px;}
+            /*Images*/
+                .swt-TechHWMB {
+                    background: url('./../../Images/Blog/SoftWare/Tech/MotherBoard.png');
+                }
+                .swt-TechHWPro {
+                    background: url('./../../Images/Blog/SoftWare/Tech/Processor.png');
+                }
+                .swt-TechHWIO {
+                    background: url('./../../Images/Blog/SoftWare/Tech/IO.png');
+                }
+                .swt-TechHWGEN {
+                    background: url('./../../Images/Blog/SoftWare/Tech/Generation.png');
+                }
+                .swt-TechHWPS2 {
+                    background: url('./../../Images/Blog/SoftWare/Tech/PS2.png');
+                }
+                .swt-TechHWMarket{
+                    background: url('./../../Images/Blog/SoftWare/Tech/Markets.png');
+                }
+                .swt-TechHWBoard {
+                    background: url('./../../Images/Blog/SoftWare/Tech/MotherBoardGenSame.png');
+                    height: 250px;
+                    width: 400px;
+                }
+
+    /**************/
+    /*NatSoc Array*/
+        /*Books*/
+            /*Books Desktop*/
+                .book, .book-bd {height: 300px; width: 200px;}
+                /*Desktop Books*/
+                    .bd-CBE {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/A-History-Of-Central-Banking-And-The-Enslavement-Of Mankind.png');
+                    }
+                    .bd-CHR {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Christogenea.png');
+                    }
+                    .bd-COC {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Culture-of-Critique.png');
+                    }
+                    .bd-MK {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Mein-Kampf.png');
+                    }
+                    .bd-TTTW {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/This-Time-The-World.png');
+                    }
+                    .bd-TIJ {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/International-Jew.png');
+                    }
+                    .bd-WP {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/White-Power.png');
+                    }
+                    .bd-HS {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Hell-Storm.png');
+                    }
+                    .bd-TTD {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Turner-Diaries.png');
+                    }
+                    .bd-WWWM {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Which-Way-Western-Man.png');
+                    }
+                    .bd-WEA {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Who-We-Are.png');
+                    }
+                    .bd-ATR {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Anti-Tech-Revolution.png');
+                    }
+                    .bd-TJRS {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Jewish-Revolutionary-Spirit.png');
+                    }
+                    .bd-JMS {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Siege.png');
+                    }
+                    .bd-WBRW {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Where-Black-Rules-Whites.png');
+                    }
+                    .bd-TWL {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Tomorrow-We-Live.png');
+                    }
+            /*Books Mobile*/
+                .bookm, .bookm-bm {height: 160px;width: 107px;}
+                /*Mobile Books*/
+                    .bm-88 {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/88-Precepts.png');
+                    }
+                    .bm-CBE {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/A-History-Of-Central-Banking-And-The-Enslavement-Of Mankind.png');
+                    }
+                    .bm-ATR {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Anti-Tech-Revolution.png');
+                    }
+                    .bm-CHR {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Christogenea.png');
+                    }
+                    .bm-COC {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Culture-of-Critique.png');
+                    }
+                    .bm-FA {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Faith-and-Action.png');
+                    }
+                    .bm-FESD {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Fascist-Economics-and-Socialist-Duties.png');
+                    }
+                    .bm-FML {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/For-My-Legionaries.png');
+                    }
+                    .bm-HS {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Hell-Storm.png');
+                    }
+                    .bm-IJ {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/International-Jew.png');
+                    }
+                    .bm-TJRS {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Jewish-Revolutionary-Spirit.png');
+                    }
+                    .bm-MK {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Mein-Kampf.png');
+                    }
+                    .bm-MPOW {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Meta-Pysics-of-War.png');
+                    }
+                    .bm-NSB {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/National-Socialism-A-Biological-Worldview.png');
+                    }
+                    .bm-JMS {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Siege.png');
+                    }
+                    .bm-TSL {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/The-Sun-and-the-Lightening.png');
+                    }
+                    .bm-TTTW {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/This-Time-The-World.png');
+                    }
+                    .bm-TWL {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Tomorrow-We-Live.png');
+                    }
+                    .bm-TTD {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Turner-Diaries.png');
+                    }
+                    .bm-WBRW {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Where-Black-Rules-White.png');
+                    }
+                    .bm-WWWM {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Which-Way-Western-Man.png');
+                    }
+                    .bm-WP {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/White-Power.png');
+                    }
+                    .bm-WEA {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Who-We-Are.png');
+                    }
+        /*Writings*/
+            .mailstamp {
+                background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/mailstamp.png');
+                height: 64px; width: 64px;}
+            /*Saints Desktop*/
+                .saint, .saint-sd {height: 300px; width: 200px;}
+                /*Saints D-Write*/
+                    .sd-Tarrant {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GreatReplacement.png');
+                    }
+                    .sd-Roof {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
+                    }
+                    .sd-Roofss {
+                        background: url('./../../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
+                    }
+                    .sd-Breivik {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Breivik.png');
+                    }
+                    .sd-Earnest {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/OpenLetter.png');
+                    }
+                    .sd-Kacz {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/IndustiralSociety.png');
+                    }
+                    .sd-Hale {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EndWhiteSlavery.png');
+                    }
+            /*Saints Mobile*/
+                .saintm, .saintm-sm {height: 160px; width: 107px;}
+                /*Saints M-Write*/
+                    .sm-Tarrant {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/GreatReplacement.png');
+                    }
+                    .sm-Roofss {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/ForgiveTypos.png');
+                    }
+                    .sm-Breivik {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/Breivik.png');
+                    }
+                    .sm-Earnest {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/OpenLetter.png');
+                    }
+                    .sm-Earnestos {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/OurStand.png');
+                    }
+                    .sm-Kacz {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/IndustiralSociety.png');
+                    }
+                    .sm-Hale {
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/EndWhiteSlavery.png');
+                    }
+                /*Support*/
+                    .sd-Roofss {
+                        background: url('./../../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTyposSS.png');
+                    }
+                    .sd-EarnestLetterss {
+                        background: url('./../../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EarnestLetter.png');
+                    }
+                    .sd-Halesss {
+                        background: url('./../../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Hale.png');
+                    }
+                    .sd-BowerOpticss {
+                        background: url('./../../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GoingIn.png');
+                    }
+        /*Music*/
+            .musicm, .musicm-mm {height: 120px; width: 120px;}
+            /*Music Art*/
+                .mm-BWA {
+                    background: url('./../../../Images/Blog/zNatSoc/Music/Woke-Alone.png');
+                }
+                .mm-BKM {
+                    background: url('./../../../Images/Blog/zNatSoc/Music/Kampf-Mixtape2.png');
+                }
+                .mm-BNGA {
+                    background: url('./../../../Images/Blog/zNatSoc/Music/Nazi-Afr.png');
+                }
+                .mm-BSO {
+                    background: url('./../../../Images/Blog/zNatSoc/Music/Screw-Optics.png');
+                }
+                .mm-REOC {
+                    background: url('./../../../Images/Blog/zNatSoc/Music/Enema-of-the-Caliphate.png');
+                }
+                .mm-RCB {
+                    background: url('./../../../Images/Blog/zNatSoc/Music/Blink1488.png');
+                }
+                .mm-RWDS {
+                    background: url('./../../../Images/Blog/zNatSoc/Music/RWDS.png');
+                }
+                .mm-MOR {
+                    background: url('./../../../Images/Blog/zNatSoc/Music/Mork.png');
+                }
+                .mm-GST {
+                    background: url('./../../../Images/Blog/zNatSoc/Music/Great-Soundtrack.png');
+                }
+        /*Videos*/
+            .videom, .videom-vm {height: 169px; width: 300px;}
+            /*PodCast*/
+                .vm-Christogenea {
+                    background: url('./../../../Images/Blog/zNatSoc/Video/Podcast/Christ.png');
+                }
+                .vm-WhiteTube {
+                    background: url('./../../../Images/Blog/zNatSoc/Video/Podcast/WhiteTube.png');
+                }
+            /*Vid Mobile*/
+                .vm-AHGSNT {
+                    background: url('./../../../Images/Blog/zNatSoc/Video/AHGSNT.png');
+                }
+                .vm-HSTO {
+                    background: url('./../../../Images/Blog/zNatSoc/Video/HellStorm.png');
+                }
+                .vm-Europa {
+                    background: url('./../../../Images/Blog/zNatSoc/Video/Europa.png');
+                }
+                .vm-BHHSA {
+                    background: url('./../../../Images/Blog/zNatSoc/Video/BHHWISA.png');
+                }
+                .vm-GLR {
+                    background: url('./../../../Images/Blog/zNatSoc/Video/GLRNS.png');
+                }
+                .vm-WLP {
+                    background: url('./../../../Images/Blog/zNatSoc/Video/WLPNS.png');
+                }
+                .vm-100P {
+                    background: url('./../../../Images/Blog/zNatSoc/Video/100Proofs.png');
+                }
+                .vm-MoreV {
+                    background: url('./../../../Images/Blog/zNatSoc/Video/MoreVid.png');
+                }
+        /*Arcade*/
+            .arcadem, .arcadem-am {height: 110px; width: 250px;}
+            /*Arcade Mobile*/
+                .am-AG {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/AG.png');
+                }
+                .am-AG2 {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/AG2.png');
+                }
+                .am-MMI {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/MMI.png');
+                }
+                .am-ZN {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/ZN.png');
+                }
+                .am-ZN2 {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/ZN2.png');
+                }
+                .am-RG {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Resist.png');
+                }
+        /*Emulators*/
+                .am-NES {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/Nes.png');
+                }
+                .am-GEN {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/Fusion.png');
+                }
+                .am-DS{
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/DS.png');
+                }
+                .am-GB {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/GameBoy.png');
+                }
+                .am-N64 {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/Nintendo64.png');
+                }
+                .am-GC {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/GameCube.png');
+                }
+
+        /*NES*/
+            .arcadenes, .arcadenes-NES {height: 273px; width: 200px;}
+            /*Nes Games*/
+                .NES-TAF {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Addams_Family.png');
+                }
+                .NES-AI {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Adventure_Island.png');
+                }
+                .NES-AOL {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/adventures-of-lolo.png');
+                }
+                .NES-CV {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/CastleVania.png');
+                }
+                .NES-CD {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/chip-n-dale-rescue-rangers.png');
+                }
+                .NES-Cryst {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Crystalis.png');
+                }
+                .NES-DT{
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/duck-tales.png');
+                }
+                .NES-LN {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/LN.png');
+                }
+                .NES-MAR {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Mario.png');
+                }
+                .NES-MAR3 {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Mario3.png');
+                }
+                .NES-MG {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/metal-gear.png');
+                }
+                .NES-TC {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/t-c-surf-design.png');
+                }
+                .NES-TMNT {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/TMNT.png');
+                }
+                .NES-Zelda {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Zelda.png');
+                }
+                .NES-Zelda2 {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Zelda2.png');
+                }
+
+        /*Sega*/
+            .arcadeseg, .arcadeseg-SEG {height: 273px; width: 200px;}
+            /*Sega Games*/
+                .SEG-AB {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/AB.png');
+                }
+                .SEG-AA {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Aero.png');
+                }
+                .SEG-Aladdin {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Aladdin.png');
+                }
+                .SEG-Asterix {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Asterix.png');
+                }
+                .SEG-BartsNightMare {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/TSBN.png');
+                }
+                .SEG-BB {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/BandB.png');
+                }
+                .SEG-BA {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/BA.png');
+                }
+                .SEG-Bubsy {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/BUB.png');
+                }
+                .SEG-Cosmic {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Cosmic.png');
+                }
+                .SEG-Echo {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/ECHO.png');
+                }
+                .SEG-MK {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/MK.png');
+                }
+                .SEG-QuackShot {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/QS.png');
+                }
+                .SEG-RocketKnight {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/RocketKnight.png');
+                }
+                .SEG-ScoobyDoo {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/ScoobyDoo.png');
+                }
+                .SEG-SportBase {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/STBase.png');
+                }
+                .SEG-SportHockey {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/NHL.png');
+                }
+                .SEG-SportBall {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/STFoot.png');
+                }
+                .SEG-Sonic {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Sonic2.png');
+                }
+                .SEG-Valis {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Valis2.png');
+                }
+                .SEG-WOI {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/WOI.png');
+                }
+                .SEG-xMutants {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/xMutant.png');
+                }
+        /*N64*/
+            .arcaden64, .arcaden64-N64 {height: 183px; width: 250px;}
+            /*N64 Games*/
+                .N64-007 {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/007.png');
+                }
+                .N64-CBFD {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/CBFD.png');
+                }
+                .N64-DKR {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/DK-Racing.png');
+                }
+                .N64-FZX {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/FZX.png');
+                }
+                .N64-MARR {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/Mario-Racing.png');
+                }
+                .N64-MI {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/MI.png');
+                }
+                .N64-PokeSnap {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/PokeSnap.png');
+                }
+                .N64-Q64 {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/Quest64.png');
+                }
+                .N64-SB {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/SB.png');
+                }
+                .N64-SF {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/SF.png');
+                }
+                .N64-SM64 {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/SM64.png');
+                }
+                .N64-SouthPark {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/SouthPark.png');
+                }
+                .N64-SWPR {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/SW-PR.png');
+                }
+                .N64-TZ {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/Tarzan.png');
+                }
+                .N64-ZMM {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/Zelda-mm.png');
+                }
+                .N64-ZOOT {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/Zelda-oot.png');
+                }
+        /*DS*/
+            .arcadeds, .arcadeds-DS {height: 180px; width: 200px;}
+            /*DS Games*/
+                .DS-PH {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-ph.png');
+                }
+                .DS-ST {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-st.png');
+                }
+                .DS-LBW {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/ZeldaBWorlds.png');
+                }
+        /*GB*/
+            .arcadegb, .arcadegb-DS {height: 200px; width: 200px;}
+            /*GBColor Games*/
+                .DS-Ages {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-ages.png');
+                }
+                .DS-Seas {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-season.png');
+                }
+                .DS-LADX {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-awakendx.png');
+                }
+            /*Advance Games*/
+                .DS-MinC {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-mc.png');
+                }
+                .DS-foursword {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-fs.png');
+                }
+                .DS-OrigGBA {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda1-GBA.png');
+                }
+                .DS-Orig2GBA {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda2-GBA.png');
+                }
+            /*GameBoy Games*/
+                .DS-LinkA {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/linka-gb.png');
+                }
+        /*GC*/
+            .arcagen, .arcagen-GC {height: 280px; width: 200px;}
+            /*GC Games*/
+                .GC-ZC {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-collect.png');
+                }
+                .GC-WW {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-WW.png');
+                }
+                .GC-TP {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-tp.png');
+                }
+                .GC-FSA {
+                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-fsa.png');
+                }
+
+        /*Movies*/
+            .moviez, .moviez-md {height: 300px; width: 200px;}
+            /*Movie Mobile*/
+                .md-BLT {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Brave-Little-Toaster.png');
+                }
+                .md-Nine {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/9m.png');
+                }
+                .md-CHL {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Cool-Hand-Luke.png');
+                }
+                .md-FC {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/FightClub.png');
+                }
+                .md-GAG {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/God-&-Generals.png');
+                }
+                .md-INT {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/In-Time.png');
+                }
+                .md-LN {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Little-Nemo.png');
+                }
+                .md-MN {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/mrnobody.png');
+                }
+                .md-OUAF {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Once-Upon-a-Forrest.png');
+                }
+                .md-PAP {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Papillion.png');
+                }
+                .md-PIF {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Pay-It-Forward.png');
+                }
+                .md-POP {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Popeye.png');
+                }
+                .md-POW {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Powder.png');
+                }
+                .md-PUFF {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Puff.png');
+                }
+                .md-SOAW {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Soaw.png');
+                }
+                .md-VS {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/Vanilla-Sky.png');
+                }
+                .md-BLIST {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/BlackList.png');
+                }
+                .md-BBAD {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/BreakingBad.png');
+                }
+                .md-CONTI {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/Continuum.png');
+                }
+                .md-DEX {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/Dexter.png');
+                }
+                .md-DOLL {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/DollHouse.png');
+                }
+                .md-NIPT {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/NipTuck.png');
+                }
+                .md-PB {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/PrisonBreak.png');
+                }
+                .md-WENTW {
+                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/WentWorth.png');
+                }
+    /**************/
+    /*FashBlog*/
+        /*Fash Languages*/
+            .FashBlogSW, .FashBlogSW-swt {height: 215px; width: 400px;}
+            .swt-FashLang {
+                background: url('./../../Images/Blog/Fash/Code/Languages/Language.png');
+            }
+            .swt-FashLangA {
+                background: url('./../../Images/Blog/Fash/Audio/Languages/Audio.png');
+            }
+            .swt-FashGraph {
+                background: url('./../../Images/Blog/Fash/Photo/Languages/photoshopCS6.png');
+            }
+        /*Fash Code*/
+            .CodeSW, .CodeSW-swt {height: 199px; width: 390px;}
+            .swt-FashHTML {
+                background: url('./../../Images/Blog/Fash/Code/Languages/HTMLBanner.png');
+            }
+            .swt-FashCSS {
+                background: url('./../../Images/Blog/Fash/Code/Languages/CSSBanner.png');
+            }
+            .swt-FashJS {
+                background: url('./../../Images/Blog/Fash/Code/Languages/JSBanner.png');
+            }
+        /*Fash Code Entry*/
+            .CodeBadge, .html5-badge, .css3-badge {display: inline-block; height: 16px; margin-left: 18px; top: 3px; width: 16px;}
+            .html5-badge {
+                background: url(../../Images/Blog/Fash/Code/html5-icon.png) no-repeat;
+            }
+            .css3-badge {
+                background: url(../../Images/Blog/Fash/Code/css3-icon.png) no-repeat;
+            }
+        /*Fash Audio*/
+            /*Fash Audio Entry*/
+                .FashASW, .FashAudSW-swt {height: 199px; width: 390px;}
+                .swt-FashProTool {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/ProToolsBanner.png');
+                }
+                .swt-FashWaves {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/WavesBanner.png');
+                }
+                .swt-FashNI {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/NIBanner.png');
+                }
+                .swt-FashSFA {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/SFABanner.png');
+                }
+                .swt-FashAllAlbum {
+                    background: url('./../../Images/Blog/Fash/Audio/LyricAlbum/AllAlbum2.png');
+                }
+                .FashASW2, .FashAudSW-swt {height: 170px; width: 290px;}
+            /*Fash Audio Lyric Album*/
+                .swt-FashAlongAlbum {
+                    background: url('./../../Images/Blog/Fash/Audio/LyricAlbum/FashAlongAlbum.png');
+                }
+                .swt-FashGreyAlbum{
+                    background: url('./../../Images/Blog/Fash/Audio/LyricAlbum/GreyingErrorAlbum.png');
+                }
+                .swt-FashWignatAlbum{
+                    background: url('./../../Images/Blog/Fash/Audio/LyricAlbum/LilWignatAlbum.png');
+                }
+                .swt-FashKornBreadAlbum{
+                    background: url('./../../Images/Blog/Fash/Audio/LyricAlbum/KornBreadAlbum.png');
+                }
+                .swt-FashPopAlbum{
+                    background: url('./../../Images/Blog/Fash/Audio/LyricAlbum/FashPopAlbum.png');
+                }
+
+            /*Plugins*/
+                .AudioSW, .AudioSW-swt {height: 110px; width: 250px;}
+                /*Waves Plugins*/
+                    /*Bundles*/
+                        .swt-WABP {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WABP.png');
+                        }
+                        .swt-WSBP {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WSBP.png');
+                        }
+                        .swt-WHBP {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WHBP.png');
+                        }
+                        .swt-WJBP {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WJBP.png');
+                        }
+                        .swt-WPBP {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WPBP.png');
+                        }
+                        .swt-WRBP {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WRBP.png');
+                        }
+                        .swt-WMBP {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WMBP.png');
+                        }
+                    /*Singles*/
+                        .swt-VOXR {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/VocalRider.png');
+                        }
+                        .swt-VOXC {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/Center.png');
+                        }
+                        .swt-VOXB {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/BassRider.png');
+                        }
+                        .swt-BSSP {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/BSS.png');
+                        }
+                        .swt-CompL2 {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/L2.png');
+                        }
+                        .swt-CompD {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/DBX.png');
+                        }
+                        .swt-Excite {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/Excite.png');
+                        }
+                        .swt-TapeK {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/KTape.png');
+                        }
+                        .swt-TapeJ {
+                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/JTape.png');
+                        }
+                /*Native Plugins*/
+                    .swt-NI6 {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIK.png');
+                    }
+                    .swt-NIB4 {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIB4.png');
+                    }
+                    .swt-NIP {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIP.png');
+                    }
+                    .swt-NIORG {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/Syphony.png');
+                    }
+                    .swt-NILT {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NILT.png');
+                    }
+                    .swt-NIDR {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIDR.png');
+                    }
+                    .swt-NIMAL {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIMAL.png');
+                    }
+                    .swt-NICHO {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NICHO.png');
+                    }
+                    .swt-NISS {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NISSP.png');
+                    }
+                    .swt-NIVCP {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIVCP.png');
+                    }
+                    .swt-NIVC {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIVP.png');
+                    }
+                /*FabFilter Plugins*/
+                    .swt-FFPro {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/FABPro.png');
+                    }
+                    .swt-FFQ {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFQ.png');
+                    }
+                    .swt-FFC {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFC2.png');
+                    }
+                    .swt-FFG {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFG.png');
+                    }
+                    .swt-FFD {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFD.png');
+                    }
+                    .swt-FFL {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFL.png');
+                    }
+                /*SSL Plugins*/
+                    .swt-SSLPro {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/SSLBuss.png');
+                    }
+                    .swt-SSLChan {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/SSLChan.png');
+                    }
+                    .swt-SSLEQ {
+                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/SSLEQ.png');
+                    }
+        /*Fash Photo*/
+            /*Fash Photo Entry*/
+            .PhotoSW, .PhotoSW-swt,
+            .PhotoGuideSW, .PhotoGuideSW-swt {height: 200px; width: 595px;}
+                .swt-CodeSWhb {
+                    background: url('./../../Images/Blog/Fash/Photo/OmniCompress.png');
+                }
+                .swt-CodeSWHbpng {
+                    background: url('./../../Images/Blog/Fash/Photo/Handbrakehow.png');
+                }
+                .swt-CodeSWlnt {
+                    background: url('./../../Images/Blog/Fash/Photo/LnstCompress.png');
+                }
+                .swt-CodeSWtinypng {
+                    background: url('./../../Images/Blog/Fash/Photo/Tinyhowpng.png');
+                }
+
+            .AdobeB, .AdobeB-swt {height: 110px; width: 250px;}
+                .swt-AfterEH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/aftereffectsH.png');
+                }
+                .swt-AuditH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/auditionH.png');      
+                }
+                .swt-FlashpH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/flashproH.png');
+                }
+                .swt-IlustratH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/illustratorH.png');
+                }
+                .swt-PhotoShoppH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/photoshopH.png');
+                }
+                .swt-PremierepH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/premiereproH');
+                }
+                .swt-DreamwH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/dreamweaverH.png'); 
+                }
+                .swt-FirewH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/fireworksH.png');
+                }
+                .swt-IndesigH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/indesignH.png');
+                }
+    /**************/
+    /*Link NatSoc Theory*/
+        /*Synopsis*/
+            .LNSTSYPB,
+            .LNSTSYP-ls,
+            /*Synopsis Headers*/
+                .ls-LNSTCover {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-OOT.png');
+                }
+                .ls-LNSTParasite {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/Intjewb.png');
+                }
+            /*Synopsis Entry*/
+                .ls-LNSTHthum {
+                    background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-SypBlogH.png');
+                    height: 169px;
+                    width: 300px;
+                }
+                /*.ls-LNSTBottomOTWell {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-BottomOfTheWell.png');
+                    height: 250px;
+                    width: 500px;
+                }*/
+                .ls-LNSTBottomOTWell {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/BOTW.gif');
+                    height: 286px;
+                    width: 500px;
+                }
+                .ls-LNSTSage {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Sages.png');
+                    height: 180px;
+                    width: 320px;
+                }
+                .ls-LNSTStonei {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Spiritual.png');
+                    height: 102px;
+                    width: 200px;
+                }
+                .ls-LNSTSH {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Swatsi-Hyrule.png');
+                    height: 120px;
+                    width: 200px;
+                }
+                .ls-LNSTTakeT {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-takethis.png');
+                    height: 157px;
+                    width: 319px;
+                }
+                .ls-LNSTNLens {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Lensneeds.gif');
+                    height: 108px;
+                    width: 200px;
+                }
+                .ls-LNSTofTruth {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Lensof-Truth.gif');
+                    height: 110px;
+                    width: 200px;
+                }
+                .ls-LNSTMirroSi {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Muz-Mirror.gif');
+                    height: 243px;
+                    width: 320px;
+                }
+                .ls-LNSTSeasons {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Season.png');
+                }
+                .ls-LNSTAges {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Ages.png');
+                }
+                .ls-LNSTGotCistern {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-GotCistern.png');
+                }
+                .ls-LNSTBrokenCist {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-brokenCistern.png');
+                }
+                .ls-LNSTGoldCistern {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/Nst-GoldIdol.png');
+                }
+                .ls-LNSTAsuraCist {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Asura.png');
+                }
+                .ls-LNSTFireCistern {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-FireSanc.png');
+                }
+                .ls-LNSTOrginCist {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-CisternOrigin.png');
+                }
+                .ls-LNSTWaterCist {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-WaterBasin.png');
+                }
+                .ls-LNSTLeviath {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Leviath.png');
+                }
+                .ls-LNSTLeviathB {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-LeviathBeast.png');
+                }
+                .ls-LNSTRedLion {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-RedLion.png');
+                }
+                .ls-LNSTRedLionKing {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-RedLionKing.png');
+                }
+                .ls-LNSTTriHate {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-TriHate.png');
+                }
+                .ls-LNSTJewMad {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Jewmad.png');
+                }
+                .ls-LNSTGreedHatred {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-GreedHatred.png');
+                    height: 224px;
+                    width: 320px;
+                }
+                .ls-LNSTBongo {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-BongoBongo.png');
+                }
+                .ls-LNSTJewdendorf {
+                    background: url('./../../Images/Blog/LNST/Sypnosis/NST-Jewdendorf.png');
+                }
+
+        /*Trips Size*/
+            .LNSTTripSyp, .LNSTTripSyp-nst{height: 169px; width: 250px;}
+                .nst-LNSTValoo {
+                    background: url('./../../Images/Blog/LNST/Race/NST-Valoo.png');
+                }
+                .nst-LNSTMan {
+                    background: url('./../../Images/Blog/LNST/Race/NST-MANs.png');
+                }
+                .nst-LNSTLion {
+                    background: url('./../../Images/Blog/LNST/Race/NST-Redlion.png');
+                }
+                .nst-LNSTRitoEagle {
+                    background: url('./../../Images/Blog/LNST/Race/NST-Rito.png');
+                }
+
+
+                .ls-LNSTCover,
+                .ls-LNSTParasite,
+                .ls-LNSTSeasons,
+                .ls-LNSTAges,
+                .ls-LNSTGotCistern,
+                .ls-LNSTBrokenCist,
+                .ls-LNSTGoldCistern,
+                .ls-LNSTAsuraCist,
+                .ls-LNSTFireCistern,
+                .ls-LNSTOrginCist,
+                .ls-LNSTWaterCist,
+                .ls-LNSTLeviath,
+                .ls-LNSTLeviathB,
+                .ls-LNSTRedLion,
+                .ls-LNSTRedLionKing,
+                .ls-LNSTTriHate,
+                .ls-LNSTJewMad,
+                .ls-LNSTBongo,
+                .ls-LNSTJewdendorf{
+                    height: 169px;
+                    width: 300px;
+                }
+                
+                .nst-LNSTValoo,
+                .nst-LNSTMan,
+                .nst-LNSTLion,
+                .nst-LNSTRitoEagle {
+                    height: 169px;
+                    width: 250px;
+                }
+        /*Race*/
+            .LNSTRACB,
+            .LNSTRACB-lr,
+            /*Race Headers*/
+                .lr-LNSTHthum {
+                    background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-RaceBlogH.png');
+                }
+                .lr-LNSTH2thum {
+                    background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-RaceBlogH2.png');
+                }
+            /*Race Entry*/
+                .lr-LNSTQues {
+                    background: url('./../../Images/Blog/LNST/Race/NST-Zelda-Race.png');
+                    height: 120px;
+                    width: 300px;
+                }
+            /*Main Races*/
+                .lr-LNSTZoraRito {
+                    background: url('./../../Images/Blog/LNST/Race/NST-ZoraRitoThum.png');
+                }
+                .lr-LNSTZoraRito {
+                    height: 169px;
+                    width: 300px;
+                }
+                .lr-LNSTevo {
+                    background: url('./../../Images/Blog/LNST/Race/NST-Atlantians-Ev.jpg');
+                    height: 120px;
+                    width: 200px;
+                }
+                .lr-LNSTHthum,
+                .lr-LNSTH2thum {
+                    height: 169px;
+                    width: 300px;
+                }
+
+                .lr-LNSTHthum,
+                .lr-LNSTQues,
+                .lr-LNSTZoraRito,
+                .lr-LNSTevo,
+                .lr-LNSTZoraRito {
+                    background-position: 50% 50%;
+                    background-size: cover;
+                }
+
+        /*Shield*/
+            .LNSTShild, .LNSTShild-ll,
+            /*Shield Headers*/
+                .LNSTShildMenu, .LNSTShildM-ll {height: 169px; width: 300px;}
+                    .ll-LNSTHthum {
+                        background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-ShieldBlogH.png');
+                    }
+                    .ll-LNSTH2thum {
+                        background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-ShieldBlogH2.png');
+                    }
+            /*Music Headers*/
+                .ll-LNSTMusic {
+                    background: url('./../../Images/Blog/LNST/Sheild/Music/Music.png');
+                }
+            /*Mask Headers*/
+                .ll-LNSTMasked {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Masked.png');
+                }
+            /*Colors*/
+                .ll-LNSTColorM {
+                    background: url('./../../Images/Blog/LNST/Sheild/Colors/ColoredMessage.png');
+                }
+            /*Swords*/
+                .ll-LNSTSwordM {
+                    background: url('./../../Images/Blog/LNST/Sheild/Sword/SwordItOut.png');
+                }
+            /*Shields*/
+                .ll-LNSTDShieldsH {
+                    background: url('./../../Images/Blog/LNST/Sheild/Shield/DShieldedsh.png');
+                }
+                .ll-LNSTHShieldsH {
+                    background: url('./../../Images/Blog/LNST/Sheild/Shield/HShieldedsh.png');
+                }
+                .ll-LNSTMShieldsH {
+                    background: url('./../../Images/Blog/LNST/Sheild/Shield/MShieldedsh.png');
+                }
+
+                .ll-LNSTDShieldsH, 
+                .ll-LNSTHShieldsH, 
+                .ll-LNSTMShieldsH {
+                    height: 100px; 
+                    width: 135px;
+                }
+
+            /*Instruments*/
+                .ll-LNSTInstO {
+                    background: url('./../../Images/Blog/LNST/Sheild/Music/Insturments/Ocarina.png');
+                }
+                .ll-LNSTInstH {
+                    background: url('./../../Images/Blog/LNST/Sheild/Music/Insturments/Harp.png');
+                }
+                .ll-LNSTInstF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Music/Insturments/PanFlute.png');
+                }
+                .ll-LNSTInstW {
+                    background: url('./../../Images/Blog/LNST/Sheild/Music/Insturments/WindWaker.png');
+                }
+
+                .ll-LNSTInstO, 
+                .ll-LNSTInstH, 
+                .ll-LNSTInstF, 
+                .ll-LNSTInstW {
+                    height: 100px; 
+                    width: 135px;
+                }
+
+            /*Mask Image Map*/
+                .ll-LNSTMajorasMasks {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/MM_Masks.png');
+                    height: 182px;
+                    width: 272px;
+                }
+                .ll-LNSTMaskMajoras {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/MM_Majora_Mask_Model.png');
+                    height: 36px;
+                    width: 32px;
+                }
+                .ll-LNSTMaskODs {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/MM_Odolwas_Remains_Icon.png');
+                }
+                .ll-LNSTMaskGots {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/MM_Gohts_Remains_Icon.png');
+                }
+                .ll-LNSTMaskGys {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/MM_Gyorgs_Remains_Icon.png');
+                }
+                .ll-LNSTMaskTwins {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/MM_Twinmolds_Remains_Icon.png');
+                }
+                .ll-LNSTMaskSuns {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/MM_SunMask.png');
+                }
+                .ll-LNSTMaskMoons {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/MM_MoonMask.png');
+                }
+
+                .ll-LNSTMaskODs,
+                .ll-LNSTMaskGots,
+                .ll-LNSTMaskGys,
+                .ll-LNSTMaskTwins,               
+                .ll-LNSTMaskSuns,
+                .ll-LNSTMaskMoons {
+                    height: 32px;
+                    width: 32px;
+                }
+
+                .ll-LNSTMaskFuseSF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/Fusedshadow.png');
+                }
+                .ll-LNSTMaskMajoraSF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/MajoraMask.png');
+                }
+                .ll-LNSTMaskODF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/OdowalMask.png');
+                }
+                .ll-LNSTMaskGotF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/GuhtMask.png');
+                }
+                .ll-LNSTMaskGyF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/GyorgMask.png');
+                }
+                .ll-LNSTMaskTwinF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/TwinMask.png');
+                }
+                .ll-LNSTMaskMOTF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/TruthMask.png');
+                }
+                .ll-LNSTMaskKorokF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/KorokMask.png');
+                }
+                .ll-LNSTMaskDekuF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/DekuMask.png');
+                }
+                .ll-LNSTMaskZoraF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/ZoraMask.png');
+                }
+                .ll-LNSTMaskGoronF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/GornMask.png');
+                }
+                .ll-LNSTMaskGiantF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/GiantMask.png');
+                }
+                .ll-LNSTMaskKafeiF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/KafieMask.png');
+                }
+                .ll-LNSTMaskCoupleF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/CoupleMask.png');
+                }
+                .ll-LNSTMaskSunF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/SunMask.png');
+                }
+                .ll-LNSTMaskMoonF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/MoonMask.png');
+                }
+                .ll-LNSTMaskAdultF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/AdultMask.png');
+                }
+                .ll-LNSTMaskKamF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/KamaroMask.png');
+                }
+                .ll-LNSTMaskTroupeF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/LeaderMask.png');
+                }
+                .ll-LNSTMaskBremenF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/BrenMask.png');
+                }
+                .ll-LNSTMaskGaroF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/GaroMask.png');
+                }
+                .ll-LNSTMaskCaptainF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/CaptainMask.png');
+                }
+                .ll-LNSTMaskGibdoF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/GibdoMask.png');
+                }
+                .ll-LNSTMaskDeityF {
+                    background: url('./../../Images/Blog/LNST/Sheild/Mask/Full/DietyMask.png');
+                }
+
+                .ll-LNSTMaskFuseSF,
+                .ll-LNSTMaskMajoraSF,
+                .ll-LNSTMaskODF,
+                .ll-LNSTMaskGotF,
+                .ll-LNSTMaskGyF,
+                .ll-LNSTMaskTwinF, 
+                .ll-LNSTMaskMOTF, 
+                .ll-LNSTMaskKorokF,            
+                .ll-LNSTMaskDekuF,
+                .ll-LNSTMaskZoraF,
+                .ll-LNSTMaskGoronF,
+                .ll-LNSTMaskGiantF,
+                .ll-LNSTMaskKafeiF,
+                .ll-LNSTMaskCoupleF,
+                .ll-LNSTMaskSunF,
+                .ll-LNSTMaskMoonF,
+                .ll-LNSTMaskAdultF,
+                .ll-LNSTMaskKamF,
+                .ll-LNSTMaskTroupeF,
+                .ll-LNSTMaskBremenF,
+                .ll-LNSTMaskGaroF,
+                .ll-LNSTMaskCaptainF,
+                .ll-LNSTMaskGibdoF,
+                .ll-LNSTMaskDeityF {
+                    height: 160px;
+                    width: 107px;
+                }
+        /*Timeline*/
+            /*TimeLine Headers*/
+                .LNSTTimeH,
+                .tl-LNSTTimeH {
+                    height: 169px;
+                    width: 300px;
+                }
+                .tl-LNSTHthum {
+                    background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-TimeBlogH.png');
+                }
+                .tl-LNSTH2thum {
+                    background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-TimeBlogH2.png');
+                }
+            /*TimeLine Posters*/
+                .LNSTimeCover,
+                .LNST-timeLC {height: 169px; width: 300px;}
+            /*Poster Images*/
+                .tl-LNSTSkyWS {
+                    background: url('./../../Images/Blog/LNST/Timeline/SWSCover.png');
+                }
+                .tl-LNSTPrison {
+                    background: url('./../../Images/Blog/LNST/Timeline/ImprisonWarCover.png');
+                }
+                .tl-LNSTLTTP {
+                    background: url('./../../Images/Blog/LNST/Timeline/LTTPCover.png');
+                }
+                .tl-LNSTLA {
+                    background: url('./../../Images/Blog/LNST/Timeline/LACover.png');
+                }
+                .tl-LNSTWW {
+                    background: url('./../../Images/Blog/LNST/Timeline/WWCover.png');
+                }
+                .tl-LNSTPHST {
+                    background: url('./../../Images/Blog/LNST/Timeline/PHSTCover.png');
+                }
+                .tl-LNSTLBP {
+                    background: url('./../../Images/Blog/LNST/Timeline/ALBWCover.png');
+                }
+                .tl-LNSTOofSeasons {
+                    background: url('./../../Images/Blog/LNST/Timeline/SeasonsCover.png');
+                }
+                .tl-LNSTMM {
+                    background: url('./../../Images/Blog/LNST/Timeline/MMCover.png');
+                }
+                .tl-LNSTOofAges {
+                    background: url('./../../Images/Blog/LNST/Timeline/AgesCover.png');
+                }
+                .tl-LNSTTFH {
+                    background: url('./../../Images/Blog/LNST/Timeline/TFHCover.png');
+                }
+                .tl-LNSTMC {
+                    background: url('./../../Images/Blog/LNST/Timeline/MCCover.png');
+                }
+                .tl-LNSTFS {
+                    background: url('./../../Images/Blog/LNST/Timeline/FSCover.png');
+                }
+                .tl-LNSTOOT {
+                    background: url('./../../Images/Blog/LNST/Timeline/OOTCover.png');
+                }
+                .tl-LNSTTP {
+                    background: url('./../../Images/Blog/LNST/Timeline/TPCover.png');
+                }
+                .tl-LNSTFSA {
+                    background: url('./../../Images/Blog/LNST/Timeline/');
+                }  
+            /*TimeLine Split*/
+                .LNSTimeSplit,
+                .LNST-timeTLSplit {
+                    height: 100px;
+                    width: 135px;
+                }
+            /*Split Images*/
+                .tl-LNSTChilTi {
+                    background: url('./../../Images/Blog/LNST/Timeline/Split/ChildTime.png');
+                }
+                .tl-LNSTFallTi {
+                    background: url('./../../Images/Blog/LNST/Timeline/Split/FallenTime.png');
+                }
+                .tl-LNSTAdulTi {
+                    background: url('./../../Images/Blog/LNST/Timeline/Split/AdultTime.png');
+                }  
+            /*Bullet*/
+                /*Main*/
+                /*650=s
+                /*780px = M
+                /*880px = L*/
+                /*880px = XL*/
+                /*Majoras Mask*/
+                    .CharacterTL,
+                    .tl-Character {
+                        height: 100px;
+                        width: 135px;
+                    }
+                /*Moon Children*/
+                    .tl-LNSTOdc {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/MoonChild/OdChild.png');
+                    }
+                    .tl-LNSTGohtc {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/MoonChild/GohtChild.png');
+                    }   
+                    .tl-LNSTGyc {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/MoonChild/GyorgChild.png');
+                    } 
+                    .tl-LNSTTwinc {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/MoonChild/TwinChild.png');
+                    }
+                /*Syp*/
+                    .tl-LNSTKaeporas {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/Kaepora.png');
+                    }
+                    .tl-LNSTDekuPrincesss {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/DekuPrincess.png');
+                    }
+                    .tl-LNSTDekuButler {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/DekuButler.png');
+                    }
+                    .tl-LNSTDekuLink {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/DekuLink.png');
+                    }
+                    .tl-LNSTMajoraSkulls {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/MajoraSkull.png');
+                    }
+                    .tl-LNSTSKs {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/SkullKid.png');
+                    }
+                    .tl-LNSTSKSs {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/SkullKidSkull.png');
+                    }
+                    .tl-LNSTSkulkTs {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/SkullKidTwil.png');
+                    }
+                /*DivineBeast*/
+                    .tl-LNSTOds {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/Odowal.png');
+                    }
+                    .tl-LNSTGohts {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/Goht.png');
+                    }
+                    .tl-LNSTGyorgs {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/Gyorg.png');
+                    }
+                    .tl-LNSTTwinms {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/TwinMold.png');
+                    }
+                /*Kings*/
+                    .tl-LNSTDKs {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/DekuKing.png');
+                    }              
+                    .tl-LNSTDarmani3 {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/DarmaniIII.png');
+                    } 
+                    .tl-LNSTLinkm {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/Link.png');
+                    } 
+                /*Abrahams*/
+                    .tl-LNSTGElderA {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/GornoElder.png');
+                    } 
+                    .tl-LNSTGDarmaniA {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/DarmaniBless.png');
+                    } 
+                    .tl-LNSTMaikuA {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/Zoralinkfins2.png');
+                    } 
+                    /*Death Abram to Abraham Change*/
+                    .tl-LNSTMaikuDs {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/MaikusDeath.png');
+                    } 
+                /*Sarahs*/
+                    .tl-LNSTSarias {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/Saria.png');
+                    } 
+                    .tl-LNSTLuluS {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/LuLu.png');
+                    }
+                    .tl-LNSTCremBelt {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/CremiaBelt.png');
+                    } 
+                    .tl-LNSTIsraelEgg {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/EggManyNations.png');
+                    } 
+                    /*Not Sarah*/
+                    .tl-LNSTHagar {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/Goron_Statue.png');
+                    } 
+                    .tl-LNSTHSon{
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/EldersSon.png');
+                    }
+
+                    .tl-LNSTFSharps {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/SharpOOT.png');
+                    } 
+                    .tl-LNSTFlats {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/FlatOOT.png');
+                    } 
+
+
+                    .tl-LNSTWFs {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/Warm&Fuzzy.png');
+                    } 
+                    .tl-LNSTGibsC {
+                        background: url('./../../Images/Blog/LNST/Timeline/Bullet/GibdosCrime.png');
+                    } 
+        /*TriForce*/
+            .LNSTrif,
+            .LNSTrif-lf,
+            /*Triforce Headers*/
+                .lf-LNSTHthum {
+                    background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-TrifBlogH.png');
+                }
+                .lf-LNSTH2thum {
+                    background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-TrifBlogH2.png');
+                }
+            /*Triforce Entry*/
+                .lf-LNSTHthum,
+                .lf-LNSTH2thum {
+                    height: 169px;
+                    width: 300px;
+                }
+
+                .lf-LNSTHthum,
+                .lf-LNSTH2thum {
+                    background-position: 50% 50%;
+                    background-size: cover;
+                }
+        /*Religion*/
+            .LNSTRelig, .LNSTRelig-lc {height: 169px; width: 300px;}
+            /*Religion Headers*/
+                .lc-LNSTHthum {
+                    background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-ReligionBlogH.png');
+                }
+                .lc-LNSTH2thum {
+                    background: url('./../../Images/Blog/LNST/LNSTThumbs/Header/NST-ReligionBlogH2.png');
+                }
+            /*Religion Menus*/
+            /*Idol Worship*/
+                .lc-LNSTImprisonbeast {
+                    background: url('./../../Images/Blog/LNST/Religion/ImprisionDivineBeast.png');
+                }
+    /**************/
+    /*BibleBlog*/
+        /*Phinehas Sermantics*/
+        /*White WorldView*/
+/**************/
+/*Site*/
+
+/*SVG Icons*/
+    /*Socials*/
+    .gab-vect {
+        background: url('./../../Images/Blog/SVG/gab.svg');
+    }
+    .minds-vect {
+        background: url('./../../Images/Blog/SVG/mind.svg');
+    }
+    .github-vect {
+        background: url('./../../Images/Blog/SVG/git.svg');
+    }
+    /*Finance*/
+    .monero-vect {
+        background: url('./../../Images/Blog/SVG/monero.svg');     
+    }
+    /*Blog*/  
+    .blog-vect {
+        background: url('./../../Images/Blog/SVG/blog.svg');
+    }
+    /*Adobe*/
+
+   /*Contact*/
+        .cont-Gab, .cont-Minds, .cont-Teleg, .cont-SessI, .cont-Sess {border: 0; height: 88px; width: 88px;}
+        .cont-Gab {
+            background: url('./../../../Images/Blog/zNatSoc/Contact/gabicon.png');
+        }
+        .cont-Minds {
+            background: url('./../../../Images/Blog/zNatSoc/Contact/mindsicon.png');
+        }
+        .cont-Teleg {
+            background: url('./../../../Images/Blog/zNatSoc/Contact/teleicon.png');
+        }
+        .cont-SessI {
+            background: url('./../../../Images/Blog/zNatSoc/Contact/Sessicon.png');
+        }
+        .cont-Sess {
+            background: url('./../../../Images/Blog/zNatSoc/Contact/Session.png');
+        }
+    /*Affiliates*/
+        .spon-Glass, .spon-Brave, .spon-Wond, .feat-Empire, .feat-100, .feat-Bianca {width: 281px;}
+        .spon-Glass {
+            background: url('./../../../Images/a/Spon/GlassWire-Blog.png');
+        }
+        .spon-Brave {
+            background: url('./../../../Images/a/Spon/Brave-Blog.png');
+        }
+        .spon-Wond {
+            background: url('./../../../Images/a/Spon/WonderShare-Blog.png');
+        }
+    /*Feat Vids*/
+        .feat-Empire {
+            background: url('./../../../Images/a/FeatVid/Empire-F.png');
+        }
+        .feat-100 {
+            background: url('./../../../Images/a/FeatVid/100-T.png');
+        }
+        .feat-Bianca {
+            background: url('./../../../Images/a/FeatVid/Biana.png');
+        }
+        .cont-Gab, .cont-Minds, .cont-Teleg, .cont-SessI, .cont-Sess, .item-bitp, .weeklyS, .freshS, .holiS, .spon-Glass, .spon-Brave, .spon-Wond, .feat-Empire, .feat-100, .feat-Bianca {background-position: 50% 50%; background-size: cover;}
+    /*Shop Deals*/
+        /*NineNeins Shop*/
+            .shopm, .shopm-sm {height: 300px; width: 300px;}
+        /*Shop Images*/
+            .sm-Pete {
+                background: url('./../../../Images/Blog/zNatSoc/Shop/Pete.png');
+            }
+            .sm-Shopd {
+                background: url('./../../../Images/Blog/zNatSoc/Shop/Shopd.png');
+            }
+        /*Feat Deal*/
+            .weeklyS, .freshS, .holiS{height: 110px; width: 250px;}
+        /*Deal Images*/
+            .weeklyS {
+                background: url('./../../../Images/Blog/zNatSoc/Shop/weekly-p.jpg');
+            }
+            .freshS {
+                background: url('./../../../Images/Blog/zNatSoc/Shop/start-p.jpg');
+            }
+            .holiS {
+                background: url('./../../../Images/Blog/zNatSoc/Shop/holi-p.jpg');
+            }
