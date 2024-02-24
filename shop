@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>9Neins Shop</title>
+    <style> @import url("./Frame/CSS/MainPage.css");</style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top"></nav>
+    <!-- Header -->
+    <header id="sitehead" aria-label="siteHead"></header>
+    <!-- Intro Section-->
+    <section id="shopi" aria-label="shopI"></section>
+    <!--Desktop Feat List-->
+    <section id="shop-d" aria-label="shop-D"></section>
+    <!--Mobile Shop List-->
+    <section id="shop-m" aria-label="shop-M"></section>
+    <!--Read More-->
+    <section id="shopw" aria-label="shopW"></section>
+    <!-- Footer -->
+    <footer id="footy"></footer>
+    <script src="./Frame/JS/MainPageDev.js" async></script>
+</body>
+</html>
