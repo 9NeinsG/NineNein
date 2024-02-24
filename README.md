@@ -1,6 +1,6 @@
 # NineNein
 
-![Website](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fhttps://9neinsg.github.io/NineNein/)
+![Website](https://img.shields.io/website?style=for-the-badge&url=https://9neinsg.github.io/NineNein/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/9NeinsG/NineNein?style=for-the-badge)
 <br>
 ![GitHub repo size](https://img.shields.io/github/repo-size/9NeinsG/NineNein?style=for-the-badge)
