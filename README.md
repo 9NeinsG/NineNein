@@ -119,7 +119,8 @@ These folders Include the Land Pages for:<br>
 <tbody>
 <tr>
 <td>GEBlog</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.NineNein%2FB-Topic%2FGreyingErrorBlog.html"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2F9neinsg.github.io%2FNineNein%2FB-Topic%2FGreyingErrorBlog&style=for-the-badge">
+</td>
 </tr>
 <tr>
 <td>NNBLOG</td>
@@ -189,15 +190,16 @@ These folders Include the Land Pages for:<br>
 <tbody>
 <tr>
 <td>Code</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FGreyingError%2FCode%2FFashCode"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2F9neinsg.github.io%2FNineNein%2FB-Topic%2FGreyingError%2FCode%2FFashCode"></td>
 </tr>
 <tr>
 <td>Graphic</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FGreyingError%2FGraphic%2FFashPhoto"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2F9neinsg.github.io%2FNineNein%2FB-Topic%2FGreyingError%2FGraphic%2FFashPhoto"></td>
 </tr>
 <tr>
 <td>Audio</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FGreyingError%2FMusic%2FFashAlong"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2F9neinsg.github.io%2FNineNein%2FB-Topic%2FGreyingError%2FAudio%2FFashAlong&style=for-the-badge">
+</td>
 </tr>
 </tbody>
 </table>
