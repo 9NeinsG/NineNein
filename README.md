@@ -85,7 +85,8 @@ Home, Blog, and Shop.
 <tr>
 <td>Blog</td>
 <td>
- <img alt="Static Badge" src="https://img.shields.io/badge/W3C%20-%20All%20Good%200%20Errors%20-%20Green?style=for-the-badge"></td>
+<img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2F9neinsg.github.io%2FNineNein%2Fblog&style=for-the-badge">
+</td>
 </tr>
 <tr>
 <td>Shop</td>
