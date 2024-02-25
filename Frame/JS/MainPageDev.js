@@ -132,9 +132,9 @@ $(document).ready(function() {
     $('#Bpatch').load("./../Frame/Layout/5_FeatSpon/mainspon.html");
     $('#Bfeatv').load("./../Frame/Layout/5_FeatSpon/chanvid.html");
     //Content
-    $('#ninein-m').load("./../../Frame/Layout/3_Content/nineneinmob.html");
-    $('#greyerm').load("./../../Frame/Layout/3_Content/greyingmob.html");
-    $('#faqblgm').load("./../../Frame/Layout/3_Content/faqmob.html");
+    $('#ninein-m').load("./../Frame/Layout/3_Content/nineneinmob.html");
+    $('#greyerm').load("./../Frame/Layout/3_Content/greyingmob.html");
+    $('#faqblgm').load("./../Frame/Layout/3_Content/faqmob.html");
 
 ///////////////////////////
 //Third Tier Starts Here//
