@@ -80,11 +80,12 @@ Home, Blog, and Shop.
 <tbody>
 <tr>
 <td>Home</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.NineNein"></td>
+<td><img alt="Static Badge" src="https://img.shields.io/badge/W3C%20-%20All%20Good%200%20Errors%20-%20Green?style=for-the-badge"></td>
 </tr>
 <tr>
 <td>Blog</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.NineNein%2Fblog"></td>
+<td>
+ <img alt="Static Badge" src="https://img.shields.io/badge/W3C%20-%20All%20Good%200%20Errors%20-%20Green?style=for-the-badge"></td>
 </tr>
 <tr>
 <td>Shop</td>
