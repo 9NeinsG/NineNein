@@ -328,18 +328,17 @@ $(document).ready(function() {
         $('#masked-d').load("./../../../Import/Blog/LNST/Bontent/Shield/Mask/Maskm.html");
     //Intro 
         //Sypnosis
-        $('#syplnsti').load("./../../../Import/Blog/LNST/Bontent/Layout/Intro/sypnlnstintro.html");
+        $('#syplnsti').load("./../../../Frame/Layout/2_Intro/BLNST/sypnlnstintro.html");
         //Shield
-        $('#shilnsti').load("./../../../Import/Blog/LNST/Bontent/Layout/Intro/shieldintro.html");
+        $('#shilnsti').load("./../../../Frame/Layout/2_Intro/BLNST/shieldintro.html");
         //TimeLine
-        $('#timelnsti').load("./../../../Import/Blog/LNST/Bontent/Layout/Intro/timelineintro.html");
+        $('#timelnsti').load("./../../../Frame/Layout/2_Intro/BLNST/timelineintro.html");
         //Triforce
-        $('#triflnsti').load("./../../../Import/Blog/LNST/Bontent/Layout/Intro/triforceintro.html");
+        $('#triflnsti').load("./../../../Frame/Layout/2_Intro/BLNST/triforceintro.html");
         //Race
-        $('#raclnsti').load("./../../../Import/Blog/LNST/Bontent/Layout/Intro/raceintro.html");
+        $('#raclnsti').load("./../../../Frame/Layout/2_Intro/BLNST/raceintro.html");
         //Religion
-        $('#relilnsti').load("./../../../Import/Blog/LNST/Bontent/Layout/Intro/religionintro.html");
-
+        $('#relilnsti').load("./../../../Frame/Layout/2_Intro/BLNST/religionintro.html");
     //Content
     //Alert
     $('#syplnstia').load("./../../../Import/Blog/LNST/Bontent/Layout/Alerts/TextNotification.html");  
