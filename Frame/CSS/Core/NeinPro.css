@@ -78,7 +78,7 @@ body {
     display: inline-block;
     font-family: 'NineNeins-Glyph';
     -webkit-font-smoothing: antialiased;
-    font-style: normal;
+    font-style: normal; 
     font-weight: normal;
     line-height: 1;
     -moz-osx-font-smoothing: grayscale;
@@ -102,9 +102,9 @@ body {
   .icon9-info-sign:before {content: "\e085";}/*ReadMore BS*/
   .icon9-screenshot:before {content: "\e087";}/*BS*/
   .icon9-bitcoin:before {content: "\e227";}/*BS*/
-
+  .icon9-zelda:before{content:'\f3b8';}
 hgroup {margin-bottom: 25px;
-        scroll-margin-top: 6rem;}
+        scroll-margin-top: 6rem;} 
 .ninetouch {overflow: auto;}
 
 * {
@@ -5422,6 +5422,3 @@ button.close {
         overflow: visible;
     }
 }
-
-
-
