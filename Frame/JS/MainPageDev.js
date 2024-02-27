@@ -59,6 +59,15 @@ $('#BsiteNav').load("./../Frame/Layout/1_Navigation/mainnav.html");
 //Search
 $('#Bsearch').load("./../JS/SearchQuery.js");
 
+/*Sub NatSoc- 2nd Tier*/
+//Offset NatSoc,Support & Tech Nav
+$('#BnssiteNav').affix({offset:{top:100}}),$('#FSsiteNav').affix({offset:{top:100}});
+//devnav(Internal) - mainnav(Production)
+$('#sitehead').load("../../Frame/Layout/1_Navigation/header.html");
+$('#BsiteNav').load("../../Frame/Layout/1_Navigation/devnav.html");
+//Search
+$('#Bsearch').load("./../JS/SearchQuery.js");
+
 /*Blog - 3rd Tiers*/
 //Offset EXT & LNST Nav
 $('#BEsiteNav').affix({offset:{top:100}}),$('#BlnstsiteNav').affix({offset:{top:100}});
