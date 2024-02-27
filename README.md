@@ -157,15 +157,15 @@ These folders Include the Land Pages for:<br>
 <tbody>
 <tr>
 <td>SoftWare</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FTech%2FSoftWare"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2F9neinsg.github.io%2FNineNein%2FB-Topic%2FTech%2FSoftWare"></td>
 </tr>
 <tr>
 <td>HardWare</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FTech%2FHardWare"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2F9neinsg.github.io%2FNineNein%2FB-Topic%2FTech%2FHardWare"></td>
 </tr>
 <tr>
 <td>CryptoTalk</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FTech%2FCryptoTalk"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2F9neinsg.github.io%2FNineNein%2FB-Topic%2FTech%2FCryptoTalk"></td>
 </tr>
 </tbody>
 </table>
