@@ -115,7 +115,7 @@
             text-align: center;
         }
         .page-footer .contact {
-            padding: 10px 0;
+            padding: 0px 0;
             background-color: darkgrey;
             color: #777777;
         }
@@ -129,7 +129,7 @@
             font-weight: 700;
         }
         .page-footer .small-print {
-            padding: 5px 0 5px;
+            padding: 0px 0 0px;
             font-weight: 300;
         }
 /*White Row*/
@@ -144,7 +144,6 @@
         background-color: #222;
     }
 /*Main Containers*/
-
 
 span {
   position: relative;
@@ -204,7 +203,6 @@ span {
   transform: scaleX(0);
 }
 
-
 .pressstart {
     position: center;
 }
@@ -256,11 +254,6 @@ span {
         );
     }
 }
-
-
-
-
-
 
     /*Blog Text Header Style*/
         .bh {
@@ -384,6 +377,24 @@ span {
             .lnstt-content .pp {
                 color: #FF00FF;
             }
+
+        .foot-content {
+            font-size: 20px;
+            line-height: 1.5;
+            padding-right: 40px;
+            padding-left: 40px;
+            background-color: #f5f5f5;
+            border-color: #fff;
+
+        }
+        .foot-right-content {
+            padding-right: 40px;
+            padding-left: 400px;
+        }
+        .foot-left-content {
+            padding-right: 400px;
+            padding-left: 40px;
+        }
     /*Fash Containers*/
         .FashCont {
             font-size: 18px;
@@ -426,6 +437,15 @@ span {
             border-radius: 5px;
             margin-top: 0px;
             margin-bottom: 0px;
+        }
+    /*Git Side Bar Settings*/
+        .asidefixed, .asidefixed_gi {
+            height: auto;
+            padding: 0 0;
+            bottom: auto;
+            border-radius: 5px;
+            margin-top: 0px;
+            margin-bottom: -12px;
         }
     /*Gab Side Bar Settings*/
         .asidefixed, .asidefixed_g {
@@ -856,6 +876,9 @@ img::-moz-selection {
             .hide-mobile;
             padding-top: 60px;
         }
+        .hide-mobile 
+         {display:none;}
+
         .pressstart h2 {
             color: #800080;
             font-size: 50px;
@@ -870,6 +893,9 @@ img::-moz-selection {
             .hide-mobile;
             padding-top: 60px;
         }
+        .hide-mobile 
+         {display:none;}
+
         .pressstart h2 {
             color: #800080;
             font-size: 30px;
@@ -884,6 +910,9 @@ img::-moz-selection {
             .hide-mobile;
             padding-top: 60px;
         }
+        .hide-mobile 
+         {display:none;}
+
         .pressstart h2 {
             color: #800080;
             font-size: 30px;
@@ -898,6 +927,9 @@ img::-moz-selection {
             .hide-mobile;
             padding-top: 60px;
         }
+        .hide-mobile 
+         {display:none;}
+
         .pressstart h2 {
             color: #800080;
             font-size: 50px;
@@ -916,6 +948,9 @@ img::-moz-selection {
             .hide-mobile;
             padding-top: 60px;
         }
+        .hide-mobile 
+         {display:none;}
+
         .pressstart h2 {
             color: #800080;
             font-size: 40px;
@@ -926,12 +961,8 @@ img::-moz-selection {
     @media only screen and (min-width: 976px) and (max-width: 1079px) {
             a.arrow__btn {
             display: show;
-            .hide-mobile;
             padding-top: 60px;
         }
-
-         .hide-mobile 
-         {display:none;}
 
         .pressstart h2 {
             color: #800080;
@@ -944,12 +975,8 @@ img::-moz-selection {
     @media only screen and (min-width: 1080px) and (max-width:1439px) {
             a.arrow__btn {
             display: show;
-            .hide-mobile;
             padding-top: 60px;
         }
-
-         .hide-mobile 
-         {display:none;}
 
         .pressstart h2 {
             color: #800080;
@@ -962,12 +989,8 @@ img::-moz-selection {
     @media only screen and (min-width: 1440px) and (max-width:2559px) {
             a.arrow__btn {
             display: show;
-            .hide-mobile;
             padding-top: 60px;
         }
-
-         .hide-mobile 
-         {display:none;}
 
         .pressstart h2 {
             color: #800080;
@@ -980,12 +1003,8 @@ img::-moz-selection {
     @media only screen and (min-width: 2560px) {
             a.arrow__btn {
             display: show;
-            .hide-mobile;
             padding-top: 60px;
         }
-
-        .hide-mobile 
-         {display:none;}
 
         .pressstart h2 {
             color: #800080;
