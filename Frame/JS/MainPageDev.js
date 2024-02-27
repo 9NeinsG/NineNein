@@ -64,7 +64,7 @@ $('#Bsearch').load("./../JS/SearchQuery.js");
 $('#BnssiteNav').affix({offset:{top:100}}),$('#FSsiteNav').affix({offset:{top:100}});
 //devnav(Internal) - mainnav(Production)
 $('#sitehead').load("../../Frame/Layout/1_Navigation/header.html");
-$('#BsiteNav').load("../../Frame/Layout/1_Navigation/devnav.html");
+$('#BnssiteNav').load("../../Frame/Layout/1_Navigation/devnav.html");
 //Search
 $('#Bsearch').load("./../JS/SearchQuery.js");
 
