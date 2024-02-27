@@ -218,27 +218,27 @@ These folders Include the Land Pages for:<br>
 <tbody>
 <tr>
 <td>Books</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.NineNein%2FB-Topic%2FNatSoc%2Fbooks.html"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/NatSoc/books"></td>
 </tr>
 <tr>
 <td>Saints</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.NineNein%2FB-Topic%2FNatSoc%2Fsaints.html"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/NatSoc/saints.html"></td>
 </tr>
 <tr>
 <td>Video</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.NineNein%2FB-Topic%2FNatSoc%2Fvideo.html"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/NatSoc/video.html"></td>
 </tr>
 <tr>
 <td>Music</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.NineNein%2FB-Topic%2FNatSoc%2Fmusic.html"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/NatSoc/music.html"></td>
 </tr>
 <tr>
 <td>Arcade</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.NineNein%2FB-Topic%2FNatSoc%2Farcade.html"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/NatSoc/arcade.html"></td>
 </tr>
 <tr>
 <td>Inspire</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?style=for-the-badge&targetUrl=https%3A%2F%2Fwww.NineNein%2FB-Topic%2FNatSoc%2Finspiration.html"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/NatSoc/inspiration.html"></td>
 </tr>
 </tbody>
 </table>
@@ -259,27 +259,27 @@ These folders Include the Land Pages for:<br>
 <tbody>
 <tr>
 <td>Sypnosis</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FGreyingError%2FLNST%2FSynopsis"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/GreyingError/LNST/Synopsis"></td>
 </tr>
 <tr>
 <td>Racials</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FGreyingError%2FLNST%2FRace"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/GreyingError/LNST/Race"></td>
 </tr>
 <tr>
 <td>Religion</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FGreyingError%2FLNST%2FReligion"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/GreyingError/LNST/Religion"></td>
 </tr>
 <tr>
 <td>TimeLine</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FGreyingError%2FLNST%2FTimeLine"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/GreyingError/LNST/TimeLine"></td>
 </tr>
 <tr>
 <td>Shield</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FGreyingError%2FLNST%2FShield"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/GreyingError/LNST/Shield"></td>
 </tr>
 <tr>
 <td>TriForce</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.ninenein%2FB-Topic%2FGreyingError%2FLNST%2FTriForce"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https://9neinsg.github.io/NineNein/B-Topic/GreyingError/LNST/TriForce"></td>
 </tr>
 </tbody>
 </table>
