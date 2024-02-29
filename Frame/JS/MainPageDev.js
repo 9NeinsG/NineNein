@@ -406,3 +406,4 @@ $(document).ready(function() {
     $('#racilnstm').load("./../../../Import/Blog/LNST/Bontent/Race/racemob.html");
     //Religion
     $('#relilnstm').load("./../../../Import/Blog/LNST/Bontent/Religion/religionmob.html");
+})
