@@ -73,8 +73,6 @@ $('#sitehead').load("../../Frame/Layout/1_Navigation/header.html");
 $('#BnssiteNav').load("../../Frame/Layout/1_Navigation/devnav.html");
 //Foot
     $('#Bnssfooty').load("../..Frame/Layout/1_Navigation/mainfoot.html");
-    $('#BEEfooty').load("../../Frame/Layout/1_Navigation/mainfoot.html");
-
 //Search
 $('#Bsearch').load("./../JS/SearchQuery.js");
 
@@ -86,7 +84,7 @@ $('#sitehead').load("../../../Frame/Layout/1_Navigation/header.html");
 $('#BEsiteNav').load("./../../../Frame/Layout/1_Navigation/devnav.html");
 //Footer
     $('#BEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
-    $('#BEEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
+    $('#BEEfooty').load("../../../Frame/Layout/1_Navigation/mainfoot.html");    
 
 $('#BlnstsiteNav').load("./../../../Frame/Layout/1_Navigation/devnav.html");
 //Search
