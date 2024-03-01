@@ -72,7 +72,7 @@ $('#BnssiteNav').affix({offset:{top:100}}),$('#FSsiteNav').affix({offset:{top:10
 $('#sitehead').load("../../Frame/Layout/1_Navigation/header.html");
 $('#BnssiteNav').load("../../Frame/Layout/1_Navigation/devnav.html");
 //Foot
-    $('#Bnssfooty').load("../..Frame/Layout/1_Navigation/mainfoot.html");
+    $('#Bnssfooty').load("../../Frame/Layout/1_Navigation/mainfoot.html");
 //Search
 $('#Bsearch').load("./../JS/SearchQuery.js");
 
