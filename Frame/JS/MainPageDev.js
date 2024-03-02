@@ -70,11 +70,9 @@ $('#Bsearch').load("./../JS/SearchQuery.js");
 $('#BnssiteNav').affix({offset:{top:100}}),$('#FSsiteNav').affix({offset:{top:100}});
 //devnav(Internal) - mainnav(Production)
 $('#sitehead').load("../../Frame/Layout/1_Navigation/header.html");
-$('#BnssiteNav').load("../../Frame/Layout/1_Navigation/devnav.html");
+$('#BnssiteNav').load("../../Frame/Layout/1_Navigation/mainnav.html");
 //Foot
     $('#Bnssfooty').load("../../Frame/Layout/1_Navigation/mainfoot.html");
-    $('#BEEfooty').load("../../Frame/Layout/1_Navigation/mainfoot.html");
-
 //Search
 $('#Bsearch').load("./../JS/SearchQuery.js");
 
@@ -83,12 +81,12 @@ $('#Bsearch').load("./../JS/SearchQuery.js");
 $('#BEsiteNav').affix({offset:{top:100}}),$('#BlnstsiteNav').affix({offset:{top:100}});
 //devnav(Internal) - mainnav(Production)
 $('#sitehead').load("../../../Frame/Layout/1_Navigation/header.html");
-$('#BEsiteNav').load("../../../Frame/Layout/1_Navigation/devnav.html");
+$('#BEsiteNav').load("./../../../Frame/Layout/1_Navigation/mainnav.html");
 //Footer
     $('#BEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
-    $('#BEEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
+    $('#BEEfooty').load("./../../Frame/Layout/1_Navigation/mainfoot.html");
 
-$('#BlnstsiteNav').load("./../../../Frame/Layout/1_Navigation/devnav.html");
+$('#BlnstsiteNav').load("./../../../Frame/Layout/1_Navigation/mainnav.html");
 //Search
 $('#BEsearch').load("./../JS/SearchQuery.js");
 
@@ -221,7 +219,7 @@ $(document).ready(function() {
     //LNST Shield SideBar
     $('#LNSTshieSideBar').load("../../../Frame/Layout/4_SideBars/BLNST/sheiasidebar.html");
 //GAB SideBar
-    $('#GabSSide').load("../../../Frame/Layout/4_SideBars/Gab/gabSidebar.html");
+    $('#GabSSide').load("../../Frame/Layout/4_SideBars/Gab/gabSidebar.html");
     $('#GitSSide').load("../../../Frame/Layout/4_SideBars/Git/gitSidebar.html");
     //SS SideBar
     $('#SSSaints').load("../../../Frame/Layout/4_SideBars/BSupport/SupportSideBar.html");  
@@ -417,5 +415,4 @@ $(document).ready(function() {
     //BulletPoints
         //Majora Mask
         $('#MMMASKTLB').load("./../../../Frame/Layout/3_Content/BLNST/Bullets/treeweb.html");})
-
 })
