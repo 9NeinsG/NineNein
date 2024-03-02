@@ -59,7 +59,7 @@ var topicsArray=[{name:"FashCode",link:"/B-Topic/GreyingError/Code/FashCode",ima
 $('#BsiteNav').affix({offset:{top:100}}),$('#FSsiteNav').affix({offset:{top:100}});
 //devnav(Internal) - mainnav(Production)
 $('#sitehead').load("./../Frame/Layout/1_Navigation/header.html");
-$('#BsiteNav').load("./../Frame/Layout/1_Navigation/devnav.html");
+$('#BsiteNav').load("./../Frame/Layout/1_Navigation/mainnav.html");
 //Footer
     $('#Bfooty').load("./../Frame/Layout/1_Navigation/mainfoot.html");
 //Search
@@ -73,6 +73,7 @@ $('#sitehead').load("../../Frame/Layout/1_Navigation/header.html");
 $('#BnssiteNav').load("../../Frame/Layout/1_Navigation/mainnav.html");
 //Foot
     $('#Bnssfooty').load("../../Frame/Layout/1_Navigation/mainfoot.html");
+
 //Search
 $('#Bsearch').load("./../JS/SearchQuery.js");
 
@@ -85,7 +86,7 @@ $('#BEsiteNav').load("./../../../Frame/Layout/1_Navigation/mainnav.html");
 //Footer
     $('#BEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
     $('#BEEfooty').load("../../../Frame/Layout/1_Navigation/mainfoot.html");
-
+    $('#BEEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
 $('#BlnstsiteNav').load("./../../../Frame/Layout/1_Navigation/mainnav.html");
 //Search
 $('#BEsearch').load("./../JS/SearchQuery.js");
@@ -414,5 +415,5 @@ $(document).ready(function() {
 
     //BulletPoints
         //Majora Mask
-        $('#MMMASKTLB').load("./../../../Frame/Layout/3_Content/BLNST/Bullets/treeweb.html");})
+        $('#MMMASKTLB').load("./../../../Frame/Layout/3_Content/BLNST/Bullets/treeweb.html");
 })
