@@ -1,46 +1,8 @@
 /**************/
 /*Greying Blog*/
-    /*Covers
-.InspireB, .TechSW, .TechMainSW, .TechSecSW, .TechTripSW, .TechAloneSW, .book, .bookm, .saint, .saintm, .musicm, .videom, .arcadem, .moviez, .FashBlogSW, .CodeSW, .CodeBadge, .AudioSW, .FashASW, .PhotoSW, .AdobeB, .PhotoGuideSW, .LNSTSYPB, .LNSTRACB, .LNSTShild, .LNSTTime, .LNSTTimeH, .CharacterCTL, .CharacterTL, .LNSTrif, .LNSTRelig, .shopm {background-position: 50% 50%;background-size: cover;}
-        */
+    /*Covers*/
+.InspireB, .TechSW, .TechMainSW, .TechSecSW, .TechTripSW, .TechAloneSW, .TechMainHW, .book, .bookm, .saint, .saintm, .musicm, .videom, .arcadem, .arcadenes, .moviez, .FashBlogSW, .CodeSW, .CodeBadge, .AudioSW, .FashASW, .PhotoSW, .AdobeB, .PhotoGuideSW, .LNSTSYPB, .LNSTRACB, .LNSTShild, .LNSTTime, .LNSTTimeH, .CharacterCTL, .CharacterTL, .LNSTrif, .LNSTRelig, .shopm {background-position: 50% 50%;background-size: cover;}
 
-.InspireB,
-.TechSW,
-.TechMainSW,
-.TechSecSW,
-.TechTripSW,
-.TechAloneSW,
-.TechMainHW,
-.book,
-.bookm,
-.saint,
-.saintm,
-.musicm,
-.videom,
-.arcadem,
-.arcadenes,
-.moviez,
-.FashBlogSW,
-.CodeSW,
-.CodeBadge,
-.AudioSW,
-.FashASW,
-.PhotoSW,
-.AdobeB,
-.PhotoGuideSW,
-.LNSTSYPB,
-.LNSTRACB,
-.LNSTShild,
-.LNSTTime,
-.LNSTTimeH,
-.CharacterCTL,
-.CharacterTL,
-.LNSTrif,
-.LNSTRelig,
-.shopm {
-    background-position: 50% 50%;
-    background-size: cover;
-}
     /*Reference CSS Images
 
         LNST BLOG - ls(Sypnosis) - lr(Race) - ll(Shield) - tl(Timeline) - lf(Triforce) - lc(Religion)
@@ -369,592 +331,592 @@
                 .book, .book-bd {height: 300px; width: 200px;}
                 /*Desktop Books*/
                     .bd-CBE {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/A-History-Of-Central-Banking-And-The-Enslavement-Of Mankind.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/A-History-Of-Central-Banking-And-The-Enslavement-Of Mankind.png');
                     }
                     .bd-CHR {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Christogenea.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Christogenea.png');
                     }
                     .bd-COC {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Culture-of-Critique.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Culture-of-Critique.png');
                     }
                     .bd-MK {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Mein-Kampf.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Mein-Kampf.png');
                     }
                     .bd-TTTW {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/This-Time-The-World.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/This-Time-The-World.png');
                     }
                     .bd-TIJ {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/International-Jew.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/International-Jew.png');
                     }
                     .bd-WP {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/White-Power.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/White-Power.png');
                     }
                     .bd-HS {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Hell-Storm.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Hell-Storm.png');
                     }
                     .bd-TTD {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Turner-Diaries.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Turner-Diaries.png');
                     }
                     .bd-WWWM {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Which-Way-Western-Man.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Which-Way-Western-Man.png');
                     }
                     .bd-WEA {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Who-We-Are.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Who-We-Are.png');
                     }
                     .bd-ATR {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Anti-Tech-Revolution.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Anti-Tech-Revolution.png');
                     }
                     .bd-TJRS {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Jewish-Revolutionary-Spirit.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Jewish-Revolutionary-Spirit.png');
                     }
                     .bd-JMS {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Siege.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Siege.png');
                     }
                     .bd-WBRW {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Where-Black-Rules-Whites.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Where-Black-Rules-Whites.png');
                     }
                     .bd-TWL {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/D-Books/Tomorrow-We-Live.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Tomorrow-We-Live.png');
                     }
             /*Books Mobile*/
                 .bookm, .bookm-bm {height: 160px;width: 107px;}
                 /*Mobile Books*/
                     .bm-88 {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/88-Precepts.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/88-Precepts.png');
                     }
                     .bm-CBE {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/A-History-Of-Central-Banking-And-The-Enslavement-Of Mankind.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/A-History-Of-Central-Banking-And-The-Enslavement-Of Mankind.png');
                     }
                     .bm-ATR {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Anti-Tech-Revolution.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Anti-Tech-Revolution.png');
                     }
                     .bm-CHR {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Christogenea.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Christogenea.png');
                     }
                     .bm-COC {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Culture-of-Critique.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Culture-of-Critique.png');
                     }
                     .bm-FA {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Faith-and-Action.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Faith-and-Action.png');
                     }
                     .bm-FESD {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Fascist-Economics-and-Socialist-Duties.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Fascist-Economics-and-Socialist-Duties.png');
                     }
                     .bm-FML {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/For-My-Legionaries.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/For-My-Legionaries.png');
                     }
                     .bm-HS {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Hell-Storm.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Hell-Storm.png');
                     }
                     .bm-IJ {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/International-Jew.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/International-Jew.png');
                     }
                     .bm-TJRS {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Jewish-Revolutionary-Spirit.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Jewish-Revolutionary-Spirit.png');
                     }
                     .bm-MK {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Mein-Kampf.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Mein-Kampf.png');
                     }
                     .bm-MPOW {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Meta-Pysics-of-War.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Meta-Pysics-of-War.png');
                     }
                     .bm-NSB {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/National-Socialism-A-Biological-Worldview.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/National-Socialism-A-Biological-Worldview.png');
                     }
                     .bm-JMS {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Siege.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Siege.png');
                     }
                     .bm-TSL {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/The-Sun-and-the-Lightening.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/The-Sun-and-the-Lightening.png');
                     }
                     .bm-TTTW {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/This-Time-The-World.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/This-Time-The-World.png');
                     }
                     .bm-TWL {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Tomorrow-We-Live.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Tomorrow-We-Live.png');
                     }
                     .bm-TTD {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Turner-Diaries.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Turner-Diaries.png');
                     }
                     .bm-WBRW {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Where-Black-Rules-White.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Where-Black-Rules-White.png');
                     }
                     .bm-WWWM {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Which-Way-Western-Man.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Which-Way-Western-Man.png');
                     }
                     .bm-WP {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/White-Power.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/White-Power.png');
                     }
                     .bm-WEA {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/M-Books/Who-We-Are.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Who-We-Are.png');
                     }
         /*Writings*/
             .mailstamp {
-                background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/mailstamp.png');
+                background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/mailstamp.png');
                 height: 64px; width: 64px;}
             /*Saints Desktop*/
                 .saint, .saint-sd {height: 300px; width: 200px;}
                 /*Saints D-Write*/
                     .sd-Tarrant {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GreatReplacement.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GreatReplacement.png');
                     }
                     .sd-Roof {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
                     }
                     .sd-Roofss {
-                        background: url('./../../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
                     }
                     .sd-Breivik {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Breivik.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Breivik.png');
                     }
                     .sd-Earnest {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/OpenLetter.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/OpenLetter.png');
                     }
                     .sd-Kacz {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/IndustiralSociety.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/IndustiralSociety.png');
                     }
                     .sd-Hale {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EndWhiteSlavery.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EndWhiteSlavery.png');
                     }
             /*Saints Mobile*/
                 .saintm, .saintm-sm {height: 160px; width: 107px;}
                 /*Saints M-Write*/
                     .sm-Tarrant {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/GreatReplacement.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/GreatReplacement.png');
                     }
                     .sm-Roofss {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/ForgiveTypos.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/ForgiveTypos.png');
                     }
                     .sm-Breivik {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/Breivik.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/Breivik.png');
                     }
                     .sm-Earnest {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/OpenLetter.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/OpenLetter.png');
                     }
                     .sm-Earnestos {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/OurStand.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/OurStand.png');
                     }
                     .sm-Kacz {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/IndustiralSociety.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/IndustiralSociety.png');
                     }
                     .sm-Hale {
-                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/M-Saint/EndWhiteSlavery.png');
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/EndWhiteSlavery.png');
                     }
                 /*Support*/
                     .sd-Roofss {
-                        background: url('./../../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTyposSS.png');
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTyposSS.png');
                     }
                     .sd-EarnestLetterss {
-                        background: url('./../../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EarnestLetter.png');
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EarnestLetter.png');
                     }
                     .sd-Halesss {
-                        background: url('./../../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Hale.png');
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Hale.png');
                     }
                     .sd-BowerOpticss {
-                        background: url('./../../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GoingIn.png');
+                        background: url('./../../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GoingIn.png');
                     }
         /*Music*/
             .musicm, .musicm-mm {height: 120px; width: 120px;}
             /*Music Art*/
                 .mm-BWA {
-                    background: url('./../../../Images/Blog/zNatSoc/Music/Woke-Alone.png');
+                    background: url('./../../Images/Blog/zNatSoc/Music/Woke-Alone.png');
                 }
                 .mm-BKM {
-                    background: url('./../../../Images/Blog/zNatSoc/Music/Kampf-Mixtape2.png');
+                    background: url('./../../Images/Blog/zNatSoc/Music/Kampf-Mixtape2.png');
                 }
                 .mm-BNGA {
-                    background: url('./../../../Images/Blog/zNatSoc/Music/Nazi-Afr.png');
+                    background: url('./../../Images/Blog/zNatSoc/Music/Nazi-Afr.png');
                 }
                 .mm-BSO {
-                    background: url('./../../../Images/Blog/zNatSoc/Music/Screw-Optics.png');
+                    background: url('./../../Images/Blog/zNatSoc/Music/Screw-Optics.png');
                 }
                 .mm-REOC {
-                    background: url('./../../../Images/Blog/zNatSoc/Music/Enema-of-the-Caliphate.png');
+                    background: url('./../../Images/Blog/zNatSoc/Music/Enema-of-the-Caliphate.png');
                 }
                 .mm-RCB {
-                    background: url('./../../../Images/Blog/zNatSoc/Music/Blink1488.png');
+                    background: url('./../../Images/Blog/zNatSoc/Music/Blink1488.png');
                 }
                 .mm-RWDS {
-                    background: url('./../../../Images/Blog/zNatSoc/Music/RWDS.png');
+                    background: url('./../../Images/Blog/zNatSoc/Music/RWDS.png');
                 }
                 .mm-MOR {
-                    background: url('./../../../Images/Blog/zNatSoc/Music/Mork.png');
+                    background: url('./../../Images/Blog/zNatSoc/Music/Mork.png');
                 }
                 .mm-GST {
-                    background: url('./../../../Images/Blog/zNatSoc/Music/Great-Soundtrack.png');
+                    background: url('./../../Images/Blog/zNatSoc/Music/Great-Soundtrack.png');
                 }
         /*Videos*/
             .videom, .videom-vm {height: 169px; width: 300px;}
             /*PodCast*/
                 .vm-Christogenea {
-                    background: url('./../../../Images/Blog/zNatSoc/Video/Podcast/Christ.png');
+                    background: url('./../../Images/Blog/zNatSoc/Video/Podcast/Christ.png');
                 }
                 .vm-WhiteTube {
-                    background: url('./../../../Images/Blog/zNatSoc/Video/Podcast/WhiteTube.png');
+                    background: url('./../../Images/Blog/zNatSoc/Video/Podcast/WhiteTube.png');
                 }
             /*Vid Mobile*/
                 .vm-AHGSNT {
-                    background: url('./../../../Images/Blog/zNatSoc/Video/AHGSNT.png');
+                    background: url('./../../Images/Blog/zNatSoc/Video/AHGSNT.png');
                 }
                 .vm-HSTO {
-                    background: url('./../../../Images/Blog/zNatSoc/Video/HellStorm.png');
+                    background: url('./../../Images/Blog/zNatSoc/Video/HellStorm.png');
                 }
                 .vm-Europa {
-                    background: url('./../../../Images/Blog/zNatSoc/Video/Europa.png');
+                    background: url('./../../Images/Blog/zNatSoc/Video/Europa.png');
                 }
                 .vm-BHHSA {
-                    background: url('./../../../Images/Blog/zNatSoc/Video/BHHWISA.png');
+                    background: url('./../../Images/Blog/zNatSoc/Video/BHHWISA.png');
                 }
                 .vm-GLR {
-                    background: url('./../../../Images/Blog/zNatSoc/Video/GLRNS.png');
+                    background: url('./../../Images/Blog/zNatSoc/Video/GLRNS.png');
                 }
                 .vm-WLP {
-                    background: url('./../../../Images/Blog/zNatSoc/Video/WLPNS.png');
+                    background: url('./../../Images/Blog/zNatSoc/Video/WLPNS.png');
                 }
                 .vm-100P {
-                    background: url('./../../../Images/Blog/zNatSoc/Video/100Proofs.png');
+                    background: url('./../../Images/Blog/zNatSoc/Video/100Proofs.png');
                 }
                 .vm-MoreV {
-                    background: url('./../../../Images/Blog/zNatSoc/Video/MoreVid.png');
+                    background: url('./../../Images/Blog/zNatSoc/Video/MoreVid.png');
                 }
         /*Arcade*/
             .arcadem, .arcadem-am {height: 110px; width: 250px;}
             /*Arcade Mobile*/
                 .am-AG {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/AG.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/AG.png');
                 }
                 .am-AG2 {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/AG2.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/AG2.png');
                 }
                 .am-MMI {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/MMI.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/MMI.png');
                 }
                 .am-ZN {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/ZN.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/ZN.png');
                 }
                 .am-ZN2 {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/ZN2.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/ZN2.png');
                 }
                 .am-RG {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Resist.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Resist.png');
                 }
         /*Emulators*/
                 .am-NES {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/Nes.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/zEmulator/Nes.png');
                 }
                 .am-GEN {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/Fusion.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/zEmulator/Fusion.png');
                 }
                 .am-DS{
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/DS.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/zEmulator/DS.png');
                 }
                 .am-GB {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/GameBoy.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/zEmulator/GameBoy.png');
                 }
                 .am-N64 {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/Nintendo64.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/zEmulator/Nintendo64.png');
                 }
                 .am-GC {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/zEmulator/GameCube.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/zEmulator/GameCube.png');
                 }
 
         /*NES*/
             .arcadenes, .arcadenes-NES {height: 273px; width: 200px;}
             /*Nes Games*/
                 .NES-TAF {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Addams_Family.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/Addams_Family.png');
                 }
                 .NES-AI {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Adventure_Island.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/Adventure_Island.png');
                 }
                 .NES-AOL {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/adventures-of-lolo.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/adventures-of-lolo.png');
                 }
                 .NES-CV {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/CastleVania.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/CastleVania.png');
                 }
                 .NES-CD {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/chip-n-dale-rescue-rangers.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/chip-n-dale-rescue-rangers.png');
                 }
                 .NES-Cryst {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Crystalis.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/Crystalis.png');
                 }
                 .NES-DT{
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/duck-tales.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/duck-tales.png');
                 }
                 .NES-LN {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/LN.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/LN.png');
                 }
                 .NES-MAR {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Mario.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/Mario.png');
                 }
                 .NES-MAR3 {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Mario3.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/Mario3.png');
                 }
                 .NES-MG {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/metal-gear.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/metal-gear.png');
                 }
                 .NES-TC {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/t-c-surf-design.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/t-c-surf-design.png');
                 }
                 .NES-TMNT {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/TMNT.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/TMNT.png');
                 }
                 .NES-Zelda {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Zelda.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/Zelda.png');
                 }
                 .NES-Zelda2 {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/NES/Zelda2.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/NES/Zelda2.png');
                 }
 
         /*Sega*/
             .arcadeseg, .arcadeseg-SEG {height: 273px; width: 200px;}
             /*Sega Games*/
                 .SEG-AB {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/AB.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/AB.png');
                 }
                 .SEG-AA {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Aero.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/Aero.png');
                 }
                 .SEG-Aladdin {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Aladdin.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/Aladdin.png');
                 }
                 .SEG-Asterix {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Asterix.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/Asterix.png');
                 }
                 .SEG-BartsNightMare {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/TSBN.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/TSBN.png');
                 }
                 .SEG-BB {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/BandB.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/BandB.png');
                 }
                 .SEG-BA {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/BA.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/BA.png');
                 }
                 .SEG-Bubsy {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/BUB.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/BUB.png');
                 }
                 .SEG-Cosmic {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Cosmic.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/Cosmic.png');
                 }
                 .SEG-Echo {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/ECHO.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/ECHO.png');
                 }
                 .SEG-MK {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/MK.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/MK.png');
                 }
                 .SEG-QuackShot {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/QS.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/QS.png');
                 }
                 .SEG-RocketKnight {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/RocketKnight.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/RocketKnight.png');
                 }
                 .SEG-ScoobyDoo {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/ScoobyDoo.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/ScoobyDoo.png');
                 }
                 .SEG-SportBase {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/STBase.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/STBase.png');
                 }
                 .SEG-SportHockey {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/NHL.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/NHL.png');
                 }
                 .SEG-SportBall {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/STFoot.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/STFoot.png');
                 }
                 .SEG-Sonic {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Sonic2.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/Sonic2.png');
                 }
                 .SEG-Valis {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/Valis2.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/Valis2.png');
                 }
                 .SEG-WOI {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/WOI.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/WOI.png');
                 }
                 .SEG-xMutants {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/SEGA/xMutant.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/SEGA/xMutant.png');
                 }
         /*N64*/
             .arcaden64, .arcaden64-N64 {height: 183px; width: 250px;}
             /*N64 Games*/
                 .N64-007 {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/007.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/007.png');
                 }
                 .N64-CBFD {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/CBFD.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/CBFD.png');
                 }
                 .N64-DKR {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/DK-Racing.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/DK-Racing.png');
                 }
                 .N64-FZX {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/FZX.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/FZX.png');
                 }
                 .N64-MARR {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/Mario-Racing.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/Mario-Racing.png');
                 }
                 .N64-MI {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/MI.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/MI.png');
                 }
                 .N64-PokeSnap {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/PokeSnap.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/PokeSnap.png');
                 }
                 .N64-Q64 {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/Quest64.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/Quest64.png');
                 }
                 .N64-SB {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/SB.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/SB.png');
                 }
                 .N64-SF {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/SF.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/SF.png');
                 }
                 .N64-SM64 {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/SM64.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/SM64.png');
                 }
                 .N64-SouthPark {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/SouthPark.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/SouthPark.png');
                 }
                 .N64-SWPR {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/SW-PR.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/SW-PR.png');
                 }
                 .N64-TZ {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/Tarzan.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/Tarzan.png');
                 }
                 .N64-ZMM {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/Zelda-mm.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/Zelda-mm.png');
                 }
                 .N64-ZOOT {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/N64/Zelda-oot.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/N64/Zelda-oot.png');
                 }
         /*DS*/
             .arcadeds, .arcadeds-DS {height: 180px; width: 200px;}
             /*DS Games*/
                 .DS-PH {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-ph.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-ph.png');
                 }
                 .DS-ST {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-st.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-st.png');
                 }
                 .DS-LBW {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/ZeldaBWorlds.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/ZeldaBWorlds.png');
                 }
         /*GB*/
             .arcadegb, .arcadegb-DS {height: 200px; width: 200px;}
             /*GBColor Games*/
                 .DS-Ages {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-ages.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-ages.png');
                 }
                 .DS-Seas {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-season.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-season.png');
                 }
                 .DS-LADX {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-awakendx.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-awakendx.png');
                 }
             /*Advance Games*/
                 .DS-MinC {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-mc.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-mc.png');
                 }
                 .DS-foursword {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-fs.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-fs.png');
                 }
                 .DS-OrigGBA {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda1-GBA.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda1-GBA.png');
                 }
                 .DS-Orig2GBA {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda2-GBA.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda2-GBA.png');
                 }
             /*GameBoy Games*/
                 .DS-LinkA {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/linka-gb.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/linka-gb.png');
                 }
         /*GC*/
             .arcagen, .arcagen-GC {height: 280px; width: 200px;}
             /*GC Games*/
                 .GC-ZC {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-collect.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-collect.png');
                 }
                 .GC-WW {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-WW.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-WW.png');
                 }
                 .GC-TP {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-tp.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-tp.png');
                 }
                 .GC-FSA {
-                    background: url('./../../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-fsa.png');
+                    background: url('./../../Images/Blog/zNatSoc/Arcade/Zelda/Zelda-fsa.png');
                 }
 
         /*Movies*/
             .moviez, .moviez-md {height: 300px; width: 200px;}
             /*Movie Mobile*/
                 .md-BLT {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Brave-Little-Toaster.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Brave-Little-Toaster.png');
                 }
                 .md-Nine {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/9m.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/9m.png');
                 }
                 .md-CHL {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Cool-Hand-Luke.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Cool-Hand-Luke.png');
                 }
                 .md-FC {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/FightClub.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/FightClub.png');
                 }
                 .md-GAG {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/God-&-Generals.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/God-&-Generals.png');
                 }
                 .md-INT {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/In-Time.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/In-Time.png');
                 }
                 .md-LN {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Little-Nemo.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Little-Nemo.png');
                 }
                 .md-MN {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/mrnobody.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/mrnobody.png');
                 }
                 .md-OUAF {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Once-Upon-a-Forrest.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Once-Upon-a-Forrest.png');
                 }
                 .md-PAP {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Papillion.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Papillion.png');
                 }
                 .md-PIF {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Pay-It-Forward.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Pay-It-Forward.png');
                 }
                 .md-POP {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Popeye.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Popeye.png');
                 }
                 .md-POW {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Powder.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Powder.png');
                 }
                 .md-PUFF {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Puff.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Puff.png');
                 }
                 .md-SOAW {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Soaw.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Soaw.png');
                 }
                 .md-VS {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/Vanilla-Sky.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/Vanilla-Sky.png');
                 }
                 .md-BLIST {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/BlackList.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/TvShow/BlackList.png');
                 }
                 .md-BBAD {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/BreakingBad.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/TvShow/BreakingBad.png');
                 }
                 .md-CONTI {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/Continuum.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/TvShow/Continuum.png');
                 }
                 .md-DEX {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/Dexter.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/TvShow/Dexter.png');
                 }
                 .md-DOLL {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/DollHouse.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/TvShow/DollHouse.png');
                 }
                 .md-NIPT {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/NipTuck.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/TvShow/NipTuck.png');
                 }
                 .md-PB {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/PrisonBreak.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/TvShow/PrisonBreak.png');
                 }
                 .md-WENTW {
-                    background: url('./../../../Images/Blog/zNatSoc/Movie/TvShow/WentWorth.png');
+                    background: url('./../../Images/Blog/zNatSoc/Movie/TvShow/WentWorth.png');
                 }
     /**************/
     /*FashBlog*/
@@ -1869,12 +1831,12 @@
     /*Adobe*/
 
    /*Contact*/
-        .cont-Gab, .cont-Minds, .cont-Teleg, .cont-SessI, .cont-Sess {border: 0; height: 88px; width: 88px;}
+        .cont-Gab, .cont-Minds, .cont-Teleg, .cont-SessI, .cont-Sess {border: 0; height: 78px; width: 78px;}
         .cont-Gab {
             background: url('./../../Images/Blog/zNatSoc/Contact/gabicon.png');
         }
         .cont-Minds {
-            background: url('./../..//Images/Blog/zNatSoc/Contact/mindsicon.png');
+            background: url('./../../Images/Blog/zNatSoc/Contact/mindsicon.png');
         }
         .cont-Teleg {
             background: url('./../../Images/Blog/zNatSoc/Contact/teleicon.png');
@@ -1882,26 +1844,29 @@
         .cont-SessI {
             background: url('./../../Images/Blog/zNatSoc/Contact/Sessicon.png');
         }
+        .cont-Sess {
+            background: url('./../../Images/Blog/zNatSoc/Contact/Session.png');
+        }
     /*Affiliates*/
         .spon-Glass, .spon-Brave, .spon-Wond, .feat-Empire, .feat-100, .feat-Bianca {width: 281px;}
         .spon-Glass {
-            background: url('./../../../Images/a/Spon/GlassWire-Blog.png');
+            background: url('./../../Images/a/Spon/GlassWire-Blog.png');
         }
         .spon-Brave {
-            background: url('./../../../Images/a/Spon/Brave-Blog.png');
+            background: url('./../../Images/a/Spon/Brave-Blog.png');
         }
         .spon-Wond {
-            background: url('./../../../Images/a/Spon/WonderShare-Blog.png');
+            background: url('./../../Images/a/Spon/WonderShare-Blog.png');
         }
     /*Feat Vids*/
         .feat-Empire {
-            background: url('./../../../Images/a/FeatVid/Empire-F.png');
+            background: url('./../../Images/a/FeatVid/Empire-F.png');
         }
         .feat-100 {
-            background: url('./../../../Images/a/FeatVid/100-T.png');
+            background: url('./../../Images/a/FeatVid/100-T.png');
         }
         .feat-Bianca {
-            background: url('./../../../Images/a/FeatVid/Biana.png');
+            background: url('./../../Images/a/FeatVid/Biana.png');
         }
         .cont-Gab, .cont-Minds, .cont-Teleg, .cont-SessI, .cont-Sess, .item-bitp, .weeklyS, .freshS, .holiS, .spon-Glass, .spon-Brave, .spon-Wond, .feat-Empire, .feat-100, .feat-Bianca {background-position: 50% 50%; background-size: cover;}
     /*Shop Deals*/
@@ -1918,11 +1883,11 @@
             .weeklyS, .freshS, .holiS{height: 110px; width: 250px;}
         /*Deal Images*/
             .weeklyS {
-                background: url('./../../../Images/Blog/zNatSoc/Shop/weekly-p.jpg');
+                background: url('./../../Images/Blog/zNatSoc/Shop/weekly-p.jpg');
             }
             .freshS {
-                background: url('./../../../Images/Blog/zNatSoc/Shop/start-p.jpg');
+                background: url('./../../Images/Blog/zNatSoc/Shop/start-p.jpg');
             }
             .holiS {
-                background: url('./../../../Images/Blog/zNatSoc/Shop/holi-p.jpg');
+                background: url('./../../Images/Blog/zNatSoc/Shop/holi-p.jpg');
             }
