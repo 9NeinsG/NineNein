@@ -45,7 +45,7 @@ function copyContentsdc(){var e=$("<input>"),n=$("#doge_coin").text();$("body").
 $("#siteNav").affix({offset:{top:100}}),$("#FSsiteNav").affix({offset:{top:100}});
 //devnav(Internal) - mainnav(Production)
 $('#sitehead').load("./Frame/Layout/1_Navigation/header.html");
-$('#siteNav').load("./Frame/Layout/1_Navigation/devnav.html");
+$('#siteNav').load("./Frame/Layout/1_Navigation/mainnav.html");
 $('#FSsiteNav').load("../../Frame/Layout/1_Navigation/mainnav.html");
 //Foot
     $('#footy').load("./Frame/Layout/1_Navigation/mainfoot.html");
@@ -84,7 +84,7 @@ $('#sitehead').load("../../../Frame/Layout/1_Navigation/header.html");
 $('#BEsiteNav').load("./../../../Frame/Layout/1_Navigation/mainnav.html");
 //Footer
     $('#BEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
-    $('#BEEfooty').load("./../../Frame/Layout/1_Navigation/mainfoot.html");
+    $('#BEEfooty').load("../../../Frame/Layout/1_Navigation/mainfoot.html");
 
 $('#BlnstsiteNav').load("./../../../Frame/Layout/1_Navigation/mainnav.html");
 //Search
