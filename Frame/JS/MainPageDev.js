@@ -73,6 +73,8 @@ $('#sitehead').load("../../Frame/Layout/1_Navigation/header.html");
 $('#BnssiteNav').load("../../Frame/Layout/1_Navigation/devnav.html");
 //Foot
     $('#Bnssfooty').load("../../Frame/Layout/1_Navigation/mainfoot.html");
+    $('#BEEfooty').load("../../Frame/Layout/1_Navigation/mainfoot.html");
+
 //Search
 $('#Bsearch').load("./../JS/SearchQuery.js");
 
@@ -81,10 +83,10 @@ $('#Bsearch').load("./../JS/SearchQuery.js");
 $('#BEsiteNav').affix({offset:{top:100}}),$('#BlnstsiteNav').affix({offset:{top:100}});
 //devnav(Internal) - mainnav(Production)
 $('#sitehead').load("../../../Frame/Layout/1_Navigation/header.html");
-$('#BEsiteNav').load("./../../../Frame/Layout/1_Navigation/devnav.html");
+$('#BEsiteNav').load("../../../Frame/Layout/1_Navigation/devnav.html");
 //Footer
     $('#BEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
-    $('#BEEfooty').load("../../../Frame/Layout/1_Navigation/mainfoot.html");    
+    $('#BEEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
 
 $('#BlnstsiteNav').load("./../../../Frame/Layout/1_Navigation/devnav.html");
 //Search
@@ -109,9 +111,6 @@ $(document).ready(function() {
 //First Tier Starts Here//
 //////////////////////////
 
-//Nav
-    $('#footy').load("./Frame/Layout/1_Navigation/mainfoot.html");
-    $('#FSfooty').load("../../Frame/Layout/1_Navigation/mainfoot.html");
     //Intro
     $('#homi').load("./Frame/Layout/2_Intro/homeintro.html");
     $('#blogi').load("./Frame/Layout/2_Intro/blogintro.html");
@@ -144,7 +143,6 @@ $(document).ready(function() {
 //Second Tier Starts Here//
 //////////////////////////
 
-    $('#Bfooty').load("./../Frame/Layout/Navigation/mainfoot.html");
     //Intro
     $('#nineini').load("./../Frame/Layout/2_Intro/nineneinintro.html");
     $('#greyeri').load("./../Frame/Layout/2_Intro/greyingintro.html");
@@ -161,9 +159,6 @@ $(document).ready(function() {
 //Third Tier Starts Here//
 //////////////////////////
 
-//Nav
-    $('#BEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
-    $('#BEEfooty').load("./../../../Frame/Layout/1_Navigation/mainfoot.html");
 //NatSoc
 //Intro
     $('#booki').load("./../../Frame/Layout/2_Intro/bookintro.html");
@@ -226,7 +221,7 @@ $(document).ready(function() {
     //LNST Shield SideBar
     $('#LNSTshieSideBar').load("../../../Frame/Layout/4_SideBars/BLNST/sheiasidebar.html");
 //GAB SideBar
-    $('#GabSSide').load("../../Frame/Layout/4_SideBars/Gab/gabSidebar.html");
+    $('#GabSSide').load("../../../Frame/Layout/4_SideBars/Gab/gabSidebar.html");
     $('#GitSSide').load("../../../Frame/Layout/4_SideBars/Git/gitSidebar.html");
     //SS SideBar
     $('#SSSaints').load("../../../Frame/Layout/4_SideBars/BSupport/SupportSideBar.html");  
@@ -354,7 +349,7 @@ $(document).ready(function() {
 
 //Link NatSoc Theory
     //Mask
-        $('#masked-d').load("./../../../Import/Blog/LNST/Bontent/Shield/Mask/Maskm.html");
+        $('#masked-d').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Mask/Maskm.html");
     //Intro 
         //Sypnosis
         $('#syplnsti').load("./../../../Frame/Layout/2_Intro/BLNST/sypnlnstintro.html");
@@ -371,51 +366,56 @@ $(document).ready(function() {
 
     //Content
     //Alert
-    $('#syplnstia').load("./../../../Import/Blog/LNST/Bontent/Layout/Alerts/TextNotification.html");  
-        $('#LNSTY').load("./../../../Import/Blog/LNST/Bontent/IntroAcross/WhyI.html");
+    $('#syplnstia').load("./../../../Frame/Layout/3_Content/BLNST/Layout/Alerts/TextNotification.html");  
+        $('#LNSTY').load("./../../../Frame/Layout/3_Content/BLNST/IntroAcross/WhyI.html");
     //Sypnosis
-    $('#syplnstm').load("./../../../Import/Blog/LNST/Bontent/Syp/sypnmob.html");
+    $('#syplnstm').load("./../../../Frame/Layout/3_Content/BLNST/Syp/sypnmob.html");
     //Shield
-    $('#shielnstHED').load("./../../../Import/Blog/LNST/Bontent/Shield/Shields/aHeader.html");
-        $('#shielnstGPH').load("./../../../Import/Blog/LNST/Bontent/Shield/Shields/Shielded.html");
-        $('#shielnstDeku').load("./../../../Import/Blog/LNST/Bontent/Shield/Shields/Deku/Shield.html");
-        $('#shielnstHylian').load("./../../../Import/Blog/LNST/Bontent/Shield/Shields/Hylian/Shield.html");
-        $('#shielnstMirror').load("./../../../Import/Blog/LNST/Bontent/Shield/Shields/Mirror/Shield.html");
-        $('#shielnstm').load("./../../../Import/Blog/LNST/Bontent/Shield/shieldmob.html");
+    $('#shielnstHED').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Shields/aHeader.html");
+        $('#shielnstGPH').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Shields/Shielded.html");
+        $('#shielnstDeku').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Shields/Deku/Shield.html");
+        $('#shielnstHylian').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Shields/Hylian/Shield.html");
+        $('#shielnstMirror').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Shields/Mirror/Shield.html");
+        $('#shielnstm').load("./../../../Frame/Layout/3_Content/BLNST/Shield/shieldmob.html");
         //Music
-        $('#shielnstTuneMenu').load("./../../../Import/Blog/LNST/Bontent/Shield/Music/MusicTune.html");
-            $('#shielnstTuneGPH').load("./../../../Import/Blog/LNST/Bontent/Shield/Music/Songs/Tunes.html");
+        $('#shielnstTuneMenu').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Music/MusicTune.html");
+            $('#shielnstTuneGPH').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Music/Songs/Tunes.html");
         //Masks
-        $('#shielnstMaskMenu').load("./../../../Import/Blog/LNST/Bontent/Shield/Mask/Masked.html");
-            $('#shielnstMaskGPH').load("./../../../Import/Blog/LNST/Bontent/Shield/Mask/MDetail/MaskSelect.html");
-            $('#shielnstMaskDET').load("./../../../Import/Blog/LNST/Bontent/Shield/Mask/MDetail/Maskm.html");
+        $('#shielnstMaskMenu').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Mask/Masked.html");
+            $('#shielnstMaskGPH').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Mask/MDetail/MaskSelect.html");
+            $('#shielnstMaskDET').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Mask/MDetail/Maskm.html");
         //Colors 
-        $('#shielnstColorMenu').load("./../../../Import/Blog/LNST/Bontent/Shield/Colors/aHeader.html");
-            $('#shielnstColorsGPH').load("./../../../Import/Blog/LNST/Bontent/Shield/Colors/Colors.html");
+        $('#shielnstColorMenu').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Colors/aHeader.html");
+            $('#shielnstColorsGPH').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Colors/Colors.html");
         //Swords 
-        $('#shielnstSwordedMenu').load("./../../../Import/Blog/LNST/Bontent/Shield/Swords/aHeader.html");
-            $('#shielnstSwordedGPH').load("./../../../Import/Blog/LNST/Bontent/Shield/Swords/Sworded.html");
+        $('#shielnstSwordedMenu').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Swords/aHeader.html");
+            $('#shielnstSwordedGPH').load("./../../../Frame/Layout/3_Content/BLNST/Shield/Swords/Sworded.html");
     //TimeLine
-    $('#timelnstm').load("./../../../Import/Blog/LNST/Bontent/TimeLine/timelinemob.html");
-    $('#SkyWard').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/SkywardSword/SkyMenu.html");
-    $('#LinkA').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/LinksAwakening/LinksAwakeMenu.html");
-    $('#WindWake').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/Flood/WindWaker/WinWakeMenu.html");
-    //$('#Phantom').load("./../../Import/Blog/LNST/Bontent/TimeLine/Chapter/Flood/PhantomHourGlass/");
-    //$('#Spirit').load("./../../Import/Blog/LNST/Bontent/TimeLine/Chapter/Flood/SpiritTracks/");
-    $('#OracleS').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/ImprisioningWar/Seasons/SeasonMenu.html");
-    $('#Majora').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/MajoraMask/MajoraMenu.html");
-    $('#Minish').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/MinishCap/MinishMenu.html");
-    $('#OracleA').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/ImprisioningWar/Ages/AgesMenu.html");
-    $('#FourSword').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/4Swords/4SMenu.html");
-    $('#Ocarina').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/OcarinaOfTime/OcarinaMenu.html");
-    $('#Twilight').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/TwilightPrincess/TwilightMenu.html");
-    $('#FSA').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/4Swords Adventure/4SAMenu.html");
+    $('#timelnstm').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/timelinemob.html");
+    $('#SkyWard').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/SkywardSword/SkyMenu.html");
+    $('#LinkA').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/LinksAwakening/LinksAwakeMenu.html");
+    $('#WindWake').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/Flood/WindWaker/WinWakeMenu.html");
+    //$('#Phantom').load("./../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/Flood/PhantomHourGlass/");
+    //$('#Spirit').load("./../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/Flood/SpiritTracks/");
+    $('#OracleS').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/ImprisioningWar/Seasons/SeasonMenu.html");
+    $('#Majora').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/MajoraMask/MajoraMenu.html");
+    $('#Minish').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/MinishCap/MinishMenu.html");
+    $('#OracleA').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/ImprisioningWar/Ages/AgesMenu.html");
+    $('#FourSword').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/4Swords/4SMenu.html");
+    $('#Ocarina').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/OcarinaOfTime/OcarinaMenu.html");
+    $('#Twilight').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/TwilightPrincess/TwilightMenu.html");
+    $('#FSA').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/4Swords Adventure/4SAMenu.html");
     //TimeLineSplit
-    $('#TimeSplit').load("./../../../Import/Blog/LNST/Bontent/TimeLine/Chapter/SplitTime/TLSplit.html");  
+    $('#TimeSplit').load("./../../../Frame/Layout/3_Content/BLNST/TimeLine/Chapter/SplitTime/TLSplit.html");  
     //Triforce
-    $('#triflnstm').load("./../../../Import/Blog/LNST/Bontent/TriForce/triforcemob.html");
+    $('#triflnstm').load("./../../../Frame/Layout/3_Content/BLNST/TriForce/triforcemob.html");
     //Race
-    $('#racilnstm').load("./../../../Import/Blog/LNST/Bontent/Race/racemob.html");
+    $('#racilnstm').load("./../../../Frame/Layout/3_Content/BLNST/Race/racemob.html");
     //Religion
-    $('#relilnstm').load("./../../../Import/Blog/LNST/Bontent/Religion/religionmob.html");
+    $('#relilnstm').load("./../../../Frame/Layout/3_Content/BLNST/Religion/religionmob.html");
+
+    //BulletPoints
+        //Majora Mask
+        $('#MMMASKTLB').load("./../../../Frame/Layout/3_Content/BLNST/Bullets/treeweb.html");})
+
 })
