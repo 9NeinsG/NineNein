@@ -226,7 +226,7 @@ $(document).ready(function() {
     //LNST Shield SideBar
     $('#LNSTshieSideBar').load("../../../Frame/Layout/4_SideBars/BLNST/sheiasidebar.html");
 //GAB SideBar
-    $('#GabSSide').load("../../../Frame/Layout/4_SideBars/Gab/gabSidebar.html");
+    $('#GabSSide').load("../../Frame/Layout/4_SideBars/Gab/gabSidebar.html");
     $('#GitSSide').load("../../../Frame/Layout/4_SideBars/Git/gitSidebar.html");
     //SS SideBar
     $('#SSSaints').load("../../../Frame/Layout/4_SideBars/BSupport/SupportSideBar.html");  
