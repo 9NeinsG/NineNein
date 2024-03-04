@@ -296,6 +296,18 @@
             .swt-TechFFFolder {
                 background: url('./../../Images/Blog/SoftWare/Folders/FontForge.png');
                 }
+            .swt-TechSLFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/SubLimeInstall.png');
+                }
+            .swt-TechPTFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/ProTools11Install.png');
+                }
+            .swt-TechADOFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/AdobeCs6Folder.png');
+                }
+            .swt-GreyLnstFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/LNST.png');
+                }
 
         /*HardWare Main*/
             .TechMainHW, .TechMainHW-swt {height: 169px; width: 300px;}
