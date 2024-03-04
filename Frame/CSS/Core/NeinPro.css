@@ -105,6 +105,7 @@ body {
   .icon9-zelda:before{content:'\f3b8';}
 hgroup {margin-bottom: 25px;
         scroll-margin-top: 6rem;} 
+
 .ninetouch {overflow: auto;}
 
 * {
@@ -124,7 +125,6 @@ div#prisoner_mail_letter_top {align-items: stretch; display: flex; justify-conte
 div#prisoner_mail_letter_top div {width: 50%;}
 div#prisoner_mail_letter_top div#prisoner_mail_letter_stamp img {float: right; height: auto; width: 64px;}
 div#prisoner_mail_letter_bottom div#prisoner_mail_letter_address  {text-align: center;}
-
 
 .col-MainX, .col-ContX, .col-SideX, .col-lg-MainL, .col-lg-ContL, .col-lg-SideL, .col-MainM, .col-ContM, .col-SideM, .col-sm-MainS, .col-sm-ContS, .col-sm-SideS {
     min-height: 1px;
@@ -352,7 +352,7 @@ th {padding: 0;}
 
 /**************/
 /*Site WeB IMAGES*/
-.promo, .promo h3, .promo a:link, .promo a:visited, .promo a:hover, .promo a:active {color: darkgrey;text-align: center;text-decoration: none;text-shadow: 0 0 40px black;}.promo-item {height: 200px;line-height: 180px;text-align: center;width: 196px;}.promo-item:hover {background-size: 110%;border: 10px solid rgba(255, 255, 255, 0.3);line-height: 160px;}.promo-item h3 {display: inline-block;font-size: 40px;vertical-align: middle;width: 100%;}
+.promo, .promo h3, .promo a:link, .promo a:visited, .promo a:hover, .promo a:active {color: darkgrey;text-align: center;text-decoration: none;text-shadow: 0 0 40px black;}.promo-item {height: 200px;line-height: 180px;text-align: center;width: 196px;}.promo-item:hover {background-size: 125%;border: 10px solid rgba(255, 255, 255, 0.3);line-height: 160px;}.promo-item h3 {display: inline-block;font-size: 40px;vertical-align: middle;width: 100%;}
 /**************/
 
 html {font-size: 10px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
@@ -375,7 +375,7 @@ img {vertical-align: middle;}
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
-.carousel-inner > .item > a > img {display: block;height: auto; max-width: 100%;}
+.carousel-inner > .item > a > img { height: auto; max-width: 100%;}
 .img-rounded {border-radius: 6px;}
 .img-thumbnail {background-color: #fff; border: 1px solid #ddd; border-radius: 4px; display: inline-block; height: auto; line-height: 1.42857143; max-width: 100%; padding: 4px;
   -webkit-transition: all .2s ease-in-out;
@@ -660,6 +660,7 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .navcontainer {
   margin-left: auto;
   margin-right: auto;
@@ -2406,6 +2407,7 @@ tbody.collapse.in {
 .btn-group-justified > .btn-group .dropdown-menu {
   left: auto;
 }
+
 [data-toggle="buttons"] > .btn input[type="radio"],
 [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
 [data-toggle="buttons"] > .btn input[type="checkbox"],
@@ -2769,7 +2771,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 20px;
   margin-left: 0;
   margin-right: 0;
-  min-height: 50px;
   position: relative;
 }
 @media (min-width: 768px) {
@@ -3111,7 +3112,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
   }
 }
-.navbar-default {
+/*.navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
     /*buggy transition
@@ -3119,7 +3120,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     -moz-transition: all .35s;
     transition: all .35s;
     */
-}
+
 .navbar-default .navbar-brand {
   color: #777;
 }
@@ -3212,6 +3213,7 @@ fieldset[disabled] .navbar-default .btn-link:hover,
 fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
+/*
 .navbar-inverse {
   background-color: #222;
   border-color: #080808;
@@ -3314,6 +3316,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
+*/
 .breadcrumb {
   background-color: #f5f5f5;
   border-radius: 4px;
