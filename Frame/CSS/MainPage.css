@@ -34,6 +34,171 @@
     flex-direction: column;
 }
 
+/*Read Icons*/
+/*Software, HardWare, FAQ*/
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+
+.SHFREAD [data-toggle="collapse"]:after {
+    font-family: 'NineNeins-Glyph';
+    content: "\e142"; /* "play" icon */
+    float: right;
+    color: blue;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.SHFREAD [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+}
+
+/*LNST*/
+.LnstHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+
+.LNSTREAD [data-toggle="collapse"]:after {
+    font-family: 'NineNeins-Glyph';
+    content: "\f3b8"; /* "play" icon */
+    float: right;
+    color: lightgreen;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-0deg);
+    -moz-transform: rotate(-0deg);
+    -ms-transform: rotate(-0deg);
+    -o-transform: rotate(-0deg);
+    transform: rotate(-0deg);
+}
+
+.LNSTREAD [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #454444;
+}
+
+/*FashCode*/
+.FashCHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+
+.FashC [data-toggle="collapse"]:after{
+    color: #454444;
+    content: "\e088"; /* "play" icon */
+    float: right;
+    font-family: 'NineNeins-Glyph';
+    font-size: 18px;
+    line-height: 22px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.FashC [data-toggle="collapse"]:after {
+    color: orange;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.FashC [data-toggle="collapse"].collapsed:before {
+    color: #454444;
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*FashAudio*/
+.FashAHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+
+.FashA [data-toggle="collapse"]:after {
+    font-family: 'NineNeins-Glyph';
+    content: "\e210"; /* "play" icon */
+    float: right;
+    color: purple;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-0deg);
+    -moz-transform: rotate(-0deg);
+    -ms-transform: rotate(-0deg);
+    -o-transform: rotate(-0deg);
+    transform: rotate(-0deg);
+}
+
+.FashA [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #454444;
+}
+
+/*FashPhoto*/
+.FashPHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+
+.FashP [data-toggle="collapse"]:not(.collapsed) {
+    font-family: 'NineNeins-Glyph';
+    content: "\e060"; /* "play" icon */
+    float: right;
+    color: lightblue;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-0deg);
+    -moz-transform: rotate(-0deg);
+    -ms-transform: rotate(-0deg);
+    -o-transform: rotate(-0deg);
+    transform: rotate(-0deg);
+}
+
+.FashP [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #454444;
+}
+
 /*Text Properties*/
 
     /* Links */
@@ -750,22 +915,22 @@ img::-moz-selection {
     .panel-row {
         margin-bottom: 5px;
     }
-    .cat-main-box .panel {
+    .cat-main-box .panel .panel-blog {
         border-radius: 3px;
         -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .03);
         box-shadow: 0 5px 8px rgba(0, 0, 0, .03);
         position: relative;
         margin-top: -15px;
     }
-    .cat-main-box .panel .panel-body {
+    .cat-main-box .panel .panel-blog .panel-body {
         padding: 10px 0px;
         /*padding: 20px 5px;
         background: #fff;*/
     }
-    .cat-main-box .panel .icon-small {
+    .cat-main-box .panel .panel-blog .icon-small {
         margin-bottom: 0;
     }
-    .cat-main-box .panel h4 {
+    .cat-main-box .panel .panel-blog h4 {
         color: #333;
         font-size: 22px;
         font-weight: 400;
@@ -773,6 +938,16 @@ img::-moz-selection {
         margin-bottom: 0;
         font-family: 'Raleway', sans-serif;
     }
+
+    .panel-blog {
+        background: #f5f5f5;
+        font-size: 14px;
+        font-weight: 600;
+        height: 50px;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+
     .cat-main-box .panel .panel-body p {
         height: 50px;
         margin-bottom: 0;
@@ -786,6 +961,9 @@ img::-moz-selection {
     }
     .panel-body {
         background: #f5f5f5;
+    }
+    .panel-body-blog {
+        background: #222;
     }
     .landing-panel-body {
       padding: 3px;
