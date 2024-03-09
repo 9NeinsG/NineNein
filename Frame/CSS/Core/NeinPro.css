@@ -759,7 +759,6 @@ pre code {
         margin: 0;
         padding: 0;
         position: relative;
-        z-index: 0;
     }
     .g_mw {max-width: 100%}
     .g_flew_row {flex-direction: row;}
