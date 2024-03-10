@@ -190,8 +190,31 @@ $(document).ready(function() {
     $('#moview').load("./../../Frame/Layout/6_ReadMore/movieinfowrap.html");
 
 //Support
-    $('#LetterG').load("./../../Frame/Layout/6_ReadMore/BSupport/LetterGuidelines.html");
-    $('#CommisM').load("./../../Frame/Layout/6_Readmore/BSupport/CommissaryGuide.html");
+    //Profiles
+    $('#roof-m').load("../../Frame/Layout/3_Content/BSupport/roofPro.html");
+    $('#earn-m').load("../../Frame/Layout/3_Content/BSupport/earnestPro.html");
+    $('#bower-m').load("../../Frame/Layout/3_Content/BSupport/bowerPro.html");
+    $('#hale-m').load("../../Frame/Layout/3_Content/BSupport/halePro.html");
+    //Letters
+    $('#rooflet').load("../../Frame/Layout/3_Content/BSupport/Letter/dylann.html");
+    $('#earnestlet').load("../../Frame/Layout/3_Content/BSupport/Letter/earnest.html");
+    $('#bowerlet').load("../../Frame/Layout/3_Content/BSupport/Letter/bower.html");
+    $('#halelet').load("../../Frame/Layout/3_Content/BSupport/Letter/hale.html");
+    //Send
+    $('#roofsend').load("../../Frame/Layout/3_Content/BSupport/Send/dylann.html");
+    $('#earnestsend').load("../../Frame/Layout/3_Content/BSupport/Send/earnest.html");
+    $('#bowersend').load("../../Frame/Layout/3_Content/BSupport/Send/bower.html");
+    $('#halesend').load("../../Frame/Layout/3_Content/BSupport/Send/hale.html");
+
+    //Quote
+    $('#roofwp').load("../../Frame/Layout/6_ReadMore/BSupport/roofinfowrap.html");
+    $('#earnestwp').load("../../Frame/Layout/6_ReadMore/BSupport/earnestinfowrap.html");
+    $('#bowerwp').load("../../Frame/Layout/6_ReadMore/BSupport/bowerinfowrap.html");
+    $('#halewp').load("../../Frame/Layout/6_ReadMore/BSupport/haleinfowrap.html");
+
+    //Support Guides
+    $('#LetterG').load("../../Frame/Layout/3_Content/BSupport/LetterGuidelines.html");
+    $('#CommisM').load("../../Frame/Layout/3_Content/BSupport/CommissaryGuide.html");
 
 //Creation SideBar
     $('#BcreateSideBar').load("../../../Frame/Layout/4_SideBars/BTech/softwasidebar.html");
