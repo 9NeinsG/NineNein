@@ -246,7 +246,7 @@ $(document).ready(function() {
     $('#GabSSide').load("../../Frame/Layout/4_SideBars/Gab/gabSidebar.html");
     $('#GitSSide').load("../../../Frame/Layout/4_SideBars/Git/gitSidebar.html");
     //SS SideBar
-    $('#SSSaints').load("../../../Frame/Layout/4_SideBars/BSupport/SupportSideBar.html");  
+    $('#SSSaints').load("../../Frame/Layout/4_SideBars/BSupport/SupportSideBar.html");  
 
 //Tech
 //Intro
