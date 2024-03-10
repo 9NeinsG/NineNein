@@ -160,34 +160,34 @@ $(document).ready(function() {
 
 //NatSoc
 //Intro
-    $('#booki').load("./../../Frame/Layout/2_Intro/bookintro.html");
-    $('#sainti').load("./../../Frame/Layout/2_Intro/saintintro.html");
-    $('#musici').load("./../../Frame/Layout/2_Intro/musicintro.html");
-    $('#moviei').load("./../../Frame/Layout/2_Intro/movieintro.html");
-    $('#arcadei').load("./../../Frame/Layout/2_Intro/arcadeintro.html");
-    $('#videoi').load("./../../Frame/Layout/2_Intro/videointro.html");
+    $('#booki').load("../../Frame/Layout/2_Intro/bookintro.html");
+    $('#sainti').load("../../Frame/Layout/2_Intro/saintintro.html");
+    $('#musici').load("../../Frame/Layout/2_Intro/musicintro.html");
+    $('#moviei').load("../../Frame/Layout/2_Intro/movieintro.html");
+    $('#arcadei').load("../../Frame/Layout/2_Intro/arcadeintro.html");
+    $('#videoi').load("../../Frame/Layout/2_Intro/videointro.html");
 //Content    
     //Desk 
-    $('#book-d').load("./../../Frame/Layout/3_Content/cBooks/bookdes.html");
-    $('#saint-d').load("./../../Frame/Layout/3_Content/cBooks/Saints/saintdes.html");
-    $('#music-d').load("./../../Frame/Layout/3_Content/Music/musicdes.html");
-    $('#movie-d').load("./../../Frame/Layout/3_Content/Movie/movdes.html");
-    $('#arcade-d').load("./../../Frame/Layout/3_Content/arcademob.html");
-    $('#video-d').load("./../../Frame/Layout/3_Content/Arcade/viddes.html");
+    $('#book-d').load("../../Frame/Layout/3_Content/cBooks/bookdes.html");
+    $('#saint-d').load("../../Frame/Layout/3_Content/cBooks/Saints/saintdes.html");
+    $('#music-d').load("../../Frame/Layout/3_Content/Music/musicdes.html");
+    $('#movie-d').load("../../Frame/Layout/3_Content/Movie/movdes.html");
+    $('#arcade-d').load("../../Frame/Layout/3_Content/arcademob.html");
+    $('#video-d').load("../../Frame/Layout/3_Content/Arcade/viddes.html");
     //Mobile
-    $('#book-m').load("./../../Frame/Layout/3_Content/cBooks/bookmob.html");
-    $('#saint-m').load("./../../Frame/Layout/3_Content/cBooks/Saints/saintmob.html");
-    $('#music-m').load("./../../Frame/Layout/3_Content/Music/musicmob.html");
-    $('#movie-m').load("./../../Frame/Layout/3_Content/Movie/movmob.html");
-    $('#arcade-m').load("./../../Frame/Layout/3_Content/arcademob.html");
-    $('#vid-m').load("./../../Frame/Layout/3_Content/videomob.html");
+    $('#book-m').load("../../Frame/Layout/3_Content/cBooks/bookmob.html");
+    $('#saint-m').load("../../Frame/Layout/3_Content/cBooks/Saints/saintmob.html");
+    $('#music-m').load("../../Frame/Layout/3_Content/Music/musicmob.html");
+    $('#movie-m').load("../../Frame/Layout/3_Content/Movie/movmob.html");
+    $('#arcade-m').load("../../Frame/Layout/3_Content/arcademob.html");
+    $('#vid-m').load("../../Frame/Layout/3_Content/videomob.html");
     //ReadMore
-    $('#bookw').load("./../../Frame/Layout/6_ReadMore/bookinfowrap.html");
-    $('#saintw').load("./../../Frame/Layout/6_ReadMore/saintinfowrap.html");
-    $('#musicw').load("./../../Frame/Layout/6_ReadMore/musicinfowrap.html");
-    $('#arcadew').load("./../../Frame/Layout/6_ReadMore/arcadeinfowrap.html");
-    $('#videow').load("./../../Frame/Layout/6_ReadMore/videoinfowrap.html");
-    $('#moview').load("./../../Frame/Layout/6_ReadMore/movieinfowrap.html");
+    $('#bookw').load("../../Frame/Layout/6_ReadMore/bookinfowrap.html");
+    $('#saintw').load("../../Frame/Layout/6_ReadMore/saintinfowrap.html");
+    $('#musicw').load("../../Frame/Layout/6_ReadMore/musicinfowrap.html");
+    $('#arcadew').load("../../Frame/Layout/6_ReadMore/arcadeinfowrap.html");
+    $('#videow').load("../../Frame/Layout/6_ReadMore/videoinfowrap.html");
+    $('#moview').load("../../Frame/Layout/6_ReadMore/movieinfowrap.html");
 
 //Support
     //Profiles
