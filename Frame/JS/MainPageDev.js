@@ -216,6 +216,17 @@ $(document).ready(function() {
     $('#LetterG').load("../../Frame/Layout/3_Content/BSupport/LetterGuidelines.html");
     $('#CommisM').load("../../Frame/Layout/3_Content/BSupport/CommissaryGuide.html");
 
+//GAB SideBar
+    $('#GabSSide').load("../../Frame/Layout/4_SideBars/Gab/gabSidebar.html");
+//NatSoc SideBar
+    $('#bookside').load("../../Frame/Layout/4_SideBars/BNatSoc/bookSide.html");
+    $('#musicside').load("../../Frame/Layout/4_SideBars/BNatSoc/musicSide.html");
+    $('#arcadeside').load("../../Frame/Layout/4_SideBars/BNatSoc/arcadeSide.html");
+    $('#videoside').load("../../Frame/Layout/4_SideBars/BNatSoc/vidSide.html");
+    $('#movieside').load("../../Frame/Layout/4_SideBars/BNatSoc/moviSide.html");
+    //SS SideBar
+    $('#SSSaints').load("../../Frame/Layout/4_SideBars/BSupport/SupportSideBar.html");
+
 //Creation SideBar
     $('#BcreateSideBar').load("../../../Frame/Layout/4_SideBars/BTech/softwasidebar.html");
     //HW SideBar
@@ -242,12 +253,7 @@ $(document).ready(function() {
     $('#LNSTtriSideBar').load("../../../Frame/Layout/4_SideBars/BLNST/trifasidebar.html");
     //LNST Shield SideBar
     $('#LNSTshieSideBar').load("../../../Frame/Layout/4_SideBars/BLNST/sheiasidebar.html");
-//GAB SideBar
-    $('#GabSSide').load("../../Frame/Layout/4_SideBars/Gab/gabSidebar.html");
-    $('#GitSSide').load("../../../Frame/Layout/4_SideBars/Git/gitSidebar.html");
-    //SS SideBar
-    $('#SSSaints').load("../../Frame/Layout/4_SideBars/BSupport/SupportSideBar.html");  
-
+ 
 //Tech
 //Intro
     $('#Tcryptoi').load("./../../Frame/Layout/2_Intro/BTech/cryptotechintro.html");
