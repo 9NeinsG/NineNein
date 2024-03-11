@@ -226,13 +226,11 @@ $(document).ready(function() {
     $('#movieside').load("../../Frame/Layout/4_SideBars/BNatSoc/moviSide.html");
     //SS SideBar
     $('#SSSaints').load("../../Frame/Layout/4_SideBars/BSupport/SupportSideBar.html");
-
 //Creation SideBar
-    $('#BcreateSideBar').load("../../../Frame/Layout/4_SideBars/BTech/softwasidebar.html");
-    //HW SideBar
-    $('#BhwSideBar').load("../../../Frame/Layout/4_SideBars/BTech/hardwasidebar.html");
-    //Crypto SideBar
-    $('#BcryptSideBar').load("../../../Frame/Layout/4_SideBars/BTech/cryptoasidebar.html");
+    $('#BcreateSideBar').load("../../Frame/Layout/4_SideBars/BTech/softwasidebar.html");
+    $('#BhwSideBar').load("../../Frame/Layout/4_SideBars/BTech/hardwasidebar.html");
+    $('#BcryptSideBar').load("../../Frame/Layout/4_SideBars/BTech/cryptoasidebar.html");
+
 //Code SideBar
     $('#FcodeSideBar').load("../../../Frame/Layout/4_SideBars/BFASH/codeasidebar.html");
     //Photo SideBar
