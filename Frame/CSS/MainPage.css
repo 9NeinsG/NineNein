@@ -160,12 +160,12 @@
 
 .FashA [data-toggle="collapse"].collapsed:after {
     /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    color: #454444;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
-    color: #454444;
 }
 
 /*FashPhoto*/
@@ -223,12 +223,12 @@
             padding-right: 0;
         }
     /* HTML5 Text Colors Style */
-        .pg,
-        .pr,
-        .po,
-        .py,
         .pb,
-        .pp {
+        .pg,
+        .po,
+        .pp,
+        .pr, 
+        .py {
             padding-left: 0;
             padding-right: 0;
             line-height: 0;
@@ -236,6 +236,10 @@
             text-shadow: black 0.0 0.0 0.5px;
         }
 
+.topic-card .topic-image {
+    width: 125px; 
+    height: 55px;
+}
 /**********/
 /*Containers*/
 /* Section Classes */
