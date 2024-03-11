@@ -1,0 +1,87 @@
+<article>
+    <section class="b-content g_panel-body">
+        <section class="b-content">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#SoftTopics">SoftWare Topics</a>
+                        </h4> 
+                    </div>
+                </div>
+
+                <div id="SoftTopics" class="panel panel-default">
+
+                    <div class="panel panel-default panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#webnavbar">Web</a>
+                        </h4> 
+                    </div>
+
+                    <div class="panel panel-default panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#offlinenavbar">Offline</a>
+                        </h4> 
+                    </div>
+
+                    <div class="panel panel-default panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#fashnav">Fash</a>
+                        </h4> 
+                    </div>
+                </div>
+
+
+                <div id="webnavbar" class="panel-collapse collapse">
+                    <div class="panel-body"> 
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#bravejump">Browser</a> 
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#protonjump">Email/VPN</a> 
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#cryptojump">Crypto</a>
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#onlinetjump"> Toolbox</a> 
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#domainjump">Website</a> 
+                    </div>
+                </div>
+
+                <div id="offlinenavbar" class="panel-collapse collapse">
+                    <div class="panel-body"> 
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#win7jump">Win7</a> 
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#impcjump">ImpComps</a> 
+ 
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#filejump">Files</a> 
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#legacyjump">Legacy</a>
+
+                    </div>
+                </div>
+
+                <div id="fashnav" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#sublijump">SubLime</a>
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#graphicjump">Graphics</a> 
+
+                        <a class="badge bg-secondary text-decoration-none link-light" href="#audiojump">Audio</a> 
+
+                    </div>
+                </div>   
+            </div>
+        </section>
+    </section>
+</article>
+
+<script>
+    
+$(document).ready(function() {
+  var anchor = window.location.hash;
+  $(anchor).collapse('toggle');
+});
+
+</script>
