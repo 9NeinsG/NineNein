@@ -1,7 +1,7 @@
 /**************/
 /*Greying Blog*/
     /*Covers*/
-.InspireB, .TechSW, .TechMainSW, .TechSecSW, .TechTripSW, .TechAloneSW, .TechMainHW, .book, .bookm, .saint, .saintm, .musicm, .videom, .arcadem, .arcadenes, .moviez, .FashBlogSW, .CodeSW, .CodeBadge, .AudioSW, .FashASW, .PhotoSW, .AdobeB, .PhotoGuideSW, .LNSTSYPB, .LNSTRACB, .LNSTShild, .LNSTTime, .LNSTTimeH, .CharacterCTL, .CharacterTL, .LNSTrif, .LNSTRelig, .shopm {background-position: 50% 50%;background-size: cover;}
+.InspireB, .TechSW, .TechMainSW, .TechSecSW, .TechTripSW, .TechAloneSW, .TechMainHW, .book, .bookm, .saint, .saintm, .musicm, .videom, .arcadem, .arcadenes, .moviez, .FashBlogSW, .CodeSW, .CodeBadge, .AudioSW, .FashASW, .PhotoSW, .AdobeB, .PhotoGuideSW, .LNSTSYPB, .LNSTRACB, .LNSTShild, .LNSTTime, .LNSTTimeH, .CharacterCTL, .CharacterTL, .LNSTrif, .LNSTRelig, .shopm {background-position: 50% 50%;background-size: cover; }
 
     /*Reference CSS Images
 
@@ -1872,7 +1872,7 @@
             background: url('./../../Images/Blog/zNatSoc/Contact/Session.png');
         }
     /*Affiliates*/
-        .spon-Glass, .spon-Brave, .spon-Wond, .feat-Empire, .feat-100, .feat-Bianca {width: 281px;}
+        .spon-Glass, .spon-Brave, .spon-Wond, .spon-Vpn, .spon-Pro, .feat-Empire, .feat-100, .feat-Bianca {width: 250px;}
         .spon-Glass {
             background: url('./../../Images/a/Spon/GlassWire-Blog.png');
         }
@@ -1881,6 +1881,12 @@
         }
         .spon-Wond {
             background: url('./../../Images/a/Spon/WonderShare-Blog.png');
+        }
+        .spon-Pro {
+            background: url('./../../Images/a/Spon/ProtonMail.png');
+        }
+        .spon-Vpn {
+            background: url('./../../Images/a/Spon/ProtonVpn.png')            
         }
     /*Feat Vids*/
         .feat-Empire {
@@ -1892,7 +1898,7 @@
         .feat-Bianca {
             background: url('./../../Images/a/FeatVid/Biana.png');
         }
-        .cont-Gab, .cont-Minds, .cont-Teleg, .cont-SessI, .cont-Sess, .item-bitp, .weeklyS, .freshS, .holiS, .spon-Glass, .spon-Brave, .spon-Wond, .feat-Empire, .feat-100, .feat-Bianca {background-position: 50% 50%; background-size: cover;}
+        .cont-Gab, .cont-Minds, .cont-Teleg, .cont-SessI, .cont-Sess, .item-bitp, .weeklyS, .freshS, .holiS, .spon-Glass, .spon-Brave, .spon-Wond, .spon-Vpn, .spon-Pro, .feat-Empire, .feat-100, .feat-Bianca {background-position: 50% 50%; background-size: cover;}
     /*Shop Deals*/
         /*NineNeins Shop*/
             .shopm, .shopm-sm {height: 300px; width: 300px;}
