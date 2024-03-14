@@ -129,7 +129,7 @@ These folders Include the Land Pages for:<br>
 </tr>
 <tr>
 <td>FAQ</td>
-<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.NineNein%2FB-Topic%2FFaqBlog"></td>
+<td><img alt="W3C Validation" src="https://img.shields.io/w3c-validation/html?label=W3C&style=for-the-badge&targetUrl=https%3A%2F%2F9neinsg.github.io%2FB-Topic%2FFaqBlog"></td>
 </tr>
 <tr>
 <td>PowerLevel</td>
