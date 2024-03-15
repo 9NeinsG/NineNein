@@ -2148,6 +2148,15 @@ tbody.collapse.in {
   margin: 9px 0;
   overflow: hidden;
 }
+
+.divider2 {
+  background-color: #e5e5e5;
+  height: 1px;
+  margin: 0px 0;
+  padding: -20px 0;
+  overflow: hidden;
+}
+
 .dropdown-menu > li > a {
   clear: both;
   color: #333;
