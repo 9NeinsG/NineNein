@@ -40,6 +40,8 @@ function copyContentsdc(){var e=$("<input>"),n=$("#doge_coin").text();$("body").
 //Mobile Nav
 $(document).on('click','.navbar-collapse.in',function(e){if($(e.target).is('a')){$(this).collapse('hide')}})
 
+/*!
+ * 9Navigation (http://https://www.NineNein.com)
 /*NatSoc- 2nd Tier*/
 //Offset NatSoc,Support, & Tech Nav
 $('#BnssiteNav').affix({offset:{top:100}}),$('#FSsiteNav').affix({offset:{top:100}});
