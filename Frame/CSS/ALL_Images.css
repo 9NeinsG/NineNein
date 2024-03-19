@@ -161,6 +161,9 @@
                 .swt-TechSWProCal {
                     background: url('./../../Images/Blog/SoftWare/proton-calender.png');
                 }
+                .swt-TechSWProPas {
+                    background: url('./../../Images/Blog/SoftWare/proton-pass.png');
+                }
                 .swt-TechSWProDrive {
                     background: url('./../../Images/Blog/SoftWare/proton-drive.png');
                 }
@@ -257,6 +260,9 @@
             .swt-TechSWRCleanFolder {
                 background: url('./../../Images/Blog/SoftWare/Folders/RevoInstall.png');
                 }
+            .swt-TechSWbcCleanFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/BulkCUninstall.png');
+                }
             .swt-TechSWDCleanFolder {
                 background: url('./../../Images/Blog/SoftWare/Folders/DuplicateCleanerInstall.png');
                 }
@@ -278,8 +284,8 @@
             .swt-TechSWHBFolder {
                 background: url('./../../Images/Blog/SoftWare/Folders/Handbrake.png');
                 }
-            .swt-TechSWDRFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/DrFolder.png');
+            .swt-TechSWTrayFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/RbTray.png');
                 }
             .swt-TechSWPDFFolder {
                 background: url('./../../Images/Blog/SoftWare/Folders/PDFInstall.png');

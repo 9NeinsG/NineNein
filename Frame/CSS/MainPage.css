@@ -634,8 +634,8 @@ span {
         /*FashCode Containers*/
             .shadow {
                 background: #F7F8F9;
-                padding: 3px;
-                margin: 10px 0;
+                padding: 3px 0 10px;
+          
             }
             .codecontent {
                 padding: 15px 40px 20px;
