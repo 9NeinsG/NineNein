@@ -527,6 +527,9 @@
                     .sd-BowerOpticss {
                         background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GoingIn.png');
                     }
+                    .sd-BondOpticss {
+                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/ForgiveRythmes.png');
+                    }
         /*Music*/
             .musicm, .musicm-mm {height: 120px; width: 120px;}
             /*Music Art*/
@@ -556,6 +559,59 @@
                 }
                 .mm-GST {
                     background: url('./../../Images/Blog/zNatSoc/Music/Great-Soundtrack.png');
+                }
+                .mm-loztp{
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/LOZ_TP.png');
+                }
+/*SoundTrack*/
+            .musicm, .musicm-ms {height: 300px; width: 300px;}
+                .ms-breakingbost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/Breaking Bad.png');
+                }
+                .ms-9ost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/9.png');
+                }
+                .ms-continost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/Continuum.png');
+                }
+                .ms-dexterost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/Dex6.png');
+                }
+                .ms-gladiatorost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/Gladiator.png');
+                }
+                .ms-Gandgost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/GG.png');
+                }
+                .ms-greatestost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/GreatestStorySoundtrack.png');
+                }
+                .ms-inceptionost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/Inception.png');
+                }
+                .ms-ontimeost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/InTime.png');
+                }
+                .ms-lawost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/LawACitizen.png');
+                }
+                .ms-nobodyost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/MrNobody.png');
+                }
+                .ms-powderost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/Powder.png');
+                }
+                .ms-prisonost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/Prison Break.png');
+                }
+                .ms-skyost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/Vanilla Sky.png');
+                }
+                .ms-wentost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/Went1.png');
+                }
+                .ms-zeldaost {
+                    background: url('./../../Images/Blog/zNatSoc/Music/OST/Zelda.png');
                 }
         /*Videos*/
             .videom, .videom-vm {height: 169px; width: 300px;}

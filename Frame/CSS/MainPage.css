@@ -3,6 +3,8 @@
     @import "./Core/navi.css";
     @import "./ALL_Images.css";
 
+
+
 .tab {
     min-width: fit-content;
     box-sizing: border-box;
@@ -843,7 +845,7 @@ img::-moz-selection {
         text-decoration: none;
         font-size: 6em;
         background: black;
-        width: 80px;
+        width: 40px;
         /*padding: 20px;*/
         text-align: center;
         z-index: 1;
