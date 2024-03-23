@@ -93,8 +93,8 @@
                 }
                 .swt-TechSWSublime {
                     background: url('./../../Images/Blog/SoftWare/SublimeText3.png');
-                    height: 200px;
-                    width: 200px;
+                    height: 150px;
+                    width: 150px;
                 }
                 .swt-TechSWSubPack {
                     background: url('./../../Images/Blog/SoftWare/SubPack.png');
@@ -266,6 +266,9 @@
             .swt-TechSWDCleanFolder {
                 background: url('./../../Images/Blog/SoftWare/Folders/DuplicateCleanerInstall.png');
                 }
+            .swt-TechSW7CleanFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/Win7.png');
+                }
             .swt-TechSWWampFolder {
                 background: url('./../../Images/Blog/SoftWare/Folders/WampInstall.png');
                 }
@@ -302,9 +305,6 @@
             .swt-TechFFFolder {
                 background: url('./../../Images/Blog/SoftWare/Folders/FontForge.png');
                 }
-            .swt-TechSLFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/SubLimeInstall.png');
-                }
             .swt-TechPTFolder {
                 background: url('./../../Images/Blog/SoftWare/Folders/ProTools11Install.png');
                 }
@@ -313,6 +313,24 @@
                 }
             .swt-GreyLnstFolder {
                 background: url('./../../Images/Blog/SoftWare/Folders/LNST.png');
+                }
+            .swt-TechSLTFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/SubLimeText.png');
+                }
+            .swt-TechSLTPFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/SubLimePlugins.png');
+                }
+            .swt-TechSTMFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/SLMerge.png');
+                }
+            .swt-TechProTFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/ProTools11Install.png');
+                }
+            .swt-TechAPlugFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/WavesInstall.png');
+                }
+            .swt-TechNativeIFolder {
+                background: url('./../../Images/Blog/SoftWare/Folders/NIInstall.png');
                 }
 
         /*HardWare Main*/

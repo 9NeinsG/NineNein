@@ -1270,13 +1270,13 @@ img::-moz-selection {
         width: 100%;
         font-size: 92%;
     }
-    table.data th, table.data td {
+    table.data th, table.data td { 
         vertical-align: center;
-        border: 1px solid #DCE3EB;
+        border: 1px solid #f5f5f5;
     }
     table.data td {
         color: #484848;
-        padding: 5px 7px;
+        /*padding: 5px 7px;
     }
     table tr th, table tr td {
         /*width: auto!important;*/
@@ -1515,4 +1515,88 @@ img::-moz-selection {
 
 .dropdown-submenu:hover > .shown{
     display: block;
+}
+
+
+
+
+.dltab th h1 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #999999;
+}
+
+.dltab td {
+    font-weight: normal;
+    font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+     -moz-box-shadow: 0 2px 2px -2px #0E1119;
+          box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.dltab {
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 1em 0;
+}
+
+.dltab .blueOn {
+    width:100%; 
+    color:#8db2e5; 
+    background-color:#999999;
+}
+
+.dltab .yelloOn {
+  color: #F6C90E;
+  text-decoration: none;
+}
+
+.dltab td, .dltab th {
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+/* Background-color of the odd rows */
+.dltab tr:nth-child(odd) {
+    background-color: #3D3D3D;
+}
+
+/* Background-color of the even rows */
+.dltab tr:nth-child(even) {
+    background-color: #494949;
+}
+
+.dltab th {
+    background-color: #c4c4c4;
+}
+.dltab td:first-child { color: #00BCD4; }
+
+.dltab tr:hover {
+   background-color: #303030;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+     -moz-box-shadow: 0 6px 6px -6px #0E1119;
+          box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.dltab td:hover {
+  background-color: #33414c;
+  color: #F6C90E;
+
+  
+  box-shadow: #999999 -1px 1px, #999999 -2px 2px, #999999 -3px 3px, #999999 -4px 4px, #999999 -5px 5px, #999999 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+  transition-timing-function: line;
+}
+
+@media (max-width: 800px) {
+.dltab td:nth-child(4),
+.dltab th:nth-child(4) { display: none; }
 }
