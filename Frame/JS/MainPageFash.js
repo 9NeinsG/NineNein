@@ -92,7 +92,9 @@ $(document).ready(function() {
         $('#fashphoi').load("../../../Frame/Layout/2_Intro/BFASH/fashphotointro.html");
     //Content
         //FashPhoto
-        $('#fashphomob').load("../../../Import/Blog/Fash/Bontent/photomob.html");
+        $('#fashphomob').load("../../../Frame/Layout/3_Content/BFASH/photomob.html");
+        $('#fashaudmob').load("../../../Frame/Layout/3_Content/BFASH/audiomob.html");
+        $('#fashcodmob').load("../../../Frame/Layout/3_Content/BFASH/codemob.html")
     //Setup
         //FashCode
         $('#fashcodeSU').load("../../../Frame/Layout/3_Content/BFASH/FashCode/setupfiles.html");
@@ -107,14 +109,16 @@ $(document).ready(function() {
         $('#fashaudilanga').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/languageexp.html");
         //FashPhoto
         $('#fashphotolangg').load("../../../Frame/Layout/3_Content/BFASH/FashPhoto/languageexp.html");
+    //ReadMore
+       $('#fashw').load("../../../Frame/Layout/6_ReadMore/BFASH/fashinfowrap.html");
     //Main Menus
     //Code
         //HTML
-        $('#HTMLMenu').load("../../../Import/Blog/Fash/Bontent/FashCode/htmlmenu.html");
+        $('#HTMLMenu').load("../../../Frame/Layout/3_Content/BFASH/FashCode/htmlmenu.html");
         //CSS
-        $('#CSSMenu').load("../../../Import/Blog/Fash/Bontent/FashCode/cssmenu.html");
+        $('#CSSMenu').load("../../../Frame/Layout/3_Content/BFASH/FashCode/cssmenu.html");
         //JS
-        $('#JSMenu').load("../../../Import/Blog/Fash/Bontent/FashCode/jsmenu.html");
+        $('#JSMenu').load("../../../Frame/Layout/3_Content/BFASH/FashCode/jsmenu.html");
 
         //HTML Syntax Jumps
         $('#SyntaxMenu').load("../../../Import/Blog/Fash/Bontent/FashCode/Menus/htmlsynt.html");
@@ -146,45 +150,45 @@ $(document).ready(function() {
         //$('#fashcodemob').load("../../../Import/Blog/Fash/Bontent/codemob.html");
     //FashAudio
     //Mains
-        $('#ProTMenu').load("../../../Import/Blog/Fash/Bontent/FashAudio/protoolmenu.html");
-        $('#ProPMenu').load("../../../Import/Blog/Fash/Bontent/FashAudio/pluginsmain.html");
-        $('#ProNIMenu').load("../../../Import/Blog/Fash/Bontent/FashAudio/nimenu.html");
-        $('#ProSFAMenu').load("../../../Import/Blog/Fash/Bontent/FashAudio/sfamenu.html");
+        $('#ProTMenu').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/protoolmenu.html");
+        $('#ProPMenu').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/pluginsmain.html");
+        $('#ProNIMenu').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/nimenu.html");
+        $('#ProSFAMenu').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/sfamenu.html");
 
     //Disclaimer
-        $('#ProT').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/protools.html");
+        $('#ProT').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/protools.html");
 
             //PT Bundles
-            $('#ProPTBund').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/ppluginbundles.html");
-            $('#ProPTDet').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/ptplugindetails.html");
-            $('#ProPTDoc').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/ptplugindocs.html");
+            $('#ProPTBund').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/ppluginbundles.html");
+            $('#ProPTDet').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/ptplugindetails.html");
+            $('#ProPTDoc').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/ptplugindocs.html");
 
         //SoftWare
-            $('#ProNISoft').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/nisoft.html");
-            $('#ProNISoftT').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/nisofttools.html");
+            $('#ProNISoft').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/nisoft.html");
+            $('#ProNISoftT').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/nisofttools.html");
         //Plugins
             //Wave Bundles
-            $('#ProWBundMenu').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/wavesplugins.html");
-            $('#ProWBund').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/wpluginbundles.html");
-            $('#ProWDet').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/wplugindetails.html");
-            $('#ProWDoc').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/wplugindocs.html");
+            $('#ProWBundMenu').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/wavesplugins.html");
+            $('#ProWBund').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/wpluginbundles.html");
+            $('#ProWDet').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/wplugindetails.html");
+            $('#ProWDoc').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/wplugindocs.html");
             //NI Bundles
-            $('#ProNBundMenu').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/niplugins.html");
-            $('#ProNBund').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/npluginbundles.html");
-            $('#ProNDet').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/niplugindetails.html"); 
-            $('#ProNDoc').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/niplugindocs.html");
+            $('#ProNBundMenu').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/niplugins.html");
+            $('#ProNBund').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/npluginbundles.html");
+            $('#ProNDet').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/niplugindetails.html"); 
+            $('#ProNDoc').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/niplugindocs.html");
             //Fab Bundles
-            $('#ProFBundMenu').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/ffplugins.html");
-            $('#ProFBund').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/fpluginbundles.html"); 
-            $('#ProFDet').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/ffplugindetails.html"); 
-            $('#ProFDoc').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/ffplugindocs.html"); 
+            $('#ProFBundMenu').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/ffplugins.html");
+            $('#ProFBund').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/fpluginbundles.html"); 
+            $('#ProFDet').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/ffplugindetails.html"); 
+            $('#ProFDoc').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/ffplugindocs.html"); 
             //Fab Bundles
-            $('#ProSSLBundMenu').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/ssplugins.html");
-            $('#ProSSLBund').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/slpluginbundles.html"); 
-            $('#ProSSLDet').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/slplugindetails.html"); 
-            $('#ProSSLDoc').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/Plugins/slplugindocs.html");    
+            $('#ProSSLBundMenu').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/ssplugins.html");
+            $('#ProSSLBund').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/slpluginbundles.html"); 
+            $('#ProSSLDet').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/slplugindetails.html"); 
+            $('#ProSSLDoc').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/slplugindocs.html");    
             //Songs
-            $('#SFASong').load("../../../Import/Blog/Fash/Bontent/FashAudio/Menus/sfasongs.html");
+            $('#SFASong').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/sfasongs.html");
 
 //Link NatSoc Theory
     //Mask
