@@ -64,6 +64,9 @@ $(document).ready(function() {
     $('#ninein-m').load("./../Frame/Layout/3_Content/nineneinmob.html");
     $('#greyerm').load("./../Frame/Layout/3_Content/greyingmob.html");
     $('#faqblgm').load("./../Frame/Layout/3_Content/faqmob.html");
+    //Gab Side
+    $('#GabSSide').load("./../Frame/Layout/4_SideBars/Gab/gabSidebar.html");
+    $('#FaqSide').load("./../Frame/Layout/4_SideBars/BSupport/faqSide.html");
 //Landing
     $('#greyw').load("./../Frame/Layout/6_ReadMore/greyinfowrap.html");
     $('#faqw').load("./../Frame/Layout/6_ReadMore/faqinfowrap.html");
