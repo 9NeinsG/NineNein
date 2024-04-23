@@ -1032,6 +1032,9 @@
             .swt-FashLang {
                 background: url('./../../Images/Blog/Fash/Code/Languages/Language.png');
             }
+            .swt-FashCoverti {
+                background: url('./../../Images/Blog/Fash/Photo/Languages/Conversion.png');
+            }
             .swt-FashLangA {
                 background: url('./../../Images/Blog/Fash/Audio/Languages/Audio.png');
             }
@@ -1233,6 +1236,12 @@
                 .swt-AuditH {
                     background: url('./../../Images/Blog/Fash/Photo/Adobe/auditionH.png');      
                 }
+                .swt-AudorH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/ardourH.png');      
+                }
+                .swt-MixcH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/mixcraftH.png');      
+                }
                 .swt-FlashpH {
                     background: url('./../../Images/Blog/Fash/Photo/Adobe/flashproH.png');
                 }
@@ -1242,8 +1251,14 @@
                 .swt-PhotoShoppH {
                     background: url('./../../Images/Blog/Fash/Photo/Adobe/photoshopH.png');
                 }
+                .swt-GimpShoppH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/gimpproH.png');
+                }
                 .swt-PremierepH {
                     background: url('./../../Images/Blog/Fash/Photo/Adobe/premiereproH');
+                }
+                .swt-PremierefpH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/premiereeffectproH');
                 }
                 .swt-DreamwH {
                     background: url('./../../Images/Blog/Fash/Photo/Adobe/dreamweaverH.png'); 
@@ -1254,6 +1269,24 @@
                 .swt-IndesigH {
                     background: url('./../../Images/Blog/Fash/Photo/Adobe/indesignH.png');
                 }
+                .swt-UniC {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/uniconvertbox.png');
+                }
+                .swt-romeoC {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/romeoConvert.png');
+                }
+
+
+                .swt-romeohtmlH {
+                    background: url('./../../Images/Blog/Fash/Code/Languages/htmlmH.png');
+                }
+                .swt-romeoscriptH {
+                    background: url('./../../Images/Blog/Fash/Code/Languages/scriptmH.png');
+                }
+                .swt-romeocolorH {
+                    background: url('./../../Images/Blog/Fash/Code/Languages/colorpickH.png');
+                }
+
     /**************/
     /*Link NatSoc Theory*/
         /*Synopsis*/

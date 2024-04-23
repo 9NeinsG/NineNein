@@ -1,0 +1,1799 @@
+<!--CSS Header-->
+    <span class="img-responsive center-block CodeSW swt-FashCSS">&nbsp;</span>
+<!--CSS Menu-->
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title tc">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#CSSj">CSS</a></h3></div></div>
+<!--Css-->
+    <div id="CSSj" class="panel-collapse collapse">
+<!--CSS Syntax Menu-->
+        <div class="panel-default">
+            <section class="comment-content"><br>
+                <h5 class="bh">The Syntax is just Setting</h5>
+                <p>Code is extremely Fascist. Complete with an order, hierarchy, and specific orders and calls.<wbr>
+                Like everything else in our reality; universe; world; and on Earth - CSS is extremely simple and can be very fun and enjoyable to use designing the UI<wbr>(User Interface) as well as anything visual and behavior.<wbr> However, mastering CSS can be extremely tricky.</p>
+        
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title tc">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#CSSsynj">CSS Syntax Sypnosis - More</a></h3></div></div>
+            </section></div>
+
+<!--CSS Syntax Entry-->
+        <div id="CSSsynj" class="panel-collapse collapse">
+            <div class="panel-body">
+                <section class="comment-content">
+                    <h5 class="bh">CSS is not as forgiving as HTML.</h5><br>
+                    <hgroup class="bible-content">
+                        <h5 class="bh">Customizing Tags</h5></hgroup>
+
+                    <div class="cat-main-box" style="padding:9px">
+                        <div class="container-flex">
+                            <div class="row panel-row">
+
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                                    <div class="panel tc">
+                                        <section class="panel-body">
+                                            <h2>Class'es</h2>
+                                            <p>Think of it as teaching the HTML presentation skills. </p>
+                                        </section></div></div>
+
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                                    <div class="panel tc">
+                                        <section class="panel-body">
+                                            <h2>Variables</h2>
+                                            <p>Think of them as Classes with different variations/options. </p>
+                                        </section></div></div>
+
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                                    <div class="panel tc">
+                                        <section class="panel-body">
+                                            <h2>Styles</h2>
+                                            <p>Think of scribbling notes directly into the HTML. </p>
+                                        </section></div></div>
+                        </div></div></div>
+
+                    <p>Unlike HTML : CSS does not have Tags but instead classes-variables-styles.</p>
+                    <section class="comment-content">
+                        <p>There are many ways to add CSS but Embed/Inline/Styles will be skipped over.
+                            <br> These are bad practices in general - although they do work.</p>
+                        <p>Instead we will understand the StyleSheet and Definitions.</p>
+                        <p> Each one will start with a "." followed by the Class Name such as "text"
+                            <br> <code>.text</code>
+                            <br> Here we have just created a Class</p>
+                        <p>We must set the Class of <code>.text</code> with the properties of our desired look.
+                            <br> To do this we want to add an opening and closing bracket represented between squigs, curls, braces whatever you want to call them "{}" </p> <code>.text{}</code>
+                        <br>
+                        <p>Just like HTML Tags - what ever is between "{}" will be defined properties.</p>
+                        <p>Lets say we want the <code>.text</code> font to be the size of 18px and black.</p>
+                        <code>.text{font-size : 18px; color : black;}</code>
+                        <p>We can make it more readable which looks better when typed out like this :</p> <code>.text {</code>
+                        <br><code>font-size : 18px;</code>
+                        <br><code> color : black;</code>
+                        <br><code>}</code>
+                        <br>
+                        <p>If we want to use this CSS we go back to HTML and add the Class:
+                        <br> <code>&lt;span class="text"&gt;We add the text between the span tag with a class&lt;/span&gt;</code>
+                        <p>The Result:</p>
+                        <p>We add the text between the span tag with a class</p>
+                        <p>What if you want a different size font or color or a background?
+                            <br> This is where variables come into the picture.</p>
+                        <p>Lets say we want to keep the size of <code>.text</code> but change the color only.</p>
+                        <p>We already have our <code>.text</code> class.</p> <code>.text {</code>
+                        <br><code>font-size : 18px;</code>
+                        <br><code> color : black;</code>
+                        <br><code>}</code>
+                        <br>
+                        <p>We simply need to create a new Class here. We will create <code>.pb</code>
+                        <br>
+                        <p><small>Can be named whatever you want.</small></p> <code>.pb {</code>
+                        <br> <code>color: #0000ff;</code>
+                        <br> <code>}</code>
+                        <br>
+                        <p>The new Class <code>.pb</code> has just the {"property" : "color blue";} but we want it to inherit <code>.text</code> for size.</p>
+                        <p>Therefore we will make yet another Class merging both <code>.text</code> and <code>.pb</code></p>
+                        <br> <code>.text .pb {</code>
+                        <br><code>color: #0000ff;</code>
+                        <br><code>}</code>
+                        <br>
+                        <p><code>&lt;span class="text pb"&gt; We add the text between the span tag with Class "text" and "pb" &lt;/span&gt; </code></p>
+                        <p>The result :</p>
+                        <p><span class="pb"> We add the text between the span tag with a class</span></p>
+                        <p>We now have 3 classes</p>
+                        <p>1.<code>.text</code> which is 18px and Black.
+                            <br> 2.<code>.pb</code> which is just Blue and inherited size from body.
+                            <br> 3.<code>.text .pb</code> which is 18px and Blue.</p>
+                        <p>Add the variable you want to the Class of an HTML tag.</p>
+                        <p>This is CSS syntax - the secret is removing redundancy.</p></section>
+        </section></div></div>
+        <div class="clearfix"></div>
+<!--All CSS Emmet Tag Menu-->
+        <div class="panel-default">
+            <section class="comment-content"><br>
+                <h5 class="bh">Emmet does expand into CSS</h5>
+                <p>I recommend getting familiar with the properties. Most of them are just repeats such as Top, Left, Right, Bottom.<wbr> However, mastering CSS can be extremely tricky.</p> 
+            
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title tc">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#aemmetcssj">Emmet Syntax</a></h3></div></div>
+                </section>
+
+            <div id="aemmetcssj" class="panel-collapse collapse">
+                <section class="comment-content">
+                <br>
+                <span>Emmet is a tool to make repetatives simpler. No need to concern yourself with thinking you have to remember everything Emmet. Once you get the hang of the very basics, Emmet becomes self learning as you move into shortcode.</span>
+                <p>Specially in CSS. Nearly all your Emmet useage will take place in HTML. Where all you generally need to know is which Html tag you would like to use, so lets use the tag <code>&lt;section&gt;</code>.</p>
+                <p>Instead of using the open tag we will simply type section[Tag].[Dot]pr[Class]{hittab key}. Wahla you just added a full function tag with class using Emmet. [Dot] is the shortcode of class="" whatever follows [Dot] is the Class Variable you added - in this example that would be pr.</p>
+                <div class="col-md-6 tc">
+                    <p>Writeing :</p>
+                    <p>section.pr</p></div>
+                <div class="col-md-6 tc">
+                    <p>Is the same as Writeing.</p>
+                    <p><code>&lt;section</code> <code class="pg">class="pr"></code><code>&lt;section&gt;</code></p></div>
+                <p class="tc">Thats the power of Emmet.</p>
+                <div class="clearfix"></div>
+<!--All Emmet CSS-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title tc">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#aemmecssj">All Emmet CSS</a></h3></div></div>
+                </section></div>
+
+            <div id="aemmecssj" class="panel-collapse collapse">
+                <div class="emmetbody">
+
+                    <div class="wrapper">
+                        <section class="page-content">
+                            <div class="bsa-cpc"></div> 
+                            <section class="ch-section ch-section_css">
+                                <h3 class="ch-section__title">CSS</h3>
+                                <div class="ch-section__desc">
+                                    <p>CSS module uses fuzzy search to find unknown abbreviations, e.g. <code>ov:h</code> == <code>ov-h</code> == <code>ovh</code> == <code>oh</code>.</p>
+                                    <p>If abbreviation wasn’t found, it is transformed into property name: <code>foo-bar</code> → <code>foo-bar: |;</code></p>
+                                    <p>You can prefix abbreviations with hyphen to produce vendor-prefixed properties: <code>-foo</code></p>
+                                </div>
+                                <div class="ch-section__content">
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Visual Formatting</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pos</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">position:<span class="ch-tabstop" title="Tabstop">relative</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pos:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">position:static;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pos:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">position:absolute;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pos:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">position:relative;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pos:f</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">position:fixed;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">top:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">t:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">top:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">right:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">r:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">right:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">b</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">bottom:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">b:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">bottom:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">l</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">left:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">l:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">left:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">z</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">z-index:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">z:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">z-index:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fl</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">float:<span class="ch-tabstop" title="Tabstop">left</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fl:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">float:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fl:l</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">float:left;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fl:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">float:right;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cl</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">clear:<span class="ch-tabstop" title="Tabstop">both</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cl:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">clear:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cl:l</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">clear:left;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cl:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">clear:right;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cl:b</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">clear:both;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:<span class="ch-tabstop" title="Tabstop">block</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:b</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:block;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:f</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:flex;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:if</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:inline-flex;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:i</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:inline;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:ib</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:inline-block;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:li</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:list-item;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:ri</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:run-in;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:cp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:compact;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:tb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:table;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:itb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:inline-table;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:tbcp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:table-caption;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:tbcl</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:table-column;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:tbclg</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:table-column-group;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:tbhg</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:table-header-group;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:tbfg</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:table-footer-group;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:tbr</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:table-row;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:tbrg</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:table-row-group;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:tbc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:table-cell;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:rb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:ruby;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:rbb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:ruby-base;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:rbbg</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:ruby-base-group;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:rbt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:ruby-text;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">d:rbtg</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">display:ruby-text-group;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">v</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">visibility:<span class="ch-tabstop" title="Tabstop">hidden</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">v:v</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">visibility:visible;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">v:h</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">visibility:hidden;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">v:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">visibility:collapse;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ov</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow:<span class="ch-tabstop" title="Tabstop">hidden</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ov:v</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow:visible;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ov:h</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow:hidden;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ov:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow:scroll;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ov:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovx</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-x:<span class="ch-tabstop" title="Tabstop">hidden</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovx:v</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-x:visible;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovx:h</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-x:hidden;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovx:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-x:scroll;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovx:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-x:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovy</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-y:<span class="ch-tabstop" title="Tabstop">hidden</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovy:v</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-y:visible;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovy:h</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-y:hidden;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovy:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-y:scroll;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovy:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-y:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-style:<span class="ch-tabstop" title="Tabstop">scrollbar</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovs:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-style:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovs:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-style:scrollbar;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovs:p</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-style:panner;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovs:m</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-style:move;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ovs:mq</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">overflow-style:marquee;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">zoo, zm</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">zoom:1;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">clip:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cp:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">clip:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cp:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">clip:rect(<span class="ch-tabstop" title="Tabstop">top</span> <span class="ch-tabstop" title="Tabstop">right</span> <span class="ch-tabstop" title="Tabstop">bottom</span> <span class="ch-tabstop" title="Tabstop">left</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">rsz</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">resize:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">rsz:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">resize:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">rsz:b</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">resize:both;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">rsz:h</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">resize:horizontal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">rsz:v</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">resize:vertical;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cur</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">cursor:${pointer};</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cur:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">cursor:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cur:d</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">cursor:default;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cur:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">cursor:crosshair;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cur:ha</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">cursor:hand;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cur:he</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">cursor:help;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cur:m</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">cursor:move;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cur:p</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">cursor:pointer;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cur:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">cursor:text;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Margin &amp; Padding</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">m</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">margin:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">m:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">margin:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">mt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">margin-top:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">mt:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">margin-top:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">mr</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">margin-right:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">mr:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">margin-right:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">mb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">margin-bottom:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">mb:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">margin-bottom:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ml</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">margin-left:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ml:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">margin-left:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">p</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">padding:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">padding-top:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pr</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">padding-right:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">padding-bottom:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pl</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">padding-left:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Box Sizing</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bxz</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">box-sizing:<span class="ch-tabstop" title="Tabstop">border-box</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bxz:cb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">box-sizing:content-box;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bxz:bb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">box-sizing:border-box;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bxsh</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">box-shadow:<span class="ch-tabstop" title="Tabstop">inset </span><span class="ch-tabstop" title="Tabstop">hoff</span> <span class="ch-tabstop" title="Tabstop">voff</span> <span class="ch-tabstop" title="Tabstop">blur</span> <span class="ch-tabstop" title="Tabstop">color</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bxsh:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">box-shadow:<span class="ch-tabstop" title="Tabstop">inset </span><span class="ch-tabstop" title="Tabstop">hoff</span> <span class="ch-tabstop" title="Tabstop">voff</span> <span class="ch-tabstop" title="Tabstop">blur</span> <span class="ch-tabstop" title="Tabstop">spread </span>rgb(<span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bxsh:ra</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">box-shadow:<span class="ch-tabstop" title="Tabstop">inset </span><span class="ch-tabstop" title="Tabstop">h</span> <span class="ch-tabstop" title="Tabstop">v</span> <span class="ch-tabstop" title="Tabstop">blur</span> <span class="ch-tabstop" title="Tabstop">spread </span>rgba(<span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>, .<span class="ch-tabstop" title="Tabstop">5</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bxsh:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">box-shadow:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">w</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">width:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">w:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">width:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">h</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">height:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">h:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">height:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">maw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">max-width:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">maw:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">max-width:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">mah</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">max-height:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">mah:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">max-height:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">miw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">min-width:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">mih</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">min-height:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Font</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">f</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">f+</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font:<span class="ch-tabstop" title="Tabstop">1em</span> <span class="ch-tabstop" title="Tabstop">Arial,sans-serif</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-weight:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fw:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-weight:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fw:b</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-weight:bold;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fw:br</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-weight:bolder;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fw:lr</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-weight:lighter;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-style:${italic};</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fs:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-style:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fs:i</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-style:italic;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fs:o</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-style:oblique;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fv</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-variant:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fv:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-variant:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fv:sc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-variant:small-caps;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fz</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-size:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fza</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-size-adjust:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fza:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-size-adjust:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ff</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-family:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ff:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-family:serif;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ff:ss</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-family:sans-serif;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ff:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-family:cursive;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ff:f</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-family:fantasy;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ff:m</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-family:monospace;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ff:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ff:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-family: "Times New Roman", Times, Baskerville, Georgia, serif;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ff:v</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-family: Verdana, Geneva, sans-serif;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fef</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-effect:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fef:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-effect:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fef:eg</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-effect:engrave;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fef:eb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-effect:emboss;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fef:o</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-effect:outline;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fem</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-emphasize:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">femp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-emphasize-position:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">femp:b</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-emphasize-position:before;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">femp:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-emphasize-position:after;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fems</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-emphasize-style:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fems:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-emphasize-style:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fems:ac</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-emphasize-style:accent;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fems:dt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-emphasize-style:dot;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fems:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-emphasize-style:circle;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fems:ds</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-emphasize-style:disc;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fsm</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-smooth:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fsm:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-smooth:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fsm:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-smooth:never;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fsm:aw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-smooth:always;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fst</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-stretch:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fst:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-stretch:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fst:uc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-stretch:ultra-condensed;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fst:ec</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-stretch:extra-condensed;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fst:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-stretch:condensed;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fst:sc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-stretch:semi-condensed;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fst:se</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-stretch:semi-expanded;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fst:e</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-stretch:expanded;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fst:ee</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-stretch:extra-expanded;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">fst:ue</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">font-stretch:ultra-expanded;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Text</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">va</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">vertical-align:<span class="ch-tabstop" title="Tabstop">top</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">va:sup</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">vertical-align:super;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">va:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">vertical-align:top;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">va:tt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">vertical-align:text-top;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">va:m</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">vertical-align:middle;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">va:bl</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">vertical-align:baseline;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">va:b</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">vertical-align:bottom;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">va:tb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">vertical-align:text-bottom;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">va:sub</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">vertical-align:sub;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ta</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-align:<span class="ch-tabstop" title="Tabstop">left</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ta:l</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-align:left;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ta:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-align:center;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ta:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-align:right;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ta:j</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-align:justify;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ta-lst</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-align-last:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tal:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-align-last:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tal:l</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-align-last:left;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tal:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-align-last:center;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tal:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-align-last:right;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">td</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-decoration:<span class="ch-tabstop" title="Tabstop">none</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">td:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-decoration:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">td:u</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-decoration:underline;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">td:o</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-decoration:overline;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">td:l</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-decoration:line-through;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">te</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-emphasis:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">te:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-emphasis:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">te:ac</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-emphasis:accent;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">te:dt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-emphasis:dot;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">te:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-emphasis:circle;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">te:ds</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-emphasis:disc;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">te:b</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-emphasis:before;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">te:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-emphasis:after;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">th</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-height:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">th:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-height:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">th:f</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-height:font-size;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">th:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-height:text-size;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">th:m</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-height:max-size;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ti</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-indent:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ti:-</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-indent:-9999px;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tj</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-justify:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tj:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-justify:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tj:iw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-justify:inter-word;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tj:ii</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-justify:inter-ideograph;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tj:ic</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-justify:inter-cluster;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tj:d</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-justify:distribute;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tj:k</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-justify:kashida;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tj:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-justify:tibetan;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">to</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-outline:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">to+</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-outline:<span class="ch-tabstop" title="Tabstop">0</span> <span class="ch-tabstop" title="Tabstop">0</span> <span class="ch-tabstop" title="Tabstop">#000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">to:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-outline:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tr</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-replace:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tr:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-replace:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-transform:<span class="ch-tabstop" title="Tabstop">uppercase</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tt:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-transform:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tt:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-transform:capitalize;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tt:u</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-transform:uppercase;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tt:l</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-transform:lowercase;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-wrap:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tw:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-wrap:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tw:no</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-wrap:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tw:u</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-wrap:unrestricted;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tw:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-wrap:suppress;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tsh</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-shadow:<span class="ch-tabstop" title="Tabstop">hoff</span> <span class="ch-tabstop" title="Tabstop">voff</span> <span class="ch-tabstop" title="Tabstop">blur</span> <span class="ch-tabstop" title="Tabstop">#000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tsh:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-shadow:<span class="ch-tabstop" title="Tabstop">h</span> <span class="ch-tabstop" title="Tabstop">v</span> <span class="ch-tabstop" title="Tabstop">blur</span> rgb(<span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tsh:ra</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-shadow:<span class="ch-tabstop" title="Tabstop">h</span> <span class="ch-tabstop" title="Tabstop">v</span> <span class="ch-tabstop" title="Tabstop">blur</span> rgba(<span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>, .<span class="ch-tabstop" title="Tabstop">5</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tsh+</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-shadow:<span class="ch-tabstop" title="Tabstop">0</span> <span class="ch-tabstop" title="Tabstop">0</span> <span class="ch-tabstop" title="Tabstop">0</span> <span class="ch-tabstop" title="Tabstop">#000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tsh:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">text-shadow:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">lh</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">line-height:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">lts</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">letter-spacing:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">lts-n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">letter-spacing:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whs:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whs:p</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space:pre;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whs:nw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space:nowrap;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whs:pw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space:pre-wrap;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whs:pl</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space:pre-line;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whsc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space-collapse:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whsc:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space-collapse:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whsc:k</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space-collapse:keep-all;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whsc:l</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space-collapse:loose;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whsc:bs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space-collapse:break-strict;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">whsc:ba</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">white-space-collapse:break-all;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wob</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-break:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wob:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-break:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wob:k</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-break:keep-all;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wob:ba</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-break:break-all;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wos</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-spacing:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wow</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-wrap:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wow:nm</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-wrap:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wow:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-wrap:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wow:u</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-wrap:unrestricted;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wow:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-wrap:suppress;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wow:b</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">word-wrap:break-word;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Background</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bg</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background:#<span class="ch-tabstop" title="Tabstop">000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bg+</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background:<span class="ch-tabstop" title="Tabstop">#fff</span> url(<span class="ch-caret" title="Caret position">&nbsp;</span>) <span class="ch-tabstop" title="Tabstop">0</span> <span class="ch-tabstop" title="Tabstop">0</span> <span class="ch-tabstop" title="Tabstop">no-repeat</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bg:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-color:#<span class="ch-tabstop" title="Tabstop">fff</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgc:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-color:transparent;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgi</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgi:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgr</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-repeat:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgr:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-repeat:no-repeat;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgr:x</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-repeat:repeat-x;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgr:y</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-repeat:repeat-y;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgr:sp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-repeat:space;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgr:rd</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-repeat:round;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bga</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-attachment:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bga:f</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-attachment:fixed;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bga:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-attachment:scroll;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-position:<span class="ch-tabstop" title="Tabstop">0</span> <span class="ch-tabstop" title="Tabstop">0</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgpx</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-position-x:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgpy</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-position-y:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgbk</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-break:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgbk:bb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-break:bounding-box;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgbk:eb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-break:each-box;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgbk:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-break:continuous;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgcp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-clip:<span class="ch-tabstop" title="Tabstop">padding-box</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgcp:bb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-clip:border-box;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgcp:pb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-clip:padding-box;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgcp:cb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-clip:content-box;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgcp:nc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-clip:no-clip;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgo</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-origin:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgo:pb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-origin:padding-box;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgo:bb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-origin:border-box;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgo:cb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-origin:content-box;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgsz</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-size:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgsz:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-size:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgsz:ct</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-size:contain;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bgsz:cv</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">background-size:cover;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Color</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">color:#<span class="ch-tabstop" title="Tabstop">000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">c:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">color:rgb(<span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">c:ra</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">color:rgba(<span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>, <span class="ch-tabstop" title="Tabstop">0</span>, .<span class="ch-tabstop" title="Tabstop">5</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">op</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">opacity:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Generated content</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cnt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">content:'<span class="ch-caret" title="Caret position">&nbsp;</span>';</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cnt:n, ct:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">content:normal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cnt:oq, ct:oq</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">content:open-quote;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cnt:noq, ct:noq</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">content:no-open-quote;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cnt:cq, ct:cq</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">content:close-quote;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cnt:ncq, ct:ncq</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">content:no-close-quote;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cnt:a, ct:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">content:attr(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cnt:c, ct:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">content:counter(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cnt:cs, ct:cs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">content:counters(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ct</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">content:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">q</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">quotes:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">q:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">quotes:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">q:ru</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">quotes:'\00AB' '\00BB' '\201E' '\201C';</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">q:en</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">quotes:'\201C' '\201D' '\2018' '\2019';</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">coi</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">counter-increment:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cor</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">counter-reset:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Outline</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ol</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ol:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">olo</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-offset:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">olw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-width:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">olw:tn</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-width:thin;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">olw:m</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-width:medium;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">olw:tc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-width:thick;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ols</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-style:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ols:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-style:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ols:dt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-style:dotted;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ols:ds</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-style:dashed;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ols:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-style:solid;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ols:db</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-style:double;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ols:g</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-style:groove;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ols:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-style:ridge;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ols:i</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-style:inset;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ols:o</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-style:outset;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">olc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-color:#<span class="ch-tabstop" title="Tabstop">000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">olc:i</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">outline-color:invert;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Tables</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tbl</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">table-layout:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tbl:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">table-layout:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">tbl:f</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">table-layout:fixed;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cps</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">caption-side:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cps:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">caption-side:top;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">cps:b</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">caption-side:bottom;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ec</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">empty-cells:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ec:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">empty-cells:show;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">ec:h</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">empty-cells:hide;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Border</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bd</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bd+</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border:<span class="ch-tabstop" title="Tabstop">1px</span> <span class="ch-tabstop" title="Tabstop">solid</span> <span class="ch-tabstop" title="Tabstop">#000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bd:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbk</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-break:<span class="ch-tabstop" title="Tabstop">close</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbk:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-break:close;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdcl</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-collapse:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdcl:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-collapse:collapse;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdcl:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-collapse:separate;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-color:#<span class="ch-tabstop" title="Tabstop">000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdc:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-color:transparent;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdi</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdi:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdti</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdti:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdri</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-right-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdri:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-right-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbi</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbi:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdli</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-left-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdli:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-left-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdci</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-corner-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdci:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-corner-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdci:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-corner-image:continue;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtli</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-left-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtli:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-left-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtli:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-left-image:continue;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtri</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-right-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtri:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-right-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtri:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-right-image:continue;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbri</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-right-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbri:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-right-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbri:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-right-image:continue;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbli</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-left-image:url(<span class="ch-caret" title="Caret position">&nbsp;</span>);</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbli:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-left-image:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbli:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-left-image:continue;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdf</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-fit:<span class="ch-tabstop" title="Tabstop">repeat</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdf:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-fit:clip;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdf:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-fit:repeat;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdf:sc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-fit:scale;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdf:st</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-fit:stretch;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdf:ow</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-fit:overwrite;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdf:of</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-fit:overflow;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdf:sp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-fit:space;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdlen</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-length:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdlen:a</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-length:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdsp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-spacing:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:h</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:hidden;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:dt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:dotted;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:ds</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:dashed;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:solid;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:db</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:double;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:dtds</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:dot-dash;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:dtdtds</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:dot-dot-dash;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:w</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:wave;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:g</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:groove;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:ridge;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:i</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:inset;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bds:o</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-style:outset;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-width:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdt, bt</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdt+</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top:<span class="ch-tabstop" title="Tabstop">1px</span> <span class="ch-tabstop" title="Tabstop">solid</span> <span class="ch-tabstop" title="Tabstop">#000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdt:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-width:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdts</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-style:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdts:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-style:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-color:#<span class="ch-tabstop" title="Tabstop">000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtc:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-color:transparent;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdr, br</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-right:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdr+</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-right:<span class="ch-tabstop" title="Tabstop">1px</span> <span class="ch-tabstop" title="Tabstop">solid</span> <span class="ch-tabstop" title="Tabstop">#000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdr:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-right:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdrw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-right-width:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdrst</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-right-style:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdrst:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-right-style:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdrc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-right-color:#<span class="ch-tabstop" title="Tabstop">000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdrc:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-right-color:transparent;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdb, bb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdb+</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom:<span class="ch-tabstop" title="Tabstop">1px</span> <span class="ch-tabstop" title="Tabstop">solid</span> <span class="ch-tabstop" title="Tabstop">#000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdb:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-width:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-style:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbs:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-style:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-color:#<span class="ch-tabstop" title="Tabstop">000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbc:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-color:transparent;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdl, bl</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-left:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdl+</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-left:<span class="ch-tabstop" title="Tabstop">1px</span> <span class="ch-tabstop" title="Tabstop">solid</span> <span class="ch-tabstop" title="Tabstop">#000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdl:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-left:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdlw</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-left-width:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdls</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-left-style:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdls:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-left-style:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdlc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-left-color:#<span class="ch-tabstop" title="Tabstop">000</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdlc:t</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-left-color:transparent;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdrs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-radius:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtrrs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-right-radius:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdtlrs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-top-left-radius:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdbrrs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-right-radius:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">bdblrs</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">border-bottom-left-radius:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Lists</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">lis</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">lis:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">lisp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-position:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">lisp:i</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-position:inside;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">lisp:o</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-position:outside;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">list</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-type:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">list:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-type:none;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">list:d</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-type:disc;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">list:c</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-type:circle;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">list:s</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-type:square;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">list:dc</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-type:decimal;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">list:dclz</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-type:decimal-leading-zero;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">list:lr</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-type:lower-roman;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">list:ur</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-type:upper-roman;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">lisi</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-image:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">lisi:n</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">list-style-image:none;</dd>
+                                        </dl>
+                                    </section>
+                                    <section class="ch-subsection">
+                                        <h3 class="ch-subsection__title">Print</h3>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgbb</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-before:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgbb:au</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-before:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgbb:al</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-before:always;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgbb:l</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-before:left;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgbb:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-before:right;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgbi</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-inside:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgbi:au</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-inside:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgbi:av</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-inside:avoid;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgba</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-after:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgba:au</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-after:auto;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgba:al</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-after:always;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgba:l</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-after:left;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">pgba:r</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">page-break-after:right;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">orp</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">orphans:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                        <dl class="ch-snippet"> <dt class="ch-snippet__name">wid</dt>
+                                            <dd class="ch-snippet__value ch-snippet__value_snippet">widows:<span class="ch-caret" title="Caret position">&nbsp;</span>;</dd>
+                                        </dl>
+                                    </section></div>
+                            </section></section></div></div>
+            </div></div>
+
+<!--CSS Most Used-->
+            <div class="panel-body"><br>
+            <hgroup>
+                <h5 class="bh">Most Used CSS</h5>
+                <h5>Not all tags are created equally.</h5></hgroup></div>
+                    <div class="dltab  col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <table class="data">
+                            <thead>
+                                <tr>
+                                    <th style="width: 130px;">Property</th>
+                                    <th style="width: 130px;">Version</th>
+                                    <th>Font</th></tr></thead>
+                            <tbody class="tc">
+                                <tr>
+                                    <td><code>font</code></td>
+                                    <td></td>
+                                    <td class="yelloOn">Defines a variety of font properties.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>font-family</code></td>
+                                    <td></td>
+                                    <td class="yelloOn">Defines a list of fonts for element.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>font-size</code></td>
+                                    <td></td>
+                                    <td class="yelloOn">Defines the font size for the text.</td>
+                                </tr>
+                                 <tr>
+                                    <td><code>color</code></td>
+                                    <td></td>
+                                    <td class="yelloOn">Specify the color of the text.</td></tr>
+                            </tbody></table></div>
+
+                    <div class="dltab col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <table class="data">
+                            <thead>
+                                <tr>
+                                    <th style="width: 130px;">Property</th>
+                                    <th style="width: 130px;">Version</th>
+                                    <th>Alignment</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>align-content</code></td>
+                                    <td><span class="css3-badge" title="New in CSS3">&nbsp;</span></td>
+                                    <td class="yelloOn">Specifies the alignment of flexible container's.</td></tr>
+                                <tr>
+                                    <td><code>align-items</code></td>
+                                    <td><span class="css3-badge" title="New in CSS3">&nbsp;</span></td>
+                                    <td class="yelloOn">Specifies the default alignment for items.</td></tr>
+                                <tr>
+                                    <td><code>align-self</code></td>
+                                    <td><span class="css3-badge" title="New in CSS3">&nbsp;</span></td>
+                                    <td class="yelloOn">Specifies the alignment for selected items.</td></tr>
+                                <tr>
+                                    <td><code>align-center</code></td>
+                                    <td><span class="css3-badge" title="New in CSS3">&nbsp;</span></td>
+                                    <td class="yelloOn">Specifies center alignment.</td></tr>
+                            </tbody></table></div>
+
+                    <div class="dltab col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <table class="data">
+                            <thead>
+                                <tr>
+                                    <th style="width: 130px;">Property</th>
+                                    <th style="width: 130px;">Version</th>
+                                    <th>Sizeing</th></tr></thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>height</code></td>
+                                    <td>1px 0</td>
+                                    <td class="yelloOn">Specify the height of an element.</td></tr>
+                                <tr>
+                                    <td><code>width</code></td>
+                                    <td>0 1px</td>
+                                    <td class="yelloOn">Specify the width of an element.</td></tr>
+                                <tr>
+                                    <td><code>padding</code></td>
+                                    <td>1px</td>
+                                    <td class="yelloOn">Sets the padding on all four sides.</td></tr>
+                                <tr>
+                                    <td><code>-side</code></td>
+                                    <td>1px 1px 1px 1px</td>
+                                    <td class="yelloOn">T R B L</td></tr>
+                            </tbody></table></div>
+
+                    <div class="dltab col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <table class="data">
+                            <thead>
+                                <tr>
+                                    <th style="width: 130px;">Property</th>
+                                    <th style="width: 130px;">Version</th>
+                                    <th>Frameing</th></tr></thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>border</code></td>
+                                    <td></td>
+                                    <td class="yelloOn">Sets the width, style, and color for all four sides.</td></tr>
+                                <tr>
+                                    <td><code>margin</code></td>
+                                    <td></td>
+                                    <td class="yelloOn">Sets the margin on all four sides of the element.</td></tr>
+                                <tr>
+                                    <td><code>padding</code></td>
+                                    <td></td>
+                                    <td class="yelloOn">Sets the padding on all four sides of the element.</td></tr>
+                                <tr>    
+                                    <td><code>-side</code></td>
+                                    <td>1px 1px 1px 1px</td>
+                                    <td class="yelloOn">T R B L</td></tr>
+                            </tbody></table></div>
+
+                    <div class="dltab col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <table class="data">
+                            <thead>
+                                <tr>
+                                    <th style="width: 130px;">Property</th>
+                                    <th style="width: 130px;">Version</th>
+                                    <th>BackGround</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>background</code></td>
+                                    <td></td>
+                                    <td class="yelloOn">Defines a variety of background properties.</td></tr>
+                                <tr>
+                                    <td><code>background-color</code></td>
+                                    <td></td>
+                                    <td class="yelloOn">Defines an element's background color.</td></tr>
+                                <tr>
+                                    <td><code>background-image</code></td>
+                                    <td></td>
+                                    <td class="yelloOn">Defines an element's background image.</td></tr>
+                            </tbody></table></div>
+
+                    <div class="clearfix"></div>
+
+                    <section class="comment-content">
+                        <p>Simplicty and organization is crucial to avoid crossing your CSS Classes and Variables. The more complex you get, the more important Simplicity and organization will become. CSS can be your best friend or your worst nightmare. Its all up to you.</p></section>
+        </div>
+        <div class="clearfix"></div>
