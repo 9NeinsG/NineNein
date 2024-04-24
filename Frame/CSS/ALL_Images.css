@@ -251,87 +251,87 @@
         /*Folders*/
             .TechFolder, .TechFolder-swt{height: 100px; width: 100px;}
             /*Images*/
-            .swt-TechSWCCleanFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/CCleanerInstall.png');
-                }
-            .swt-TechSWBCleanFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/BleachBitInstall.png');
-                }
-            .swt-TechSWRCleanFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/RevoInstall.png');
-                }
-            .swt-TechSWbcCleanFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/BulkCUninstall.png');
-                }
-            .swt-TechSWDCleanFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/DuplicateCleanerInstall.png');
-                }
-            .swt-TechSW7CleanFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/Win7.png');
-                }
-            .swt-TechSWWampFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/WampInstall.png');
-                }
-            .swt-TechSWAquaSFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/AquaSnapInstall.png');
-                }
-            .swt-TechSWCPUFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/CPUz.png');
-                }
-            .swt-TechSWTreeSFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/TreeSheetsInstall.png');
-                }
-            .swt-TechSWUnicFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/UniConvertInstall.png');
-                }
-            .swt-TechSWHBFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/Handbrake.png');
-                }
-            .swt-TechSWTrayFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/RbTray.png');
-                }
-            .swt-TechSWPDFFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/PDFInstall.png');
-                }
-            .swt-TechSWTMMFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/TinyMMFloder.png');
-                }
-            .swt-TechDivHavFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/DihavIcon.png');
-                }
-            .swt-TechWeBpFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/WebPInstall.png');
-                }
-            .swt-TechFFFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/FontForge.png');
-                }
-            .swt-TechPTFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/ProTools11Install.png');
-                }
-            .swt-TechADOFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/AdobeCs6Folder.png');
-                }
-            .swt-GreyLnstFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/LNST.png');
-                }
-            .swt-TechSLTFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/SubLimeText.png');
-                }
-            .swt-TechSLTPFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/SubLimePlugins.png');
-                }
-            .swt-TechSTMFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/SLMerge.png');
-                }
-            .swt-TechProTFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/ProTools11Install.png');
-                }
-            .swt-TechAPlugFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/WavesInstall.png');
-                }
-            .swt-TechNativeIFolder {
-                background: url('./../../Images/Blog/SoftWare/Folders/NIInstall.png');
-                }
+                .swt-TechSWCCleanFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/CCleanerInstall.png');
+                    }
+                .swt-TechSWBCleanFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/BleachBitInstall.png');
+                    }
+                .swt-TechSWRCleanFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/RevoInstall.png');
+                    }
+                .swt-TechSWbcCleanFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/BulkCUninstall.png');
+                    }
+                .swt-TechSWDCleanFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/DuplicateCleanerInstall.png');
+                    }
+                .swt-TechSW7CleanFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/Win7.png');
+                    }
+                .swt-TechSWWampFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/WampInstall.png');
+                    }
+                .swt-TechSWAquaSFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/AquaSnapInstall.png');
+                    }
+                .swt-TechSWCPUFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/CPUz.png');
+                    }
+                .swt-TechSWTreeSFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/TreeSheetsInstall.png');
+                    }
+                .swt-TechSWUnicFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/UniConvertInstall.png');
+                    }
+                .swt-TechSWHBFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/Handbrake.png');
+                    }
+                .swt-TechSWTrayFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/RbTray.png');
+                    }
+                .swt-TechSWPDFFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/PDFInstall.png');
+                    }
+                .swt-TechSWTMMFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/TinyMMFloder.png');
+                    }
+                .swt-TechDivHavFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/DihavIcon.png');
+                    }
+                .swt-TechWeBpFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/WebPInstall.png');
+                    }
+                .swt-TechFFFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/FontForge.png');
+                    }
+                .swt-TechPTFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/ProTools11Install.png');
+                    }
+                .swt-TechADOFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/AdobeCs6Folder.png');
+                    }
+                .swt-GreyLnstFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/LNST.png');
+                    }
+                .swt-TechSLTFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/SubLimeText.png');
+                    }
+                .swt-TechSLTPFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/SubLimePlugins.png');
+                    }
+                .swt-TechSTMFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/SLMerge.png');
+                    }
+                .swt-TechProTFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/ProTools11Install.png');
+                    }
+                .swt-TechAPlugFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/WavesInstall.png');
+                    }
+                .swt-TechNativeIFolder {
+                    background: url('./../../Images/Blog/SoftWare/Folders/NIInstall.png');
+                    }
 
         /*HardWare Main*/
             .TechMainHW, .TechMainHW-swt {height: 169px; width: 300px;}
@@ -363,197 +363,196 @@
     /**************/
     /*NatSoc Array*/
         /*Books*/
-            /*Books Desktop*/
-                .book, .book-bd {height: 300px; width: 200px;}
-                /*Desktop Books*/
-                    .bd-CBE {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/A-History-Of-Central-Banking-And-The-Enslavement-Of Mankind.png');
-                    }
-                    .bd-CHR {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Christogenea.png');
-                    }
-                    .bd-COC {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Culture-of-Critique.png');
-                    }
-                    .bd-MK {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Mein-Kampf.png');
-                    }
-                    .bd-TTTW {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/This-Time-The-World.png');
-                    }
-                    .bd-TIJ {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/International-Jew.png');
-                    }
-                    .bd-WP {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/White-Power.png');
-                    }
-                    .bd-HS {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Hell-Storm.png');
-                    }
-                    .bd-TTD {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Turner-Diaries.png');
-                    }
-                    .bd-WWWM {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Which-Way-Western-Man.png');
-                    }
-                    .bd-WEA {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Who-We-Are.png');
-                    }
-                    .bd-ATR {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Anti-Tech-Revolution.png');
-                    }
-                    .bd-TJRS {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Jewish-Revolutionary-Spirit.png');
-                    }
-                    .bd-JMS {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Siege.png');
-                    }
-                    .bd-WBRW {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Where-Black-Rules-Whites.png');
-                    }
-                    .bd-TWL {
-                        background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Tomorrow-We-Live.png');
-                    }
-            /*Books Mobile*/
-                .bookm, .bookm-bm {height: 160px;width: 107px;}
-                /*Mobile Books*/
-                    .bm-88 {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/88-Precepts.png');
-                    }
-                    .bm-CBE {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/A-History-Of-Central-Banking-And-The-Enslavement-Of Mankind.png');
-                    }
-                    .bm-ATR {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Anti-Tech-Revolution.png');
-                    }
-                    .bm-CHR {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Christogenea.png');
-                    }
-                    .bm-COC {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Culture-of-Critique.png');
-                    }
-                    .bm-FA {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Faith-and-Action.png');
-                    }
-                    .bm-FESD {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Fascist-Economics-and-Socialist-Duties.png');
-                    }
-                    .bm-FML {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/For-My-Legionaries.png');
-                    }
-                    .bm-HS {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Hell-Storm.png');
-                    }
-                    .bm-IJ {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/International-Jew.png');
-                    }
-                    .bm-TJRS {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Jewish-Revolutionary-Spirit.png');
-                    }
-                    .bm-MK {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Mein-Kampf.png');
-                    }
-                    .bm-MPOW {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Meta-Pysics-of-War.png');
-                    }
-                    .bm-NSB {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/National-Socialism-A-Biological-Worldview.png');
-                    }
-                    .bm-JMS {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Siege.png');
-                    }
-                    .bm-TSL {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/The-Sun-and-the-Lightening.png');
-                    }
-                    .bm-TTTW {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/This-Time-The-World.png');
-                    }
-                    .bm-TWL {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Tomorrow-We-Live.png');
-                    }
-                    .bm-TTD {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Turner-Diaries.png');
-                    }
-                    .bm-WBRW {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Where-Black-Rules-White.png');
-                    }
-                    .bm-WWWM {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Which-Way-Western-Man.png');
-                    }
-                    .bm-WP {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/White-Power.png');
-                    }
-                    .bm-WEA {
-                        background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Who-We-Are.png');
-                    }
+            .book, .book-bd {height: 300px; width: 200px;}
+            /*Desktop Books*/
+                .bd-CBE {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/A-History-Of-Central-Banking-And-The-Enslavement-Of Mankind.png');
+                }
+                .bd-CHR {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Christogenea.png');
+                }
+                .bd-COC {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Culture-of-Critique.png');
+                }
+                .bd-MK {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Mein-Kampf.png');
+                }
+                .bd-TTTW {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/This-Time-The-World.png');
+                }
+                .bd-TIJ {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/International-Jew.png');
+                }
+                .bd-WP {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/White-Power.png');
+                }
+                .bd-HS {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Hell-Storm.png');
+                }
+                .bd-TTD {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Turner-Diaries.png');
+                }
+                .bd-WWWM {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Which-Way-Western-Man.png');
+                }
+                .bd-WEA {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Who-We-Are.png');
+                }
+                .bd-ATR {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Anti-Tech-Revolution.png');
+                }
+                .bd-TJRS {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Jewish-Revolutionary-Spirit.png');
+                }
+                .bd-JMS {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Siege.png');
+                }
+                .bd-WBRW {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Where-Black-Rules-Whites.png');
+                }
+                .bd-TWL {
+                    background: url('./../../Images/Blog/zNatSoc/Books/D-Books/Tomorrow-We-Live.png');
+                }
+
+            .bookm, .bookm-bm {height: 160px;width: 107px;}
+            /*Mobile Books*/
+                .bm-88 {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/88-Precepts.png');
+                }
+                .bm-CBE {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/A-History-Of-Central-Banking-And-The-Enslavement-Of Mankind.png');
+                }
+                .bm-ATR {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Anti-Tech-Revolution.png');
+                }
+                .bm-CHR {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Christogenea.png');
+                }
+                .bm-COC {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Culture-of-Critique.png');
+                }
+                .bm-FA {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Faith-and-Action.png');
+                }
+                .bm-FESD {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Fascist-Economics-and-Socialist-Duties.png');
+                }
+                .bm-FML {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/For-My-Legionaries.png');
+                }
+                .bm-HS {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Hell-Storm.png');
+                }
+                .bm-IJ {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/International-Jew.png');
+                }
+                .bm-TJRS {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Jewish-Revolutionary-Spirit.png');
+                }
+                .bm-MK {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Mein-Kampf.png');
+                }
+                .bm-MPOW {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Meta-Pysics-of-War.png');
+                }
+                .bm-NSB {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/National-Socialism-A-Biological-Worldview.png');
+                }
+                .bm-JMS {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Siege.png');
+                }
+                .bm-TSL {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/The-Sun-and-the-Lightening.png');
+                }
+                .bm-TTTW {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/This-Time-The-World.png');
+                }
+                .bm-TWL {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Tomorrow-We-Live.png');
+                }
+                .bm-TTD {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Turner-Diaries.png');
+                }
+                .bm-WBRW {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Where-Black-Rules-White.png');
+                }
+                .bm-WWWM {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Which-Way-Western-Man.png');
+                }
+                .bm-WP {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/White-Power.png');
+                }
+                .bm-WEA {
+                    background: url('./../../Images/Blog/zNatSoc/Books/M-Books/Who-We-Are.png');
+                }
         /*Writings*/
             .mailstamp {
                 background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/mailstamp.png');
                 height: 64px; width: 64px;}
-            /*Saints Desktop*/
-                .saint, .saint-sd {height: 300px; width: 200px;}
-                /*Saints D-Write*/
-                    .sd-Tarrant {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GreatReplacement.png');
-                    }
-                    .sd-Roof {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
-                    }
-                    .sd-Roofss {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
-                    }
-                    .sd-Breivik {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Breivik.png');
-                    }
-                    .sd-Earnest {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/OpenLetter.png');
-                    }
-                    .sd-Kacz {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/IndustiralSociety.png');
-                    }
-                    .sd-Hale {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EndWhiteSlavery.png');
-                    }
-            /*Saints Mobile*/
-                .saintm, .saintm-sm {height: 160px; width: 107px;}
-                /*Saints M-Write*/
-                    .sm-Tarrant {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/GreatReplacement.png');
-                    }
-                    .sm-Roofss {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/ForgiveTypos.png');
-                    }
-                    .sm-Breivik {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/Breivik.png');
-                    }
-                    .sm-Earnest {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/OpenLetter.png');
-                    }
-                    .sm-Earnestos {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/OurStand.png');
-                    }
-                    .sm-Kacz {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/IndustiralSociety.png');
-                    }
-                    .sm-Hale {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/EndWhiteSlavery.png');
-                    }
-                /*Support*/
-                    .sd-Roofss {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTyposSS.png');
-                    }
-                    .sd-EarnestLetterss {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EarnestLetter.png');
-                    }
-                    .sd-Halesss {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Hale.png');
-                    }
-                    .sd-BowerOpticss {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GoingIn.png');
-                    }
-                    .sd-BondOpticss {
-                        background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/ForgiveRythmes.png');
-                    }
+
+            .saint, .saint-sd {height: 300px; width: 200px;}
+            /*Saints D-Write*/
+                .sd-Tarrant {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GreatReplacement.png');
+                }
+                .sd-Roof {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
+                }
+                .sd-Roofss {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
+                }
+                .sd-Breivik {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Breivik.png');
+                }
+                .sd-Earnest {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/OpenLetter.png');
+                }
+                .sd-Kacz {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/IndustiralSociety.png');
+                }
+                .sd-Hale {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EndWhiteSlavery.png');
+                }
+
+            .saintm, .saintm-sm {height: 160px; width: 107px;}
+            /*Saints M-Write*/
+                .sm-Tarrant {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/GreatReplacement.png');
+                }
+                .sm-Roofss {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/ForgiveTypos.png');
+                }
+                .sm-Breivik {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/Breivik.png');
+                }
+                .sm-Earnest {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/OpenLetter.png');
+                }
+                .sm-Earnestos {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/OurStand.png');
+                }
+                .sm-Kacz {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/IndustiralSociety.png');
+                }
+                .sm-Hale {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/EndWhiteSlavery.png');
+                }
+            /*Support*/
+                .sd-Roofss {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTyposSS.png');
+                }
+                .sd-EarnestLetterss {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EarnestLetter.png');
+                }
+                .sd-Halesss {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Hale.png');
+                }
+                .sd-BowerOpticss {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GoingIn.png');
+                }
+                .sd-BondOpticss {
+                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/ForgiveRythmes.png');
+                }
         /*Music*/
             .musicm, .musicm-mm {height: 120px; width: 120px;}
             /*Music Art*/
@@ -590,8 +589,9 @@
                 .mm-loztp{
                     background: url('./../../Images/Blog/zNatSoc/Music/OST/LOZ_TP.png');
                 }
-/*SoundTrack*/
+
             .musicm, .musicm-ms {height: 300px; width: 300px;}
+            /*SoundTrack*/
                 .ms-breakingbost {
                     background: url('./../../Images/Blog/zNatSoc/Music/OST/Breaking Bad.png');
                 }
@@ -714,7 +714,6 @@
                 .am-GC {
                     background: url('./../../Images/Blog/zNatSoc/Arcade/zEmulator/GameCube.png');
                 }
-
         /*NES*/
             .arcadenes, .arcadenes-NES {height: 273px; width: 200px;}
             /*Nes Games*/
@@ -763,7 +762,6 @@
                 .NES-Zelda2 {
                     background: url('./../../Images/Blog/zNatSoc/Arcade/NES/Zelda2.png');
                 }
-
         /*Sega*/
             .arcadeseg, .arcadeseg-SEG {height: 273px; width: 200px;}
             /*Sega Games*/
@@ -1029,40 +1027,35 @@
     /*FashBlog*/
         /*Fash Languages*/
             .FashBlogSW, .FashBlogSW-swt {height: 215px; width: 400px;}
-            .swt-FashLang {
-                background: url('./../../Images/Blog/Fash/Code/Languages/Language.png');
-            }
-            .swt-FashCoverti {
-                background: url('./../../Images/Blog/Fash/Photo/Languages/Conversion.png');
-            }
-            .swt-FashLangA {
-                background: url('./../../Images/Blog/Fash/Audio/Languages/Audio.png');
-            }
-            .swt-FashGraph {
-                background: url('./../../Images/Blog/Fash/Photo/Languages/photoshopCS6.png');
-            }
-        /*Fash Code*/
-            .CodeSW, .CodeSW-swt {height: 199px; width: 390px;}
-            .swt-FashHTML {
-                background: url('./../../Images/Blog/Fash/Code/Languages/HTMLBanner.png');
-            }
-            .swt-FashCSS {
-                background: url('./../../Images/Blog/Fash/Code/Languages/CSSBanner.png');
-            }
-            .swt-FashJS {
-                background: url('./../../Images/Blog/Fash/Code/Languages/JSBanner.png');
-            }
-        /*Fash Code Entry*/
+                .swt-FashLang {
+                    background: url('./../../Images/Blog/Fash/Code/Languages/Language.png');
+                }
+                .swt-FashLangA {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Audio.png');
+                }
+                .swt-FashGraph {
+                    background: url('./../../Images/Blog/Fash/Photo/Languages/photoshopCS6.png');
+                }
+            /*FashCode Menus*/ 
             .CodeBadge, .html5-badge, .css3-badge {display: inline-block; height: 16px; margin-left: 18px; top: 3px; width: 16px;}
-            .html5-badge {
-                background: url(../../Images/Blog/Fash/Code/html5-icon.png) no-repeat;
-            }
-            .css3-badge {
-                background: url(../../Images/Blog/Fash/Code/css3-icon.png) no-repeat;
-            }
-        /*Fash Audio*/
-            /*Fash Audio Entry*/
-                .FashASW, .FashAudSW-swt {height: 199px; width: 390px;}
+                .html5-badge {
+                    background: url('../../Images/Blog/Fash/Code/html5-icon.png') no-repeat;
+                }
+                .css3-badge {
+                    background: url('../../Images/Blog/Fash/Code/css3-icon.png') no-repeat;
+                }   
+
+            .CodeSW, .CodeSW-swt, .AudiSW, .AudiSW-swt, .PhoSW, .PhoSW-swt {height: 199px; width: 390px;}
+                .swt-FashHTML {
+                    background: url('./../../Images/Blog/Fash/Code/Languages/HTMLBanner.png');
+                }
+                .swt-FashCSS {
+                    background: url('./../../Images/Blog/Fash/Code/Languages/CSSBanner.png');
+                }
+                .swt-FashJS {
+                    background: url('./../../Images/Blog/Fash/Code/Languages/JSBanner.png');
+                }
+                /*FashAudio Menus*/
                 .swt-FashProTool {
                     background: url('./../../Images/Blog/Fash/Audio/Languages/ProToolsBanner.png');
                 }
@@ -1078,8 +1071,61 @@
                 .swt-FashAllAlbum {
                     background: url('./../../Images/Blog/Fash/Audio/LyricAlbum/AllAlbum2.png');
                 }
-                .FashASW2, .FashAudSW-swt {height: 170px; width: 290px;}
-            /*Fash Audio Lyric Album*/
+                /*FashPhoto Menus*/
+                .swt-FashCoverti {
+                    background: url('./../../Images/Blog/Fash/Photo/Languages/Conversion.png');
+                }
+        /*Fash Setup*/
+            .FashSetupH, .FashSetupH-swt {height: 110px; width: 250px;}
+                /*Code Setup*/
+                .swt-romeohtmlH {
+                    background: url('./../../Images/Blog/Fash/Code/Setup/htmlmH.png');
+                }
+                .swt-romeoscriptH {
+                    background: url('./../../Images/Blog/Fash/Code/Setup/scriptmH.png');
+                }
+                .swt-romeocolorH {
+                    background: url('./../../Images/Blog/Fash/Code/Setup/colorpickH.png');
+                }
+                /*Audio Setup*/
+                .swt-AuditH {
+                    background: url('./../../Images/Blog/Fash/Audio/Setup/auditionH.png');      
+                }
+                .swt-AudorH {
+                    background: url('./../../Images/Blog/Fash/Audio/Setup/ardourH.png');      
+                }
+                .swt-MixcH {
+                    background: url('./../../Images/Blog/Fash/Audio/Setup/mixcraftH.png');      
+                }
+                /*Graphic Setup*/
+                .swt-PremierefpH {
+                    background: url('./../../Images/Blog/Fash/Photo/Setup/premiereeffectproH');
+                }
+                .swt-PhotoShoppH {
+                    background: url('./../../Images/Blog/Fash/Photo/Setup/photoshopH.png');
+                }
+                .swt-GimpShoppH {
+                    background: url('./../../Images/Blog/Fash/Photo/Setup/gimpproH.png');
+                }
+                .swt-IlustratH {
+                    background: url('./../../Images/Blog/Fash/Photo/Setup/illustratorH.png');
+                }
+                /*Merged*/
+                .swt-AfterEH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/aftereffectsH.png');
+                }
+                .swt-PremierepH {
+                    background: url('./../../Images/Blog/Fash/Photo/Adobe/premiereproH');
+                }
+                /*FashConverts Setup Downloads*/
+                .swt-UniC {
+                    background: url('./../../Images/Blog/Fash/Photo/Setup/uniconvertbox.png');
+                }
+                .swt-romeoC {
+                    background: url('./../../Images/Blog/Fash/Photo/Setup/romeoConvert.png');
+                }
+        /*AudioSongs*/
+            .FashASW2, .FashAudSW-swt {height: 170px; width: 290px;}
                 .swt-FashAlongAlbum {
                     background: url('./../../Images/Blog/Fash/Audio/LyricAlbum/FashAlongAlbum.png');
                 }
@@ -1095,123 +1141,123 @@
                 .swt-FashPopAlbum{
                     background: url('./../../Images/Blog/Fash/Audio/LyricAlbum/FashPopAlbum.png');
                 }
-
-            /*Plugins*/
-                .AudioSW, .AudioSW-swt {height: 110px; width: 250px;}
-                /*Waves Plugins*/
-                    /*Bundles*/
-                        .swt-WABP {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WABP.png');
-                        }
-                        .swt-WSBP {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WSBP.png');
-                        }
-                        .swt-WHBP {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WHBP.png');
-                        }
-                        .swt-WJBP {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WJBP.png');
-                        }
-                        .swt-WPBP {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WPBP.png');
-                        }
-                        .swt-WRBP {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WRBP.png');
-                        }
-                        .swt-WMBP {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WMBP.png');
-                        }
+        /*Audio Plugins*/
+            .AudioSW, .AudioSW-swt {height: 110px; width: 250px;}
+            /*Waves Plugins*/
+                /*Bundles*/
+                .swt-WABP {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WABP.png');
+                }
+                .swt-WSBP {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WSBP.png');
+                }
+                .swt-WHBP {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WHBP.png');
+                }
+                .swt-WJBP {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WJBP.png');
+                }
+                .swt-WPBP {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WPBP.png');
+                }
+                .swt-WRBP {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WRBP.png');
+                }
+                .swt-WMBP {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/WMBP.png');
+                }
                     /*Singles*/
-                        .swt-VOXR {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/VocalRider.png');
-                        }
-                        .swt-VOXC {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/Center.png');
-                        }
-                        .swt-VOXB {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/BassRider.png');
-                        }
-                        .swt-BSSP {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/BSS.png');
-                        }
-                        .swt-CompL2 {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/L2.png');
-                        }
-                        .swt-CompD {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/DBX.png');
-                        }
-                        .swt-Excite {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/Excite.png');
-                        }
-                        .swt-TapeK {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/KTape.png');
-                        }
-                        .swt-TapeJ {
-                            background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/JTape.png');
-                        }
+                .swt-VOXR {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/VocalRider.png');
+                }
+                .swt-VOXC {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/Center.png');
+                }
+                .swt-VOXB {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/BassRider.png');
+                }
+                .swt-BSSP {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/BSS.png');
+                }
+                .swt-CompL2 {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/L2.png');
+                }
+                .swt-CompD {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/DBX.png');
+                }
+                .swt-Excite {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/Excite.png');
+                }
+                .swt-TapeK {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/KTape.png');
+                }
+                .swt-TapeJ {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/JTape.png');
+                }
                 /*Native Plugins*/
-                    .swt-NI6 {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIK.png');
-                    }
-                    .swt-NIB4 {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIB4.png');
-                    }
-                    .swt-NIP {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIP.png');
-                    }
-                    .swt-NIORG {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/Syphony.png');
-                    }
-                    .swt-NILT {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NILT.png');
-                    }
-                    .swt-NIDR {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIDR.png');
-                    }
-                    .swt-NIMAL {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIMAL.png');
-                    }
-                    .swt-NICHO {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NICHO.png');
-                    }
-                    .swt-NISS {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NISSP.png');
-                    }
-                    .swt-NIVCP {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIVCP.png');
-                    }
-                    .swt-NIVC {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIVP.png');
-                    }
+                .swt-NI6 {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIK.png');
+                }
+                .swt-NIB4 {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIB4.png');
+                }
+                .swt-NIP {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIP.png');
+                }
+                .swt-NIORG {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/Syphony.png');
+                }
+                .swt-NILT {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NILT.png');
+                }
+                .swt-NIDR {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIDR.png');
+                }
+                .swt-NIMAL {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIMAL.png');
+                }
+                .swt-NICHO {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NICHO.png');
+                }
+                .swt-NISS {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NISSP.png');
+                }
+                .swt-NIVCP {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIVCP.png');
+                }
+                .swt-NIVC {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIVP.png');
+                }
                 /*FabFilter Plugins*/
-                    .swt-FFPro {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/FABPro.png');
-                    }
-                    .swt-FFQ {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFQ.png');
-                    }
-                    .swt-FFC {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFC2.png');
-                    }
-                    .swt-FFG {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFG.png');
-                    }
-                    .swt-FFD {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFD.png');
-                    }
-                    .swt-FFL {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFL.png');
-                    }
+                .swt-FFPro {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/FABPro.png');
+                }
+                .swt-FFQ {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFQ.png');
+                }
+                .swt-FFC {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFC2.png');
+                }
+                .swt-FFG {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFG.png');
+                }
+                .swt-FFD {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFD.png');
+                }
+                .swt-FFL {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/FFL.png');
+                }
                 /*SSL Plugins*/
-                    .swt-SSLPro {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/SSLBuss.png');
-                    }
-                    .swt-SSLChan {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/SSLChan.png');
-                    }
-                    .swt-SSLEQ {
-                        background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/SSLEQ.png');
-                    }
+                .swt-SSLPro {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/SSLBuss.png');
+                }
+                .swt-SSLChan {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/SSLChan.png');
+                }
+                .swt-SSLEQ {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/SSLEQ.png');
+                }
+
         /*Fash Photo*/
             /*Fash Photo Entry*/
             .PhotoSW, .PhotoSW-swt,
@@ -1227,64 +1273,6 @@
                 }
                 .swt-CodeSWtinypng {
                     background: url('./../../Images/Blog/Fash/Photo/Tinyhowpng.png');
-                }
-
-            .AdobeB, .AdobeB-swt {height: 110px; width: 250px;}
-                .swt-AfterEH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/aftereffectsH.png');
-                }
-                .swt-AuditH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/auditionH.png');      
-                }
-                .swt-AudorH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/ardourH.png');      
-                }
-                .swt-MixcH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/mixcraftH.png');      
-                }
-                .swt-FlashpH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/flashproH.png');
-                }
-                .swt-IlustratH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/illustratorH.png');
-                }
-                .swt-PhotoShoppH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/photoshopH.png');
-                }
-                .swt-GimpShoppH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/gimpproH.png');
-                }
-                .swt-PremierepH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/premiereproH');
-                }
-                .swt-PremierefpH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/premiereeffectproH');
-                }
-                .swt-DreamwH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/dreamweaverH.png'); 
-                }
-                .swt-FirewH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/fireworksH.png');
-                }
-                .swt-IndesigH {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/indesignH.png');
-                }
-                .swt-UniC {
-                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/uniconvertbox.png');
-                }
-                .swt-romeoC {
-                    background: url('./../../Images/Blog/Fash/Photo/Adobe/romeoConvert.png');
-                }
-
-
-                .swt-romeohtmlH {
-                    background: url('./../../Images/Blog/Fash/Code/Languages/htmlmH.png');
-                }
-                .swt-romeoscriptH {
-                    background: url('./../../Images/Blog/Fash/Code/Languages/scriptmH.png');
-                }
-                .swt-romeocolorH {
-                    background: url('./../../Images/Blog/Fash/Code/Languages/colorpickH.png');
                 }
 
     /**************/
@@ -1421,7 +1409,6 @@
                 .nst-LNSTRitoEagle {
                     background: url('./../../Images/Blog/LNST/Race/NST-Rito.png');
                 }
-
 
                 .ls-LNSTCover,
                 .ls-LNSTParasite,

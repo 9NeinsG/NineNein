@@ -85,41 +85,39 @@ $(document).ready(function() {
 //FashBlog
     //FashCode
         //Intro 
-            $('#fashcodei').load("../../../Frame/Layout/2_Intro/BFASH/fashcodeintro.html");
+        $('#fashcodei').load("../../../Frame/Layout/2_Intro/BFASH/fashcodeintro.html");
         //Mob 
-            $('#fashcodmob').load("../../../Frame/Layout/3_Content/BFASH/codemob.html");
+        $('#fashcodmob').load("../../../Frame/Layout/3_Content/BFASH/FashCode/codemob.html");
         //Setup 
-            $('#fashcodeSU').load("../../../Frame/Layout/3_Content/BFASH/FashCode/setupfiles.html");
+        $('#fashcodeSU').load("../../../Frame/Layout/3_Content/BFASH/FashCode/setupfiles.html");
         //Html
-            $('#HTMLMenu').load("../../../Frame/Layout/3_Content/BFASH/FashCode/htmlmenu.html");
+        $('#HTMLMenu').load("../../../Frame/Layout/3_Content/BFASH/FashCode/Menus/htmlmenu.html");
         //CSS
-            $('#CSSMenu').load("../../../Frame/Layout/3_Content/BFASH/FashCode/cssmenu.html");
+        $('#CSSMenu').load("../../../Frame/Layout/3_Content/BFASH/FashCode/Menus/cssmenu.html");
         //JS
-            $('#JSMenu').load("../../../Frame/Layout/3_Content/BFASH/FashCode/jsmenu.html");
-
+        $('#JSMenu').load("../../../Frame/Layout/3_Content/BFASH/FashCode/Menus/jsmenu.html");
     //FashAudio
         //Intro
-            $('#fashaudi').load("../../../Frame/Layout/2_Intro/BFASH/fashalongintro.html");
+        $('#fashaudi').load("../../../Frame/Layout/2_Intro/BFASH/fashalongintro.html");
         //Mob
-            $('#fashaudmob').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/audiomob.html");
+        $('#fashaudmob').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/audiomob.html");
         //Setup
-            $('#fashaudiSU').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/setupfiles.html");
+        $('#fashaudiSU').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/setupfiles.html");
         //Plugins
-            $('#ProWBund').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/wpluginbundles.html");
+        $('#ProWBund').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/wpluginbundles.html");
         //Ni
-            $('#ProNISoftT').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/nisofttools.html");
+        $('#ProNISoftT').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/Plugins/nisofttools.html");
         //Songs
-            $('#SFASong').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/sfasongs.html");
-
+        $('#SFASong').load("../../../Frame/Layout/3_Content/BFASH/FashAudio/Menus/sfasongs.html");
     //FashPhoto
         //Intro
-            $('#fashphoi').load("../../../Frame/Layout/2_Intro/BFASH/fashphotointro.html");
+        $('#fashphoi').load("../../../Frame/Layout/2_Intro/BFASH/fashphotointro.html");
         //Mob
-            $('#fashphomob').load("../../../Frame/Layout/3_Content/BFASH/photomob.html"); 
+        $('#fashphomob').load("../../../Frame/Layout/3_Content/BFASH/FashPhoto/photomob.html"); 
         //Setup
-            $('#fashphotoSU').load("../../../Frame/Layout/3_Content/BFASH/FashPhoto/setupfiles.html");
+        $('#fashphotoSU').load("../../../Frame/Layout/3_Content/BFASH/FashPhoto/setupfiles.html");
         //Converts
-            $('#ConvertMenu').load("../../../Frame/Layout/3_Content/BFASH/FashPhoto/convertmenu.html");
+        $('#ConvertMenu').load("../../../Frame/Layout/3_Content/BFASH/FashPhoto/Menus/convertmenu.html");
     //ReadMore
         $('#fashw').load("../../../Frame/Layout/6_ReadMore/BFASH/fashinfowrap.html");
 
