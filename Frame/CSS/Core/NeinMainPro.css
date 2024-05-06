@@ -469,6 +469,71 @@ dd {margin-left: 0;}
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
 }
 
+.readicon [data-toggle="collapse"]:after {
+    font-family: 'NineNeins-Glyph';
+    float: right;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.readicon [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+}
+
+.SHFREAD [data-toggle="collapse"]:after {
+    content: "\e142"; /* "blog" icon */
+    float: right;
+    color: blue;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.SHFARC [data-toggle="collapse"]:after {
+    content: "\f2d3"; /* "blog" icon */
+    float: right;
+    color: green;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.SHFMusi [data-toggle="collapse"]:after {
+    content: "\e002"; /* "music" icon */
+    float: right;
+    color: orange;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.SHFVid [data-toggle="collapse"]:after {
+    content: "\e009"; /* "movie" icon */
+    float: right;
+    color: orange;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.SHFMov [data-toggle="collapse"]:after {
+    content: "\e009"; /* "movie" icon */
+    float: right;
+    color: orange;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
 menu,
 summary {display: block;}
 abbr[data-original-title] {border-radius: 4px; cursor: help;}
