@@ -305,9 +305,6 @@
                 .swt-TechFFFolder {
                     background: url('./../../Images/Blog/SoftWare/Folders/FontForge.png');
                     }
-                .swt-TechPTFolder {
-                    background: url('./../../Images/Blog/SoftWare/Folders/ProTools11Install.png');
-                    }
                 .swt-TechADOFolder {
                     background: url('./../../Images/Blog/SoftWare/Folders/AdobeCs6Folder.png');
                     }
@@ -488,7 +485,7 @@
         /*Writings*/
             .mailstamp {
                 background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/mailstamp.png');
-                height: 64px; width: 64px;}
+                float: right; height: 64px; width: 64px;}
 
             .saint, .saint-sd {height: 300px; width: 200px;}
             /*Saints D-Write*/
@@ -496,9 +493,6 @@
                     background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GreatReplacement.png');
                 }
                 .sd-Roof {
-                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
-                }
-                .sd-Roofss {
                     background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTypos.png');
                 }
                 .sd-Breivik {
@@ -537,17 +531,16 @@
                 .sm-Hale {
                     background: url('./../../Images/Blog/zNatSoc/Books/Saints/M-Saint/EndWhiteSlavery.png');
                 }
+
+            .saintss, .saints-ss {height: 300px; width: 200px;}
             /*Support*/
-                .sd-Roofss {
-                    background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/ForgiveTyposSS.png');
-                }
-                .sd-EarnestLetterss {
+                .ss-EarnestLetterss {
                     background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/EarnestLetter.png');
                 }
-                .sd-Halesss {
+                .ss-Haless {
                     background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/Hale.png');
                 }
-                .sd-BowerOpticss {
+                .ss-BowerOpticss {
                     background: url('./../../Images/Blog/zNatSoc/Books/Saints/D-Saint/GoingIn.png');
                 }
                 .sd-BondOpticss {
@@ -1949,7 +1942,9 @@
     }
     /*Finance*/
     .monero-vect {
-        background: url('./../../Images/Blog/SVG/monero.svg');     
+        background: url('./../../Images/Blog/SVG/monero.svg');  
+        height: 100px;
+        width: 100px;   
     }
     /*Blog*/  
     .blog-vect {

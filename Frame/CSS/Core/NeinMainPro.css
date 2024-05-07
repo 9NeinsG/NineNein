@@ -387,7 +387,7 @@ div#prisoner_mail_letter {background-color: #f0f0f0; border: 2px ridge #333333; 
 div#prisoner_mail_letter_top {align-items: stretch; display: flex; justify-content: space-evenly;}
 div#prisoner_mail_letter_top div {width: 50%;}
 div#prisoner_mail_letter_top div#prisoner_mail_letter_stamp img {float: right; height: auto; width: 64px;}
-div#prisoner_mail_letter_bottom div#prisoner_mail_letter_address  {text-align: center;}
+div#prisoner_mail_letter_bottom div#prisoner_mail_letter_address {text-align: center;}
 /**************/
 
 ul,
@@ -507,7 +507,6 @@ dd {margin-left: 0;}
     font-size: 18px;
     line-height: 22px;
 }
-
 
 .SHFMusi [data-toggle="collapse"]:after {
     content: "\e002"; /* "music" icon */
