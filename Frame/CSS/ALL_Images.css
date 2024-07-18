@@ -1181,8 +1181,8 @@
                 .swt-Excite {
                     background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/Excite.png');
                 }
-                .swt-TapeK {
-                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/KTape.png');
+                .swt-F6 {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/F6.png');
                 }
                 .swt-TapeJ {
                     background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/JTape.png');
@@ -1220,6 +1220,35 @@
                 }
                 .swt-NIVC {
                     background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Bundle/NIVP.png');
+                }
+                /*Ao Plugins*/
+                .swt-aoBuss {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/AO/AOBuss.png');
+                }
+                .swt-Brit {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/AO/Brit.png');
+                }
+                .swt-Comper {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/AO/Comper.png');
+                }
+                .swt-FET {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/AO/FETish.png');
+                }
+                .swt-FrankCS {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/AO/FrankCS.png');
+                }
+                .swt-LALA {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/AO/LALA.png');
+                }
+                /*Melda Plugins*/
+                .swt-MAlign {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/MAlign.png');
+                }
+                .swt-MMatrix {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/MMatrix.png');
+                }
+                .swt-MRec {
+                    background: url('./../../Images/Blog/Fash/Audio/Languages/Plugins/Single/MRec.png');
                 }
                 /*FabFilter Plugins*/
                 .swt-FFPro {
